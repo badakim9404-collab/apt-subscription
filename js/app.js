@@ -5,7 +5,7 @@
   'use strict';
 
   let allItems = [];
-  let activeFilters = { status: 'upcoming', region: 'all' };
+  let activeFilters = { status: 'upcoming', region: 'all', type: [] };
   let activeSort = 'date-asc';
 
   // ===== 초기화 =====
@@ -67,14 +67,17 @@
       btn.addEventListener('click', () => {
         const filterType = btn.dataset.filter;
         const value = btn.dataset.value;
+        const group = btn.closest('.filter-group');
 
-        // 같은 그룹 내 active 토글
-        btn.closest('.filter-group')
-          .querySelectorAll('.filter-btn')
-          .forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-
-        activeFilters[filterType] = value;
+        if (group.classList.contains('multi')) {
+          // 다중 선택 필터 (유형)
+          handleMultiFilter(btn, filterType, value, group);
+        } else {
+          // 단일 선택 필터 (상태, 지역)
+          group.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activeFilters[filterType] = value;
+        }
         renderCards();
       });
     });
@@ -405,6 +408,34 @@
       </div>`;
   }
 
+  // ===== 다중 선택 필터 =====
+  function handleMultiFilter(btn, filterType, value, group) {
+    const allBtn = group.querySelector('[data-value="all"]');
+
+    if (value === 'all') {
+      // "전체" 클릭 → 모두 해제하고 전체만 활성화
+      group.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      allBtn.classList.add('active');
+      activeFilters[filterType] = [];
+    } else {
+      // 개별 버튼 토글
+      btn.classList.toggle('active');
+      allBtn.classList.remove('active');
+
+      // 현재 활성화된 값 수집
+      const activeValues = [];
+      group.querySelectorAll('.filter-btn.active').forEach(b => {
+        if (b.dataset.value !== 'all') activeValues.push(b.dataset.value);
+      });
+
+      // 아무것도 선택 안 된 상태 → 전체로 복귀
+      if (activeValues.length === 0) {
+        allBtn.classList.add('active');
+      }
+      activeFilters[filterType] = activeValues;
+    }
+  }
+
   // ===== 필터/정렬 =====
   function applyFilters(items) {
     return items.filter(item => {
@@ -414,6 +445,11 @@
         return false;
       }
       if (activeFilters.region !== 'all' && item.region !== activeFilters.region) return false;
+      // 유형 다중 필터
+      const typeFilter = activeFilters.type;
+      if (typeFilter.length > 0) {
+        if (!typeFilter.includes(item.subscription_type || 'APT')) return false;
+      }
       return true;
     });
   }
