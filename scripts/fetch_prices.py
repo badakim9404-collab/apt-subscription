@@ -126,6 +126,7 @@ def _fetch_trades_raw(lawd_cd: str, months: int = 6) -> list[dict]:
                 exclu_ar = float(item.get("excluUseAr", 0))
                 amount_str = str(item.get("dealAmount", "0")).replace(",", "").strip()
                 amount = int(amount_str) * 10000
+                build_year = int(item.get("buildYear", 0))
             except (ValueError, TypeError):
                 continue
             if amount > 0:
@@ -134,41 +135,56 @@ def _fetch_trades_raw(lawd_cd: str, months: int = 6) -> list[dict]:
                     "area": exclu_ar,
                     "apt_name": item.get("aptNm", ""),
                     "dong": item.get("umdNm", ""),
+                    "build_year": build_year,
                 })
 
     return all_trades
 
 
+MIN_BUILD_YEAR = 2015  # 신축 기준 (최근 ~10년)
+
+
 def fetch_recent_trades(
     lawd_cd: str, area_m2: float, months: int = 6, dong: str = "",
 ) -> list[dict]:
-    """시군구별 최근 N개월 실거래. 단계적 필터링:
+    """시군구별 최근 N개월 실거래. 신축 우선 단계적 필터링:
 
-    1단계: 같은 동 + ±5m² (≥5건이면 사용)
-    2단계: 시군구 전체 + ±5m² (≥10건이면 사용)
-    3단계: 시군구 전체 + ±10m² (폴백)
+    신축(2015+) 거래를 먼저 시도하고, 부족하면 전체로 폴백.
+    1단계: 신축 + 같은 동 + ±5m²
+    2단계: 신축 + 시군구 + ±5m²
+    3단계: 신축 + 시군구 + ±10m²
+    4단계: 전체 + 시군구 + ±5m²
+    5단계: 전체 + 시군구 + ±10m²
     """
     cache_key = lawd_cd
     if cache_key not in _trade_cache:
         _trade_cache[cache_key] = _fetch_trades_raw(lawd_cd, months)
 
     all_trades = _trade_cache[cache_key]
+    recent = [t for t in all_trades if t.get("build_year", 0) >= MIN_BUILD_YEAR]
 
-    # 1단계: 같은 동 + ±5m²
+    # 1단계: 신축 + 같은 동 + ±5m²
     if dong:
-        dong_narrow = [
-            t for t in all_trades
-            if t["dong"] == dong and abs(t["area"] - area_m2) <= 5
-        ]
-        if len(dong_narrow) >= 5:
-            return dong_narrow
+        result = [t for t in recent if t["dong"] == dong and abs(t["area"] - area_m2) <= 5]
+        if len(result) >= 5:
+            return result
 
-    # 2단계: 시군구 전체 + ±5m²
-    sgg_narrow = [t for t in all_trades if abs(t["area"] - area_m2) <= 5]
-    if len(sgg_narrow) >= 10:
-        return sgg_narrow
+    # 2단계: 신축 + 시군구 + ±5m²
+    result = [t for t in recent if abs(t["area"] - area_m2) <= 5]
+    if len(result) >= 10:
+        return result
 
-    # 3단계: 시군구 전체 + ±10m²
+    # 3단계: 신축 + 시군구 + ±10m²
+    result = [t for t in recent if abs(t["area"] - area_m2) <= 10]
+    if len(result) >= 10:
+        return result
+
+    # 4단계: 전체 + 시군구 + ±5m²
+    result = [t for t in all_trades if abs(t["area"] - area_m2) <= 5]
+    if len(result) >= 10:
+        return result
+
+    # 5단계: 전체 + 시군구 + ±10m²
     return [t for t in all_trades if abs(t["area"] - area_m2) <= 10]
 
 

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-21 16:12:52",
+  "updated_at": "2026-02-21 17:04:43",
   "total_collected": 60,
-  "total_filtered": 24,
+  "total_filtered": 25,
   "items": [
     {
       "id": "2025820020",
@@ -15,7 +15,7 @@
       "total_households": 812,
       "status": "마감",
       "subscription_type": "APT",
-      "max_profit": 1274300000,
+      "max_profit": 1354300000,
       "schedule": {
         "announcement_date": "2025-12-30",
         "special_supply_date": null,
@@ -81,15 +81,15 @@
           "exclusive_area": 55.0,
           "supply_price": 725700000,
           "price_per_pyeong": 30182984,
-          "market_price": 2000000000,
-          "profit": 1274300000,
+          "market_price": 2080000000,
+          "profit": 1354300000,
           "household_count": 0,
-          "price_source": "실거래 중위가 (47건)",
+          "price_source": "실거래 중위가 (34건)",
           "funding": {
             "down_payment": 72570000,
             "interim_payment": 435420000,
             "balance": 217710000,
-            "estimated_jeonse": 1333269004,
+            "estimated_jeonse": 1386599764,
             "actual_investment": 72570000,
             "interim_interest": 34833600,
             "jeonse_ratio": 0.6666345022119999
@@ -109,7 +109,7 @@
       "total_households": 120,
       "status": "마감",
       "subscription_type": "APT",
-      "max_profit": 1261850000,
+      "max_profit": 1332850000,
       "schedule": {
         "announcement_date": "2025-12-30",
         "special_supply_date": null,
@@ -155,18 +155,192 @@
           "exclusive_area": 84.0,
           "supply_price": 1088150000,
           "price_per_pyeong": 29820187,
-          "market_price": 2350000000,
-          "profit": 1261850000,
+          "market_price": 2421000000,
+          "profit": 1332850000,
           "household_count": 6,
-          "price_source": "실거래 중위가 (69건)",
+          "price_source": "실거래 중위가 (50건)",
           "funding": {
             "down_payment": 108815000,
             "interim_payment": 652890000,
             "balance": 326445000,
-            "estimated_jeonse": 1566591080,
+            "estimated_jeonse": 1613922129,
             "actual_investment": 108815000,
             "interim_interest": 52231200,
             "jeonse_ratio": 0.6666345022119999
+          }
+        }
+      ]
+    },
+    {
+      "id": "2025000566",
+      "name": "역삼센트럴자이",
+      "region": "서울",
+      "sido": "서울",
+      "sigungu": "",
+      "address": "서울특별시 강남구 역삼동 758번지 일원",
+      "constructor": "역삼동(758, 은하수,760)주택재건축정비사업조합",
+      "homepage": "https://xi.co.kr/ysxi",
+      "total_households": 87,
+      "status": "마감",
+      "subscription_type": "APT",
+      "max_profit": 703000000,
+      "schedule": {
+        "announcement_date": "2025-12-05",
+        "special_supply_date": "2025-12-15",
+        "first_priority_date": "2025-12-16",
+        "second_priority_date": "2025-12-18",
+        "winner_announce_date": "2025-12-24",
+        "contract_start": "2026-01-05",
+        "contract_end": "2026-01-07",
+        "move_in_date": "202808",
+        "receipt_start": "2025-12-15",
+        "receipt_end": "2025-12-18"
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "APT",
+        "rent_secd": "분양주택",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000566&pblancNo=2025000566"
+      },
+      "regulations": {
+        "is_speculative_zone": true,
+        "is_adjusted_zone": true,
+        "is_price_cap": true,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "소유권이전등기 시까지 (최대 10년)",
+          "detail": "투기과열지구 + 분양가상한제 적용. 가장 강한 전매제한.",
+          "severity": "매우 강함"
+        },
+        "rewin_restriction": {
+          "period": "10년",
+          "detail": "투기과열지구 당첨 시 10년간 재당첨 제한."
+        },
+        "residency_obligation": {
+          "period": "5년",
+          "detail": "투기과열지구 내 분양가상한제 단지. 5년 실거주 의무.",
+          "required": true
+        }
+      },
+      "models": [
+        {
+          "housing_type": "059.9800 ",
+          "supply_area": 77.8807,
+          "exclusive_area": 59.98,
+          "supply_price": 2012000000,
+          "price_per_pyeong": 85403310,
+          "market_price": 1600000000,
+          "profit": -412000000,
+          "household_count": 6,
+          "price_source": "실거래 중위가 (5건, 역삼동)",
+          "funding": {
+            "down_payment": 201200000,
+            "interim_payment": 1207200000,
+            "balance": 603600000,
+            "estimated_jeonse": 809765189,
+            "actual_investment": 201200000,
+            "interim_interest": 96576000,
+            "jeonse_ratio": 0.506103243362
+          }
+        },
+        {
+          "housing_type": "084.9700A",
+          "supply_area": 109.0082,
+          "exclusive_area": 84.97,
+          "supply_price": 2813000000,
+          "price_per_pyeong": 85307485,
+          "market_price": 3400000000,
+          "profit": 587000000,
+          "household_count": 19,
+          "price_source": "실거래 중위가 (53건)",
+          "funding": {
+            "down_payment": 281300000,
+            "interim_payment": 1687800000,
+            "balance": 843900000,
+            "estimated_jeonse": 1720751027,
+            "actual_investment": 281300000,
+            "interim_interest": 135024000,
+            "jeonse_ratio": 0.506103243362
+          }
+        },
+        {
+          "housing_type": "084.9600B",
+          "supply_area": 109.7761,
+          "exclusive_area": 84.96,
+          "supply_price": 2697000000,
+          "price_per_pyeong": 81217520,
+          "market_price": 3400000000,
+          "profit": 703000000,
+          "household_count": 6,
+          "price_source": "실거래 중위가 (53건)",
+          "funding": {
+            "down_payment": 269700000,
+            "interim_payment": 1618200000,
+            "balance": 809100000,
+            "estimated_jeonse": 1720751027,
+            "actual_investment": 269700000,
+            "interim_interest": 129456000,
+            "jeonse_ratio": 0.506103243362
+          }
+        },
+        {
+          "housing_type": "084.9800C",
+          "supply_area": 109.6503,
+          "exclusive_area": 84.98,
+          "supply_price": 2750000000,
+          "price_per_pyeong": 82908573,
+          "market_price": 3400000000,
+          "profit": 650000000,
+          "household_count": 6,
+          "price_source": "실거래 중위가 (53건)",
+          "funding": {
+            "down_payment": 275000000,
+            "interim_payment": 1650000000,
+            "balance": 825000000,
+            "estimated_jeonse": 1720751027,
+            "actual_investment": 275000000,
+            "interim_interest": 132000000,
+            "jeonse_ratio": 0.506103243362
+          }
+        },
+        {
+          "housing_type": "084.9600D",
+          "supply_area": 110.0261,
+          "exclusive_area": 84.96,
+          "supply_price": 2811000000,
+          "price_per_pyeong": 84458176,
+          "market_price": 3400000000,
+          "profit": 589000000,
+          "household_count": 2,
+          "price_source": "실거래 중위가 (53건)",
+          "funding": {
+            "down_payment": 281100000,
+            "interim_payment": 1686600000,
+            "balance": 843300000,
+            "estimated_jeonse": 1720751027,
+            "actual_investment": 281100000,
+            "interim_interest": 134928000,
+            "jeonse_ratio": 0.506103243362
+          }
+        },
+        {
+          "housing_type": "122.9900 ",
+          "supply_area": 157.4426,
+          "exclusive_area": 122.99,
+          "supply_price": 3798000000,
+          "price_per_pyeong": 79746068,
+          "market_price": 2226918553,
+          "profit": -1571081447,
+          "household_count": 5,
+          "price_source": "KB 서울 평균",
+          "funding": {
+            "down_payment": 379800000,
+            "interim_payment": 2278800000,
+            "balance": 1139400000,
+            "estimated_jeonse": 1127050702,
+            "actual_investment": 392149298,
+            "interim_interest": 182304000,
+            "jeonse_ratio": 0.506103243362
           }
         }
       ]
@@ -246,180 +420,6 @@
       ]
     },
     {
-      "id": "2025000566",
-      "name": "역삼센트럴자이",
-      "region": "서울",
-      "sido": "서울",
-      "sigungu": "",
-      "address": "서울특별시 강남구 역삼동 758번지 일원",
-      "constructor": "역삼동(758, 은하수,760)주택재건축정비사업조합",
-      "homepage": "https://xi.co.kr/ysxi",
-      "total_households": 87,
-      "status": "마감",
-      "subscription_type": "APT",
-      "max_profit": 473000000,
-      "schedule": {
-        "announcement_date": "2025-12-05",
-        "special_supply_date": "2025-12-15",
-        "first_priority_date": "2025-12-16",
-        "second_priority_date": "2025-12-18",
-        "winner_announce_date": "2025-12-24",
-        "contract_start": "2026-01-05",
-        "contract_end": "2026-01-07",
-        "move_in_date": "202808",
-        "receipt_start": "2025-12-15",
-        "receipt_end": "2025-12-18"
-      },
-      "qualification": {
-        "region_limit": "",
-        "house_type": "APT",
-        "rent_secd": "분양주택",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000566&pblancNo=2025000566"
-      },
-      "regulations": {
-        "is_speculative_zone": true,
-        "is_adjusted_zone": true,
-        "is_price_cap": true,
-        "is_public_zone": false,
-        "resale_restriction": {
-          "period": "소유권이전등기 시까지 (최대 10년)",
-          "detail": "투기과열지구 + 분양가상한제 적용. 가장 강한 전매제한.",
-          "severity": "매우 강함"
-        },
-        "rewin_restriction": {
-          "period": "10년",
-          "detail": "투기과열지구 당첨 시 10년간 재당첨 제한."
-        },
-        "residency_obligation": {
-          "period": "5년",
-          "detail": "투기과열지구 내 분양가상한제 단지. 5년 실거주 의무.",
-          "required": true
-        }
-      },
-      "models": [
-        {
-          "housing_type": "059.9800 ",
-          "supply_area": 77.8807,
-          "exclusive_area": 59.98,
-          "supply_price": 2012000000,
-          "price_per_pyeong": 85403310,
-          "market_price": 2485000000,
-          "profit": 473000000,
-          "household_count": 6,
-          "price_source": "실거래 중위가 (32건, 역삼동)",
-          "funding": {
-            "down_payment": 201200000,
-            "interim_payment": 1207200000,
-            "balance": 603600000,
-            "estimated_jeonse": 1257666559,
-            "actual_investment": 201200000,
-            "interim_interest": 96576000,
-            "jeonse_ratio": 0.506103243362
-          }
-        },
-        {
-          "housing_type": "084.9700A",
-          "supply_area": 109.0082,
-          "exclusive_area": 84.97,
-          "supply_price": 2813000000,
-          "price_per_pyeong": 85307485,
-          "market_price": 1880000000,
-          "profit": -933000000,
-          "household_count": 19,
-          "price_source": "실거래 중위가 (23건, 역삼동)",
-          "funding": {
-            "down_payment": 281300000,
-            "interim_payment": 1687800000,
-            "balance": 843900000,
-            "estimated_jeonse": 951474097,
-            "actual_investment": 281300000,
-            "interim_interest": 135024000,
-            "jeonse_ratio": 0.506103243362
-          }
-        },
-        {
-          "housing_type": "084.9600B",
-          "supply_area": 109.7761,
-          "exclusive_area": 84.96,
-          "supply_price": 2697000000,
-          "price_per_pyeong": 81217520,
-          "market_price": 1880000000,
-          "profit": -817000000,
-          "household_count": 6,
-          "price_source": "실거래 중위가 (23건, 역삼동)",
-          "funding": {
-            "down_payment": 269700000,
-            "interim_payment": 1618200000,
-            "balance": 809100000,
-            "estimated_jeonse": 951474097,
-            "actual_investment": 269700000,
-            "interim_interest": 129456000,
-            "jeonse_ratio": 0.506103243362
-          }
-        },
-        {
-          "housing_type": "084.9800C",
-          "supply_area": 109.6503,
-          "exclusive_area": 84.98,
-          "supply_price": 2750000000,
-          "price_per_pyeong": 82908573,
-          "market_price": 1880000000,
-          "profit": -870000000,
-          "household_count": 6,
-          "price_source": "실거래 중위가 (23건, 역삼동)",
-          "funding": {
-            "down_payment": 275000000,
-            "interim_payment": 1650000000,
-            "balance": 825000000,
-            "estimated_jeonse": 951474097,
-            "actual_investment": 275000000,
-            "interim_interest": 132000000,
-            "jeonse_ratio": 0.506103243362
-          }
-        },
-        {
-          "housing_type": "084.9600D",
-          "supply_area": 110.0261,
-          "exclusive_area": 84.96,
-          "supply_price": 2811000000,
-          "price_per_pyeong": 84458176,
-          "market_price": 1880000000,
-          "profit": -931000000,
-          "household_count": 2,
-          "price_source": "실거래 중위가 (23건, 역삼동)",
-          "funding": {
-            "down_payment": 281100000,
-            "interim_payment": 1686600000,
-            "balance": 843300000,
-            "estimated_jeonse": 951474097,
-            "actual_investment": 281100000,
-            "interim_interest": 134928000,
-            "jeonse_ratio": 0.506103243362
-          }
-        },
-        {
-          "housing_type": "122.9900 ",
-          "supply_area": 157.4426,
-          "exclusive_area": 122.99,
-          "supply_price": 3798000000,
-          "price_per_pyeong": 79746068,
-          "market_price": 4000000000,
-          "profit": 202000000,
-          "household_count": 5,
-          "price_source": "실거래 중위가 (43건)",
-          "funding": {
-            "down_payment": 379800000,
-            "interim_payment": 2278800000,
-            "balance": 1139400000,
-            "estimated_jeonse": 2024412973,
-            "actual_investment": 379800000,
-            "interim_interest": 182304000,
-            "jeonse_ratio": 0.506103243362
-          }
-        }
-      ]
-    },
-    {
       "id": "2025000644",
       "name": "남양주진접2지구 B-1블록 공공분양(본청약)",
       "region": "경기",
@@ -431,7 +431,7 @@
       "total_households": 260,
       "status": "마감",
       "subscription_type": "APT",
-      "max_profit": 243680000,
+      "max_profit": 326180000,
       "schedule": {
         "announcement_date": "2025-12-30",
         "special_supply_date": null,
@@ -477,15 +477,15 @@
           "exclusive_area": 74.0,
           "supply_price": 487820000,
           "price_per_pyeong": 16382477,
-          "market_price": 731500000,
-          "profit": 243680000,
+          "market_price": 814000000,
+          "profit": 326180000,
           "household_count": 15,
-          "price_source": "실거래 중위가 (286건)",
+          "price_source": "실거래 중위가 (230건)",
           "funding": {
             "down_payment": 48782000,
             "interim_payment": 292692000,
             "balance": 146346000,
-            "estimated_jeonse": 487643138,
+            "estimated_jeonse": 542640484,
             "actual_investment": 48782000,
             "interim_interest": 23415360,
             "jeonse_ratio": 0.6666345022119999
@@ -497,15 +497,15 @@
           "exclusive_area": 84.0,
           "supply_price": 551960000,
           "price_per_pyeong": 16382408,
-          "market_price": 599950000,
-          "profit": 47990000,
+          "market_price": 859000000,
+          "profit": 307040000,
           "household_count": 4,
-          "price_source": "실거래 중위가 (2050건)",
+          "price_source": "실거래 중위가 (945건)",
           "funding": {
             "down_payment": 55196000,
             "interim_payment": 331176000,
             "balance": 165588000,
-            "estimated_jeonse": 399947369,
+            "estimated_jeonse": 572639037,
             "actual_investment": 55196000,
             "interim_interest": 26494080,
             "jeonse_ratio": 0.6666345022119999
@@ -525,7 +525,7 @@
       "total_households": 491,
       "status": "마감",
       "subscription_type": "APT",
-      "max_profit": 162790000,
+      "max_profit": 245290000,
       "schedule": {
         "announcement_date": "2025-11-27",
         "special_supply_date": null,
@@ -571,15 +571,15 @@
           "exclusive_area": 74.0,
           "supply_price": 568710000,
           "price_per_pyeong": 18901481,
-          "market_price": 731500000,
-          "profit": 162790000,
+          "market_price": 814000000,
+          "profit": 245290000,
           "household_count": 5,
-          "price_source": "실거래 중위가 (286건)",
+          "price_source": "실거래 중위가 (230건)",
           "funding": {
             "down_payment": 56871000,
             "interim_payment": 341226000,
             "balance": 170613000,
-            "estimated_jeonse": 487643138,
+            "estimated_jeonse": 542640484,
             "actual_investment": 56871000,
             "interim_interest": 27298080,
             "jeonse_ratio": 0.6666345022119999
@@ -591,17 +591,245 @@
           "exclusive_area": 84.0,
           "supply_price": 644110000,
           "price_per_pyeong": 18896345,
-          "market_price": 599950000,
-          "profit": -44160000,
+          "market_price": 859000000,
+          "profit": 214890000,
           "household_count": 17,
-          "price_source": "실거래 중위가 (2050건)",
+          "price_source": "실거래 중위가 (945건)",
           "funding": {
             "down_payment": 64411000,
             "interim_payment": 386466000,
             "balance": 193233000,
-            "estimated_jeonse": 399947369,
+            "estimated_jeonse": 572639037,
             "actual_investment": 64411000,
             "interim_interest": 30917280,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026910039",
+      "name": "루원시티 대성베르힐 더 센트로",
+      "region": "인천",
+      "sido": "인천",
+      "sigungu": "",
+      "address": "인천광역시 서구 서곶로 50 (루원시티 대성베르힐 더 센트로)",
+      "constructor": "디에스종합건설 주식회사",
+      "homepage": "https://www.verthill.com",
+      "total_households": 9,
+      "status": "접수마감",
+      "subscription_type": "무순위/잔여",
+      "max_profit": 185000000,
+      "schedule": {
+        "announcement_date": "2026-02-13",
+        "special_supply_date": null,
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-02-24",
+        "contract_start": "2026-04-03",
+        "contract_end": "2026-04-03",
+        "move_in_date": "202606",
+        "receipt_start": "2026-02-19",
+        "receipt_end": "2026-02-19"
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "무순위",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910039&pblancNo=2026910039"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": [
+        {
+          "housing_type": "084.8036A",
+          "supply_area": 0,
+          "exclusive_area": 84.8036,
+          "supply_price": 455000000,
+          "price_per_pyeong": 455000000,
+          "market_price": 620000000,
+          "profit": 165000000,
+          "household_count": 1,
+          "price_source": "실거래 중위가 (795건)",
+          "funding": {
+            "down_payment": 45500000,
+            "interim_payment": 273000000,
+            "balance": 136500000,
+            "estimated_jeonse": 423560765,
+            "actual_investment": 45500000,
+            "interim_interest": 21840000,
+            "jeonse_ratio": 0.683162524493
+          }
+        },
+        {
+          "housing_type": "084.6059B",
+          "supply_area": 0,
+          "exclusive_area": 84.6059,
+          "supply_price": 435000000,
+          "price_per_pyeong": 435000000,
+          "market_price": 620000000,
+          "profit": 185000000,
+          "household_count": 4,
+          "price_source": "실거래 중위가 (795건)",
+          "funding": {
+            "down_payment": 43500000,
+            "interim_payment": 261000000,
+            "balance": 130500000,
+            "estimated_jeonse": 423560765,
+            "actual_investment": 43500000,
+            "interim_interest": 20880000,
+            "jeonse_ratio": 0.683162524493
+          }
+        },
+        {
+          "housing_type": "159.0584A",
+          "supply_area": 0,
+          "exclusive_area": 159.0584,
+          "supply_price": 834000000,
+          "price_per_pyeong": 834000000,
+          "market_price": 837622323,
+          "profit": 3622323,
+          "household_count": 2,
+          "price_source": "KB 인천 평균",
+          "funding": {
+            "down_payment": 83400000,
+            "interim_payment": 500400000,
+            "balance": 250200000,
+            "estimated_jeonse": 572232180,
+            "actual_investment": 83400000,
+            "interim_interest": 40032000,
+            "jeonse_ratio": 0.683162524493
+          }
+        },
+        {
+          "housing_type": "159.2562B",
+          "supply_area": 0,
+          "exclusive_area": 159.2562,
+          "supply_price": 828000000,
+          "price_per_pyeong": 828000000,
+          "market_price": 838663964,
+          "profit": 10663964,
+          "household_count": 1,
+          "price_source": "KB 인천 평균",
+          "funding": {
+            "down_payment": 82800000,
+            "interim_payment": 496800000,
+            "balance": 248400000,
+            "estimated_jeonse": 572943790,
+            "actual_investment": 82800000,
+            "interim_interest": 39744000,
+            "jeonse_ratio": 0.683162524493
+          }
+        },
+        {
+          "housing_type": "159.1851C",
+          "supply_area": 0,
+          "exclusive_area": 159.1851,
+          "supply_price": 833000000,
+          "price_per_pyeong": 833000000,
+          "market_price": 838289542,
+          "profit": 5289542,
+          "household_count": 1,
+          "price_source": "KB 인천 평균",
+          "funding": {
+            "down_payment": 83300000,
+            "interim_payment": 499800000,
+            "balance": 249900000,
+            "estimated_jeonse": 572687999,
+            "actual_investment": 83300000,
+            "interim_interest": 39984000,
+            "jeonse_ratio": 0.683162524493
+          }
+        }
+      ]
+    },
+    {
+      "id": "2025820019",
+      "name": "남양주진접2 지구 A-3블록 신혼희망타운(공공분양)(본청약)",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 남양주시 진접읍 내각리, 연평리 일원 남양주진접2 공공주택지구내 A-3블록",
+      "constructor": "한국토지주택공사 경기북부지역본부",
+      "homepage": "https://apply.lh.or.kr",
+      "total_households": 208,
+      "status": "마감",
+      "subscription_type": "APT",
+      "max_profit": 175490000,
+      "schedule": {
+        "announcement_date": "2025-12-30",
+        "special_supply_date": null,
+        "first_priority_date": "2026-01-12",
+        "second_priority_date": "2026-01-14",
+        "winner_announce_date": "2026-01-30",
+        "contract_start": "2026-05-18",
+        "contract_end": "2026-05-22",
+        "move_in_date": "202804",
+        "receipt_start": "2026-01-12",
+        "receipt_end": "2026-01-15"
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "신혼희망타운",
+        "rent_secd": "분양주택",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025820019&pblancNo=2025820019"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": true,
+        "is_public_zone": true,
+        "resale_restriction": {
+          "period": "3~5년",
+          "detail": "분양가상한제 적용 단지. 시세 차이에 따라 3~5년.",
+          "severity": "보통"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "2~3년",
+          "detail": "분양가상한제 적용 단지. 시세 차이에 따라 2~3년 실거주 의무.",
+          "required": true
+        }
+      },
+      "models": [
+        {
+          "housing_type": "055.0000O",
+          "supply_area": 79.6198,
+          "exclusive_area": 55.0,
+          "supply_price": 384510000,
+          "price_per_pyeong": 15964787,
+          "market_price": 560000000,
+          "profit": 175490000,
+          "household_count": 0,
+          "price_source": "실거래 중위가 (335건)",
+          "funding": {
+            "down_payment": 38451000,
+            "interim_payment": 230706000,
+            "balance": 115353000,
+            "estimated_jeonse": 373315321,
+            "actual_investment": 38451000,
+            "interim_interest": 18456480,
             "jeonse_ratio": 0.6666345022119999
           }
         }
@@ -702,160 +930,6 @@
       ]
     },
     {
-      "id": "2026910039",
-      "name": "루원시티 대성베르힐 더 센트로",
-      "region": "인천",
-      "sido": "인천",
-      "sigungu": "",
-      "address": "인천광역시 서구 서곶로 50 (루원시티 대성베르힐 더 센트로)",
-      "constructor": "디에스종합건설 주식회사",
-      "homepage": "https://www.verthill.com",
-      "total_households": 9,
-      "status": "접수마감",
-      "subscription_type": "무순위/잔여",
-      "max_profit": 112500000,
-      "schedule": {
-        "announcement_date": "2026-02-13",
-        "special_supply_date": null,
-        "first_priority_date": "",
-        "second_priority_date": "",
-        "winner_announce_date": "2026-02-24",
-        "contract_start": "2026-04-03",
-        "contract_end": "2026-04-03",
-        "move_in_date": "202606",
-        "receipt_start": "2026-02-19",
-        "receipt_end": "2026-02-19"
-      },
-      "qualification": {
-        "region_limit": "",
-        "house_type": "무순위",
-        "rent_secd": "",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910039&pblancNo=2026910039"
-      },
-      "regulations": {
-        "is_speculative_zone": false,
-        "is_adjusted_zone": false,
-        "is_price_cap": false,
-        "is_public_zone": false,
-        "resale_restriction": {
-          "period": "6개월~1년",
-          "detail": "비규제지역. 최소 전매제한 적용.",
-          "severity": "약함"
-        },
-        "rewin_restriction": {
-          "period": "없음",
-          "detail": "비규제지역은 재당첨 제한 없음."
-        },
-        "residency_obligation": {
-          "period": "없음",
-          "detail": "거주의무 없음.",
-          "required": false
-        }
-      },
-      "models": [
-        {
-          "housing_type": "084.8036A",
-          "supply_area": 0,
-          "exclusive_area": 84.8036,
-          "supply_price": 455000000,
-          "price_per_pyeong": 455000000,
-          "market_price": 548000000,
-          "profit": 93000000,
-          "household_count": 1,
-          "price_source": "실거래 중위가 (1407건)",
-          "funding": {
-            "down_payment": 45500000,
-            "interim_payment": 273000000,
-            "balance": 136500000,
-            "estimated_jeonse": 374373063,
-            "actual_investment": 45500000,
-            "interim_interest": 21840000,
-            "jeonse_ratio": 0.683162524493
-          }
-        },
-        {
-          "housing_type": "084.6059B",
-          "supply_area": 0,
-          "exclusive_area": 84.6059,
-          "supply_price": 435000000,
-          "price_per_pyeong": 435000000,
-          "market_price": 547500000,
-          "profit": 112500000,
-          "household_count": 4,
-          "price_source": "실거래 중위가 (1408건)",
-          "funding": {
-            "down_payment": 43500000,
-            "interim_payment": 261000000,
-            "balance": 130500000,
-            "estimated_jeonse": 374031482,
-            "actual_investment": 43500000,
-            "interim_interest": 20880000,
-            "jeonse_ratio": 0.683162524493
-          }
-        },
-        {
-          "housing_type": "159.0584A",
-          "supply_area": 0,
-          "exclusive_area": 159.0584,
-          "supply_price": 834000000,
-          "price_per_pyeong": 834000000,
-          "market_price": 837622323,
-          "profit": 3622323,
-          "household_count": 2,
-          "price_source": "KB 인천 평균",
-          "funding": {
-            "down_payment": 83400000,
-            "interim_payment": 500400000,
-            "balance": 250200000,
-            "estimated_jeonse": 572232180,
-            "actual_investment": 83400000,
-            "interim_interest": 40032000,
-            "jeonse_ratio": 0.683162524493
-          }
-        },
-        {
-          "housing_type": "159.2562B",
-          "supply_area": 0,
-          "exclusive_area": 159.2562,
-          "supply_price": 828000000,
-          "price_per_pyeong": 828000000,
-          "market_price": 838663964,
-          "profit": 10663964,
-          "household_count": 1,
-          "price_source": "KB 인천 평균",
-          "funding": {
-            "down_payment": 82800000,
-            "interim_payment": 496800000,
-            "balance": 248400000,
-            "estimated_jeonse": 572943790,
-            "actual_investment": 82800000,
-            "interim_interest": 39744000,
-            "jeonse_ratio": 0.683162524493
-          }
-        },
-        {
-          "housing_type": "159.1851C",
-          "supply_area": 0,
-          "exclusive_area": 159.1851,
-          "supply_price": 833000000,
-          "price_per_pyeong": 833000000,
-          "market_price": 838289542,
-          "profit": 5289542,
-          "household_count": 1,
-          "price_source": "KB 인천 평균",
-          "funding": {
-            "down_payment": 83300000,
-            "interim_payment": 499800000,
-            "balance": 249900000,
-            "estimated_jeonse": 572687999,
-            "actual_investment": 83300000,
-            "interim_interest": 39984000,
-            "jeonse_ratio": 0.683162524493
-          }
-        }
-      ]
-    },
-    {
       "id": "2025000585",
       "name": "인천 검단신도시 AB13블록 호반써밋Ⅲ(본청약)",
       "region": "인천",
@@ -867,7 +941,7 @@
       "total_households": 492,
       "status": "마감",
       "subscription_type": "APT",
-      "max_profit": 110100000,
+      "max_profit": 151100000,
       "schedule": {
         "announcement_date": "2025-11-24",
         "special_supply_date": "2025-12-04",
@@ -913,15 +987,15 @@
           "exclusive_area": 84.9955,
           "supply_price": 558100000,
           "price_per_pyeong": 16527726,
-          "market_price": 653000000,
-          "profit": 94900000,
+          "market_price": 694000000,
+          "profit": 135900000,
           "household_count": 25,
-          "price_source": "실거래 중위가 (210건, 원당동)",
+          "price_source": "실거래 중위가 (173건, 원당동)",
           "funding": {
             "down_payment": 55810000,
             "interim_payment": 334860000,
             "balance": 167430000,
-            "estimated_jeonse": 446105128,
+            "estimated_jeonse": 474114791,
             "actual_investment": 55810000,
             "interim_interest": 26788800,
             "jeonse_ratio": 0.683162524493
@@ -933,15 +1007,15 @@
           "exclusive_area": 84.9697,
           "supply_price": 565900000,
           "price_per_pyeong": 16818153,
-          "market_price": 653000000,
-          "profit": 87100000,
+          "market_price": 694000000,
+          "profit": 128100000,
           "household_count": 59,
-          "price_source": "실거래 중위가 (210건, 원당동)",
+          "price_source": "실거래 중위가 (173건, 원당동)",
           "funding": {
             "down_payment": 56590000,
             "interim_payment": 339540000,
             "balance": 169770000,
-            "estimated_jeonse": 446105128,
+            "estimated_jeonse": 474114791,
             "actual_investment": 56590000,
             "interim_interest": 27163200,
             "jeonse_ratio": 0.683162524493
@@ -953,15 +1027,15 @@
           "exclusive_area": 84.9692,
           "supply_price": 561900000,
           "price_per_pyeong": 16707898,
-          "market_price": 653000000,
-          "profit": 91100000,
+          "market_price": 694000000,
+          "profit": 132100000,
           "household_count": 24,
-          "price_source": "실거래 중위가 (210건, 원당동)",
+          "price_source": "실거래 중위가 (173건, 원당동)",
           "funding": {
             "down_payment": 56190000,
             "interim_payment": 337140000,
             "balance": 168570000,
-            "estimated_jeonse": 446105128,
+            "estimated_jeonse": 474114791,
             "actual_investment": 56190000,
             "interim_interest": 26971200,
             "jeonse_ratio": 0.683162524493
@@ -973,15 +1047,15 @@
           "exclusive_area": 84.9328,
           "supply_price": 542900000,
           "price_per_pyeong": 16058068,
-          "market_price": 653000000,
-          "profit": 110100000,
+          "market_price": 694000000,
+          "profit": 151100000,
           "household_count": 20,
-          "price_source": "실거래 중위가 (210건, 원당동)",
+          "price_source": "실거래 중위가 (173건, 원당동)",
           "funding": {
             "down_payment": 54290000,
             "interim_payment": 325740000,
             "balance": 162870000,
-            "estimated_jeonse": 446105128,
+            "estimated_jeonse": 474114791,
             "actual_investment": 54290000,
             "interim_interest": 26059200,
             "jeonse_ratio": 0.683162524493
@@ -1030,268 +1104,6 @@
       ]
     },
     {
-      "id": "2026910043",
-      "name": "화성 동탄2 A107BL 숨마데시앙",
-      "region": "경기",
-      "sido": "경기",
-      "sigungu": "",
-      "address": "경기도 화성시 동탄구 동탄신리천로3길 71, 숨마 데시앙(동탄2택지개발지구 A107BL)",
-      "constructor": "케이비부동산신탁 주식회사",
-      "homepage": "http://동탄-a106-a107.com",
-      "total_households": 1,
-      "status": "접수예정",
-      "subscription_type": "무순위/잔여",
-      "max_profit": 92447299,
-      "schedule": {
-        "announcement_date": "2026-02-20",
-        "special_supply_date": null,
-        "first_priority_date": "",
-        "second_priority_date": "",
-        "winner_announce_date": "2026-03-04",
-        "contract_start": "2026-03-11",
-        "contract_end": "2026-03-13",
-        "move_in_date": "202603",
-        "receipt_start": "2026-02-25",
-        "receipt_end": "2026-02-25"
-      },
-      "qualification": {
-        "region_limit": "",
-        "house_type": "무순위",
-        "rent_secd": "",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910043&pblancNo=2026910043"
-      },
-      "regulations": {
-        "is_speculative_zone": false,
-        "is_adjusted_zone": false,
-        "is_price_cap": false,
-        "is_public_zone": false,
-        "resale_restriction": {
-          "period": "6개월~1년",
-          "detail": "비규제지역. 최소 전매제한 적용.",
-          "severity": "약함"
-        },
-        "rewin_restriction": {
-          "period": "없음",
-          "detail": "비규제지역은 재당첨 제한 없음."
-        },
-        "residency_obligation": {
-          "period": "없음",
-          "detail": "거주의무 없음.",
-          "required": false
-        }
-      },
-      "models": [
-        {
-          "housing_type": "099.7498A",
-          "supply_area": 0,
-          "exclusive_area": 99.7498,
-          "supply_price": 626600000,
-          "price_per_pyeong": 626600000,
-          "market_price": 719047299,
-          "profit": 92447299,
-          "household_count": 1,
-          "price_source": "KB 경기 평균",
-          "funding": {
-            "down_payment": 62660000,
-            "interim_payment": 375960000,
-            "balance": 187980000,
-            "estimated_jeonse": 479341738,
-            "actual_investment": 62660000,
-            "interim_interest": 30076800,
-            "jeonse_ratio": 0.6666345022119999
-          }
-        }
-      ]
-    },
-    {
-      "id": "2026910044",
-      "name": "화성 동탄2 A106BL 아테라 파밀리에(구 어울림 파밀리에)",
-      "region": "경기",
-      "sido": "경기",
-      "sigungu": "",
-      "address": "경기도 화성시 동탄구 동탄신리천로3길 59, 아테라 파밀리에(동탄2택지개발지구 A106BL)",
-      "constructor": "케이비부동산신탁 주식회사",
-      "homepage": "http://동탄-a106-a107.com",
-      "total_households": 1,
-      "status": "접수예정",
-      "subscription_type": "무순위/잔여",
-      "max_profit": 74775070,
-      "schedule": {
-        "announcement_date": "2026-02-20",
-        "special_supply_date": null,
-        "first_priority_date": "",
-        "second_priority_date": "",
-        "winner_announce_date": "2026-03-03",
-        "contract_start": "2026-03-11",
-        "contract_end": "2026-03-13",
-        "move_in_date": "202603",
-        "receipt_start": "2026-02-25",
-        "receipt_end": "2026-02-25"
-      },
-      "qualification": {
-        "region_limit": "",
-        "house_type": "무순위",
-        "rent_secd": "",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910044&pblancNo=2026910044"
-      },
-      "regulations": {
-        "is_speculative_zone": false,
-        "is_adjusted_zone": false,
-        "is_price_cap": false,
-        "is_public_zone": false,
-        "resale_restriction": {
-          "period": "6개월~1년",
-          "detail": "비규제지역. 최소 전매제한 적용.",
-          "severity": "약함"
-        },
-        "rewin_restriction": {
-          "period": "없음",
-          "detail": "비규제지역은 재당첨 제한 없음."
-        },
-        "residency_obligation": {
-          "period": "없음",
-          "detail": "거주의무 없음.",
-          "required": false
-        }
-      },
-      "models": [
-        {
-          "housing_type": "099.6288A",
-          "supply_area": 0,
-          "exclusive_area": 99.6288,
-          "supply_price": 643400000,
-          "price_per_pyeong": 643400000,
-          "market_price": 718175070,
-          "profit": 74775070,
-          "household_count": 1,
-          "price_source": "KB 경기 평균",
-          "funding": {
-            "down_payment": 64340000,
-            "interim_payment": 386040000,
-            "balance": 193020000,
-            "estimated_jeonse": 478760280,
-            "actual_investment": 64340000,
-            "interim_interest": 30883200,
-            "jeonse_ratio": 0.6666345022119999
-          }
-        }
-      ]
-    },
-    {
-      "id": "2026000030",
-      "name": "힐스테이트 오산 더퍼스트(조합원 자격상실 및 제명세대)(2회차)",
-      "region": "경기",
-      "sido": "경기",
-      "sigungu": "",
-      "address": "경기도 오산시 경기대로 24-27(갈곶동, 힐스테이트오산더퍼스트)",
-      "constructor": "오산시현대지역주택조합",
-      "homepage": "http://www.osan-hillstate.co.kr",
-      "total_households": 9,
-      "status": "접수예정",
-      "subscription_type": "APT",
-      "max_profit": 69000000,
-      "schedule": {
-        "announcement_date": "2026-02-19",
-        "special_supply_date": null,
-        "first_priority_date": "2026-03-03",
-        "second_priority_date": "2026-03-04",
-        "winner_announce_date": "2026-03-10",
-        "contract_start": "2026-03-21",
-        "contract_end": "2026-03-23",
-        "move_in_date": "202605",
-        "receipt_start": "2026-03-03",
-        "receipt_end": "2026-03-04"
-      },
-      "qualification": {
-        "region_limit": "",
-        "house_type": "APT",
-        "rent_secd": "분양주택",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000030&pblancNo=2026000030"
-      },
-      "regulations": {
-        "is_speculative_zone": false,
-        "is_adjusted_zone": false,
-        "is_price_cap": false,
-        "is_public_zone": false,
-        "resale_restriction": {
-          "period": "6개월~1년",
-          "detail": "비규제지역. 최소 전매제한 적용.",
-          "severity": "약함"
-        },
-        "rewin_restriction": {
-          "period": "없음",
-          "detail": "비규제지역은 재당첨 제한 없음."
-        },
-        "residency_obligation": {
-          "period": "없음",
-          "detail": "거주의무 없음.",
-          "required": false
-        }
-      },
-      "models": [
-        {
-          "housing_type": "059.9944 ",
-          "supply_area": 80.3071,
-          "exclusive_area": 59.9944,
-          "supply_price": 376550000,
-          "price_per_pyeong": 15500484,
-          "market_price": 260000000,
-          "profit": -116550000,
-          "household_count": 3,
-          "price_source": "실거래 중위가 (363건)",
-          "funding": {
-            "down_payment": 37655000,
-            "interim_payment": 225930000,
-            "balance": 112965000,
-            "estimated_jeonse": 173324970,
-            "actual_investment": 37655000,
-            "interim_interest": 18074400,
-            "jeonse_ratio": 0.6666345022119999
-          }
-        },
-        {
-          "housing_type": "064.9972 ",
-          "supply_area": 86.9456,
-          "exclusive_area": 64.9972,
-          "supply_price": 399000000,
-          "price_per_pyeong": 15170568,
-          "market_price": 468000000,
-          "profit": 69000000,
-          "household_count": 4,
-          "price_source": "실거래 중위가 (61건)",
-          "funding": {
-            "down_payment": 39900000,
-            "interim_payment": 239400000,
-            "balance": 119700000,
-            "estimated_jeonse": 311984947,
-            "actual_investment": 39900000,
-            "interim_interest": 19152000,
-            "jeonse_ratio": 0.6666345022119999
-          }
-        },
-        {
-          "housing_type": "084.9773 ",
-          "supply_area": 112.1115,
-          "exclusive_area": 84.9773,
-          "supply_price": 526840000,
-          "price_per_pyeong": 15534781,
-          "market_price": 374000000,
-          "profit": -152840000,
-          "household_count": 2,
-          "price_source": "실거래 중위가 (462건)",
-          "funding": {
-            "down_payment": 52684000,
-            "interim_payment": 316104000,
-            "balance": 158052000,
-            "estimated_jeonse": 249321303,
-            "actual_investment": 52684000,
-            "interim_interest": 25288320,
-            "jeonse_ratio": 0.6666345022119999
-          }
-        }
-      ]
-    },
-    {
       "id": "2025000645",
       "name": "이천시 장호원읍 5년 공공건설임대주택(카사펠리스이천) 임차인모집",
       "region": "경기",
@@ -1303,7 +1115,7 @@
       "total_households": 930,
       "status": "접수예정",
       "subscription_type": "APT",
-      "max_profit": 32000000,
+      "max_profit": 142000000,
       "schedule": {
         "announcement_date": "2026-02-20",
         "special_supply_date": "2026-03-04",
@@ -1509,15 +1321,15 @@
           "exclusive_area": 52.9256,
           "supply_price": 138000000,
           "price_per_pyeong": 5985248,
-          "market_price": 170000000,
-          "profit": 32000000,
+          "market_price": 280000000,
+          "profit": 142000000,
           "household_count": 65,
-          "price_source": "실거래 중위가 (53건)",
+          "price_source": "실거래 중위가 (27건)",
           "funding": {
             "down_payment": 13800000,
             "interim_payment": 82800000,
             "balance": 41400000,
-            "estimated_jeonse": 113327865,
+            "estimated_jeonse": 186657660,
             "actual_investment": 13800000,
             "interim_interest": 6624000,
             "jeonse_ratio": 0.6666345022119999
@@ -1529,15 +1341,15 @@
           "exclusive_area": 52.6713,
           "supply_price": 138000000,
           "price_per_pyeong": 5991631,
-          "market_price": 170000000,
-          "profit": 32000000,
+          "market_price": 280000000,
+          "profit": 142000000,
           "household_count": 10,
-          "price_source": "실거래 중위가 (53건)",
+          "price_source": "실거래 중위가 (27건)",
           "funding": {
             "down_payment": 13800000,
             "interim_payment": 82800000,
             "balance": 41400000,
-            "estimated_jeonse": 113327865,
+            "estimated_jeonse": 186657660,
             "actual_investment": 13800000,
             "interim_interest": 6624000,
             "jeonse_ratio": 0.6666345022119999
@@ -1549,15 +1361,15 @@
           "exclusive_area": 52.9256,
           "supply_price": 138000000,
           "price_per_pyeong": 5985248,
-          "market_price": 170000000,
-          "profit": 32000000,
+          "market_price": 280000000,
+          "profit": 142000000,
           "household_count": 4,
-          "price_source": "실거래 중위가 (53건)",
+          "price_source": "실거래 중위가 (27건)",
           "funding": {
             "down_payment": 13800000,
             "interim_payment": 82800000,
             "balance": 41400000,
-            "estimated_jeonse": 113327865,
+            "estimated_jeonse": 186657660,
             "actual_investment": 13800000,
             "interim_interest": 6624000,
             "jeonse_ratio": 0.6666345022119999
@@ -1569,17 +1381,279 @@
           "exclusive_area": 52.6713,
           "supply_price": 138000000,
           "price_per_pyeong": 5991631,
-          "market_price": 170000000,
-          "profit": 32000000,
+          "market_price": 280000000,
+          "profit": 142000000,
           "household_count": 4,
-          "price_source": "실거래 중위가 (53건)",
+          "price_source": "실거래 중위가 (27건)",
           "funding": {
             "down_payment": 13800000,
             "interim_payment": 82800000,
             "balance": 41400000,
-            "estimated_jeonse": 113327865,
+            "estimated_jeonse": 186657660,
             "actual_investment": 13800000,
             "interim_interest": 6624000,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026910043",
+      "name": "화성 동탄2 A107BL 숨마데시앙",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 화성시 동탄구 동탄신리천로3길 71, 숨마 데시앙(동탄2택지개발지구 A107BL)",
+      "constructor": "케이비부동산신탁 주식회사",
+      "homepage": "http://동탄-a106-a107.com",
+      "total_households": 1,
+      "status": "접수예정",
+      "subscription_type": "무순위/잔여",
+      "max_profit": 92447299,
+      "schedule": {
+        "announcement_date": "2026-02-20",
+        "special_supply_date": null,
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-03-04",
+        "contract_start": "2026-03-11",
+        "contract_end": "2026-03-13",
+        "move_in_date": "202603",
+        "receipt_start": "2026-02-25",
+        "receipt_end": "2026-02-25"
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "무순위",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910043&pblancNo=2026910043"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": [
+        {
+          "housing_type": "099.7498A",
+          "supply_area": 0,
+          "exclusive_area": 99.7498,
+          "supply_price": 626600000,
+          "price_per_pyeong": 626600000,
+          "market_price": 719047299,
+          "profit": 92447299,
+          "household_count": 1,
+          "price_source": "KB 경기 평균",
+          "funding": {
+            "down_payment": 62660000,
+            "interim_payment": 375960000,
+            "balance": 187980000,
+            "estimated_jeonse": 479341738,
+            "actual_investment": 62660000,
+            "interim_interest": 30076800,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026000030",
+      "name": "힐스테이트 오산 더퍼스트(조합원 자격상실 및 제명세대)(2회차)",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 오산시 경기대로 24-27(갈곶동, 힐스테이트오산더퍼스트)",
+      "constructor": "오산시현대지역주택조합",
+      "homepage": "http://www.osan-hillstate.co.kr",
+      "total_households": 9,
+      "status": "접수예정",
+      "subscription_type": "APT",
+      "max_profit": 76000000,
+      "schedule": {
+        "announcement_date": "2026-02-19",
+        "special_supply_date": null,
+        "first_priority_date": "2026-03-03",
+        "second_priority_date": "2026-03-04",
+        "winner_announce_date": "2026-03-10",
+        "contract_start": "2026-03-21",
+        "contract_end": "2026-03-23",
+        "move_in_date": "202605",
+        "receipt_start": "2026-03-03",
+        "receipt_end": "2026-03-04"
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "APT",
+        "rent_secd": "분양주택",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000030&pblancNo=2026000030"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": [
+        {
+          "housing_type": "059.9944 ",
+          "supply_area": 80.3071,
+          "exclusive_area": 59.9944,
+          "supply_price": 376550000,
+          "price_per_pyeong": 15500484,
+          "market_price": 360000000,
+          "profit": -16550000,
+          "household_count": 3,
+          "price_source": "실거래 중위가 (124건)",
+          "funding": {
+            "down_payment": 37655000,
+            "interim_payment": 225930000,
+            "balance": 112965000,
+            "estimated_jeonse": 239988420,
+            "actual_investment": 37655000,
+            "interim_interest": 18074400,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        },
+        {
+          "housing_type": "064.9972 ",
+          "supply_area": 86.9456,
+          "exclusive_area": 64.9972,
+          "supply_price": 399000000,
+          "price_per_pyeong": 15170568,
+          "market_price": 475000000,
+          "profit": 76000000,
+          "household_count": 4,
+          "price_source": "실거래 중위가 (49건)",
+          "funding": {
+            "down_payment": 39900000,
+            "interim_payment": 239400000,
+            "balance": 119700000,
+            "estimated_jeonse": 316651388,
+            "actual_investment": 39900000,
+            "interim_interest": 19152000,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        },
+        {
+          "housing_type": "084.9773 ",
+          "supply_area": 112.1115,
+          "exclusive_area": 84.9773,
+          "supply_price": 526840000,
+          "price_per_pyeong": 15534781,
+          "market_price": 499000000,
+          "profit": -27840000,
+          "household_count": 2,
+          "price_source": "실거래 중위가 (165건)",
+          "funding": {
+            "down_payment": 52684000,
+            "interim_payment": 316104000,
+            "balance": 158052000,
+            "estimated_jeonse": 332650616,
+            "actual_investment": 52684000,
+            "interim_interest": 25288320,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026910044",
+      "name": "화성 동탄2 A106BL 아테라 파밀리에(구 어울림 파밀리에)",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 화성시 동탄구 동탄신리천로3길 59, 아테라 파밀리에(동탄2택지개발지구 A106BL)",
+      "constructor": "케이비부동산신탁 주식회사",
+      "homepage": "http://동탄-a106-a107.com",
+      "total_households": 1,
+      "status": "접수예정",
+      "subscription_type": "무순위/잔여",
+      "max_profit": 74775070,
+      "schedule": {
+        "announcement_date": "2026-02-20",
+        "special_supply_date": null,
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-03-03",
+        "contract_start": "2026-03-11",
+        "contract_end": "2026-03-13",
+        "move_in_date": "202603",
+        "receipt_start": "2026-02-25",
+        "receipt_end": "2026-02-25"
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "무순위",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910044&pblancNo=2026910044"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": [
+        {
+          "housing_type": "099.6288A",
+          "supply_area": 0,
+          "exclusive_area": 99.6288,
+          "supply_price": 643400000,
+          "price_per_pyeong": 643400000,
+          "market_price": 718175070,
+          "profit": 74775070,
+          "household_count": 1,
+          "price_source": "KB 경기 평균",
+          "funding": {
+            "down_payment": 64340000,
+            "interim_payment": 386040000,
+            "balance": 193020000,
+            "estimated_jeonse": 478760280,
+            "actual_investment": 64340000,
+            "interim_interest": 30883200,
             "jeonse_ratio": 0.6666345022119999
           }
         }
@@ -1717,15 +1791,15 @@
           "exclusive_area": 59.7419,
           "supply_price": 870000000,
           "price_per_pyeong": 31716571,
-          "market_price": 600000000,
-          "profit": -270000000,
+          "market_price": 869500000,
+          "profit": -500000,
           "household_count": 11,
-          "price_source": "실거래 중위가 (742건)",
+          "price_source": "실거래 중위가 (88건)",
           "funding": {
             "down_payment": 87000000,
             "interim_payment": 522000000,
             "balance": 261000000,
-            "estimated_jeonse": 303661946,
+            "estimated_jeonse": 440056770,
             "actual_investment": 87000000,
             "interim_interest": 41760000,
             "jeonse_ratio": 0.506103243362
@@ -1737,15 +1811,15 @@
           "exclusive_area": 59.6793,
           "supply_price": 870000000,
           "price_per_pyeong": 31678178,
-          "market_price": 600000000,
-          "profit": -270000000,
+          "market_price": 869500000,
+          "profit": -500000,
           "household_count": 12,
-          "price_source": "실거래 중위가 (744건)",
+          "price_source": "실거래 중위가 (88건)",
           "funding": {
             "down_payment": 87000000,
             "interim_payment": 522000000,
             "balance": 261000000,
-            "estimated_jeonse": 303661946,
+            "estimated_jeonse": 440056770,
             "actual_investment": 87000000,
             "interim_interest": 41760000,
             "jeonse_ratio": 0.506103243362
@@ -1757,15 +1831,15 @@
           "exclusive_area": 59.6793,
           "supply_price": 870000000,
           "price_per_pyeong": 31549983,
-          "market_price": 600000000,
-          "profit": -270000000,
+          "market_price": 869500000,
+          "profit": -500000,
           "household_count": 6,
-          "price_source": "실거래 중위가 (744건)",
+          "price_source": "실거래 중위가 (88건)",
           "funding": {
             "down_payment": 87000000,
             "interim_payment": 522000000,
             "balance": 261000000,
-            "estimated_jeonse": 303661946,
+            "estimated_jeonse": 440056770,
             "actual_investment": 87000000,
             "interim_interest": 41760000,
             "jeonse_ratio": 0.506103243362
@@ -1831,16 +1905,16 @@
           "exclusive_area": 59.9982,
           "supply_price": 452000000,
           "price_per_pyeong": 18584938,
-          "market_price": 178000000,
-          "profit": -274000000,
+          "market_price": 326000000,
+          "profit": -126000000,
           "household_count": 12,
-          "price_source": "실거래 중위가 (52건, 삼숭동)",
+          "price_source": "실거래 중위가 (212건)",
           "funding": {
             "down_payment": 45200000,
             "interim_payment": 271200000,
             "balance": 135600000,
-            "estimated_jeonse": 118660941,
-            "actual_investment": 62139059,
+            "estimated_jeonse": 217322847,
+            "actual_investment": 45200000,
             "interim_interest": 21696000,
             "jeonse_ratio": 0.6666345022119999
           }
@@ -1851,15 +1925,15 @@
           "exclusive_area": 59.9988,
           "supply_price": 391000000,
           "price_per_pyeong": 16082875,
-          "market_price": 178000000,
-          "profit": -213000000,
+          "market_price": 326000000,
+          "profit": -65000000,
           "household_count": 7,
-          "price_source": "실거래 중위가 (52건, 삼숭동)",
+          "price_source": "실거래 중위가 (212건)",
           "funding": {
             "down_payment": 39100000,
             "interim_payment": 234600000,
             "balance": 117300000,
-            "estimated_jeonse": 118660941,
+            "estimated_jeonse": 217322847,
             "actual_investment": 39100000,
             "interim_interest": 18768000,
             "jeonse_ratio": 0.6666345022119999
@@ -1871,16 +1945,16 @@
           "exclusive_area": 59.9973,
           "supply_price": 452000000,
           "price_per_pyeong": 18395921,
-          "market_price": 178000000,
-          "profit": -274000000,
+          "market_price": 326000000,
+          "profit": -126000000,
           "household_count": 2,
-          "price_source": "실거래 중위가 (52건, 삼숭동)",
+          "price_source": "실거래 중위가 (212건)",
           "funding": {
             "down_payment": 45200000,
             "interim_payment": 271200000,
             "balance": 135600000,
-            "estimated_jeonse": 118660941,
-            "actual_investment": 62139059,
+            "estimated_jeonse": 217322847,
+            "actual_investment": 45200000,
             "interim_interest": 21696000,
             "jeonse_ratio": 0.6666345022119999
           }
@@ -1891,16 +1965,16 @@
           "exclusive_area": 74.9963,
           "supply_price": 560000000,
           "price_per_pyeong": 18595602,
-          "market_price": 206500000,
-          "profit": -353500000,
+          "market_price": 402000000,
+          "profit": -158000000,
           "household_count": 8,
-          "price_source": "실거래 중위가 (26건, 삼숭동)",
+          "price_source": "실거래 중위가 (110건)",
           "funding": {
             "down_payment": 56000000,
             "interim_payment": 336000000,
             "balance": 168000000,
-            "estimated_jeonse": 137660024,
-            "actual_investment": 86339976,
+            "estimated_jeonse": 267987069,
+            "actual_investment": 56000000,
             "interim_interest": 26880000,
             "jeonse_ratio": 0.6666345022119999
           }
@@ -1911,16 +1985,16 @@
           "exclusive_area": 84.9988,
           "supply_price": 629000000,
           "price_per_pyeong": 18548186,
-          "market_price": 222750000,
-          "profit": -406250000,
+          "market_price": 374750000,
+          "profit": -254250000,
           "household_count": 19,
-          "price_source": "실거래 중위가 (84건, 삼숭동)",
+          "price_source": "실거래 중위가 (14건, 삼숭동)",
           "funding": {
             "down_payment": 62900000,
             "interim_payment": 377400000,
             "balance": 188700000,
-            "estimated_jeonse": 148492835,
-            "actual_investment": 103107165,
+            "estimated_jeonse": 249821279,
+            "actual_investment": 62900000,
             "interim_interest": 30192000,
             "jeonse_ratio": 0.6666345022119999
           }
@@ -1931,16 +2005,16 @@
           "exclusive_area": 84.9993,
           "supply_price": 532000000,
           "price_per_pyeong": 15580051,
-          "market_price": 222750000,
-          "profit": -309250000,
+          "market_price": 374750000,
+          "profit": -157250000,
           "household_count": 2,
-          "price_source": "실거래 중위가 (84건, 삼숭동)",
+          "price_source": "실거래 중위가 (14건, 삼숭동)",
           "funding": {
             "down_payment": 53200000,
             "interim_payment": 319200000,
             "balance": 159600000,
-            "estimated_jeonse": 148492835,
-            "actual_investment": 64307165,
+            "estimated_jeonse": 249821279,
+            "actual_investment": 53200000,
             "interim_interest": 25536000,
             "jeonse_ratio": 0.6666345022119999
           }
@@ -2119,15 +2193,15 @@
           "exclusive_area": 29.3734,
           "supply_price": 491200000,
           "price_per_pyeong": 34783433,
-          "market_price": 330000000,
-          "profit": -161200000,
+          "market_price": 327500000,
+          "profit": -163700000,
           "household_count": 65,
-          "price_source": "실거래 중위가 (9건, 수택동)",
+          "price_source": "실거래 중위가 (10건, 수택동)",
           "funding": {
             "down_payment": 49120000,
             "interim_payment": 294720000,
             "balance": 147360000,
-            "estimated_jeonse": 219989385,
+            "estimated_jeonse": 218322799,
             "actual_investment": 49120000,
             "interim_interest": 23577600,
             "jeonse_ratio": 0.6666345022119999
@@ -2139,16 +2213,16 @@
           "exclusive_area": 38.9104,
           "supply_price": 713800000,
           "price_per_pyeong": 38601835,
-          "market_price": 248500000,
-          "profit": -465300000,
+          "market_price": 240000000,
+          "profit": -473800000,
           "household_count": 12,
-          "price_source": "실거래 중위가 (10건, 수택동)",
+          "price_source": "실거래 중위가 (5건, 수택동)",
           "funding": {
             "down_payment": 71380000,
             "interim_payment": 428280000,
             "balance": 214140000,
-            "estimated_jeonse": 165658673,
-            "actual_investment": 119861327,
+            "estimated_jeonse": 159992280,
+            "actual_investment": 125527720,
             "interim_interest": 34262400,
             "jeonse_ratio": 0.6666345022119999
           }
@@ -2159,16 +2233,16 @@
           "exclusive_area": 44.3798,
           "supply_price": 812700000,
           "price_per_pyeong": 38604076,
-          "market_price": 350000000,
-          "profit": -462700000,
+          "market_price": 489000000,
+          "profit": -323700000,
           "household_count": 64,
-          "price_source": "실거래 중위가 (31건, 수택동)",
+          "price_source": "실거래 중위가 (41건, 수택동)",
           "funding": {
             "down_payment": 81270000,
             "interim_payment": 487620000,
             "balance": 243810000,
-            "estimated_jeonse": 233322075,
-            "actual_investment": 91757925,
+            "estimated_jeonse": 325984271,
+            "actual_investment": 81270000,
             "interim_interest": 39009600,
             "jeonse_ratio": 0.6666345022119999
           }
@@ -2179,15 +2253,15 @@
           "exclusive_area": 59.9882,
           "supply_price": 1019800000,
           "price_per_pyeong": 41140809,
-          "market_price": 589000000,
-          "profit": -430800000,
+          "market_price": 844500000,
+          "profit": -175300000,
           "household_count": 178,
-          "price_source": "실거래 중위가 (216건, 수택동)",
+          "price_source": "실거래 중위가 (70건, 수택동)",
           "funding": {
             "down_payment": 101980000,
             "interim_payment": 611880000,
             "balance": 305940000,
-            "estimated_jeonse": 392647721,
+            "estimated_jeonse": 562972837,
             "actual_investment": 101980000,
             "interim_interest": 48950400,
             "jeonse_ratio": 0.6666345022119999
@@ -2199,15 +2273,15 @@
           "exclusive_area": 59.9873,
           "supply_price": 1042700000,
           "price_per_pyeong": 42408487,
-          "market_price": 589000000,
-          "profit": -453700000,
+          "market_price": 844500000,
+          "profit": -198200000,
           "household_count": 83,
-          "price_source": "실거래 중위가 (216건, 수택동)",
+          "price_source": "실거래 중위가 (70건, 수택동)",
           "funding": {
             "down_payment": 104270000,
             "interim_payment": 625620000,
             "balance": 312810000,
-            "estimated_jeonse": 392647721,
+            "estimated_jeonse": 562972837,
             "actual_investment": 104270000,
             "interim_interest": 50049600,
             "jeonse_ratio": 0.6666345022119999
@@ -2219,15 +2293,15 @@
           "exclusive_area": 59.9913,
           "supply_price": 1013600000,
           "price_per_pyeong": 40802853,
-          "market_price": 589000000,
-          "profit": -424600000,
+          "market_price": 844500000,
+          "profit": -169100000,
           "household_count": 163,
-          "price_source": "실거래 중위가 (216건, 수택동)",
+          "price_source": "실거래 중위가 (70건, 수택동)",
           "funding": {
             "down_payment": 101360000,
             "interim_payment": 608160000,
             "balance": 304080000,
-            "estimated_jeonse": 392647721,
+            "estimated_jeonse": 562972837,
             "actual_investment": 101360000,
             "interim_interest": 48652800,
             "jeonse_ratio": 0.6666345022119999
@@ -2239,15 +2313,15 @@
           "exclusive_area": 77.9949,
           "supply_price": 1241400000,
           "price_per_pyeong": 39622183,
-          "market_price": 880000000,
-          "profit": -361400000,
+          "market_price": 881500000,
+          "profit": -359900000,
           "household_count": 8,
-          "price_source": "실거래 중위가 (14건, 수택동)",
+          "price_source": "실거래 중위가 (12건, 수택동)",
           "funding": {
             "down_payment": 124140000,
             "interim_payment": 744840000,
             "balance": 372420000,
-            "estimated_jeonse": 586638361,
+            "estimated_jeonse": 587638313,
             "actual_investment": 124140000,
             "interim_interest": 59587200,
             "jeonse_ratio": 0.6666345022119999
@@ -2259,15 +2333,15 @@
           "exclusive_area": 84.9908,
           "supply_price": 1350700000,
           "price_per_pyeong": 39347583,
-          "market_price": 834000000,
-          "profit": -516700000,
+          "market_price": 950000000,
+          "profit": -400700000,
           "household_count": 82,
-          "price_source": "실거래 중위가 (78건, 수택동)",
+          "price_source": "실거래 중위가 (35건, 수택동)",
           "funding": {
             "down_payment": 135070000,
             "interim_payment": 810420000,
             "balance": 405210000,
-            "estimated_jeonse": 555973174,
+            "estimated_jeonse": 633302777,
             "actual_investment": 135070000,
             "interim_interest": 64833600,
             "jeonse_ratio": 0.6666345022119999
@@ -2279,15 +2353,15 @@
           "exclusive_area": 110.9548,
           "supply_price": 1836500000,
           "price_per_pyeong": 42681378,
-          "market_price": 1320000000,
-          "profit": -516500000,
+          "market_price": 940000000,
+          "profit": -896500000,
           "household_count": 51,
-          "price_source": "실거래 중위가 (7건, 수택동)",
+          "price_source": "실거래 중위가 (15건)",
           "funding": {
             "down_payment": 183650000,
             "interim_payment": 1101900000,
             "balance": 550950000,
-            "estimated_jeonse": 879957542,
+            "estimated_jeonse": 626636432,
             "actual_investment": 183650000,
             "interim_interest": 88152000,
             "jeonse_ratio": 0.6666345022119999
@@ -2512,15 +2586,15 @@
           "exclusive_area": 59.9984,
           "supply_price": 481700000,
           "price_per_pyeong": 481700000,
-          "market_price": 260000000,
-          "profit": -221700000,
+          "market_price": 360000000,
+          "profit": -121700000,
           "household_count": 89,
-          "price_source": "실거래 중위가 (365건)",
+          "price_source": "실거래 중위가 (126건)",
           "funding": {
             "down_payment": 48170000,
             "interim_payment": 289020000,
             "balance": 144510000,
-            "estimated_jeonse": 173324970,
+            "estimated_jeonse": 239988420,
             "actual_investment": 48170000,
             "interim_interest": 23121600,
             "jeonse_ratio": 0.6666345022119999
@@ -2666,15 +2740,15 @@
           "exclusive_area": 78.44,
           "supply_price": 1997000000,
           "price_per_pyeong": 1997000000,
-          "market_price": 1500000000,
-          "profit": -497000000,
+          "market_price": 1200000000,
+          "profit": -797000000,
           "household_count": 20,
-          "price_source": "실거래 중위가 (75건)",
+          "price_source": "실거래 중위가 (110건)",
           "funding": {
             "down_payment": 199700000,
             "interim_payment": 1198200000,
             "balance": 599100000,
-            "estimated_jeonse": 999951753,
+            "estimated_jeonse": 799961402,
             "actual_investment": 199700000,
             "interim_interest": 95856000,
             "jeonse_ratio": 0.6666345022119999
@@ -2686,15 +2760,15 @@
           "exclusive_area": 84.08,
           "supply_price": 2180000000,
           "price_per_pyeong": 2180000000,
-          "market_price": 1585000000,
-          "profit": -595000000,
+          "market_price": 1198500000,
+          "profit": -981500000,
           "household_count": 26,
-          "price_source": "실거래 중위가 (552건)",
+          "price_source": "실거래 중위가 (108건)",
           "funding": {
             "down_payment": 218000000,
             "interim_payment": 1308000000,
             "balance": 654000000,
-            "estimated_jeonse": 1056615686,
+            "estimated_jeonse": 798961450,
             "actual_investment": 218000000,
             "interim_interest": 104640000,
             "jeonse_ratio": 0.6666345022119999
@@ -2760,16 +2834,16 @@
           "exclusive_area": 84.9772,
           "supply_price": 1565000000,
           "price_per_pyeong": 1565000000,
-          "market_price": 600000000,
-          "profit": -965000000,
+          "market_price": 818000000,
+          "profit": -747000000,
           "household_count": 55,
-          "price_source": "실거래 중위가 (1960건)",
+          "price_source": "실거래 중위가 (393건)",
           "funding": {
             "down_payment": 156500000,
             "interim_payment": 939000000,
             "balance": 469500000,
-            "estimated_jeonse": 399980701,
-            "actual_investment": 226019299,
+            "estimated_jeonse": 545307022,
+            "actual_investment": 156500000,
             "interim_interest": 75120000,
             "jeonse_ratio": 0.6666345022119999
           }
@@ -2780,16 +2854,16 @@
           "exclusive_area": 84.9892,
           "supply_price": 1492000000,
           "price_per_pyeong": 1492000000,
-          "market_price": 600000000,
-          "profit": -892000000,
+          "market_price": 818000000,
+          "profit": -674000000,
           "household_count": 28,
-          "price_source": "실거래 중위가 (1960건)",
+          "price_source": "실거래 중위가 (393건)",
           "funding": {
             "down_payment": 149200000,
             "interim_payment": 895200000,
             "balance": 447600000,
-            "estimated_jeonse": 399980701,
-            "actual_investment": 196819299,
+            "estimated_jeonse": 545307022,
+            "actual_investment": 149200000,
             "interim_interest": 71616000,
             "jeonse_ratio": 0.6666345022119999
           }
@@ -2800,16 +2874,16 @@
           "exclusive_area": 84.9875,
           "supply_price": 1549000000,
           "price_per_pyeong": 1549000000,
-          "market_price": 600000000,
-          "profit": -949000000,
+          "market_price": 818000000,
+          "profit": -731000000,
           "household_count": 102,
-          "price_source": "실거래 중위가 (1960건)",
+          "price_source": "실거래 중위가 (393건)",
           "funding": {
             "down_payment": 154900000,
             "interim_payment": 929400000,
             "balance": 464700000,
-            "estimated_jeonse": 399980701,
-            "actual_investment": 219619299,
+            "estimated_jeonse": 545307022,
+            "actual_investment": 154900000,
             "interim_interest": 74352000,
             "jeonse_ratio": 0.6666345022119999
           }
@@ -2820,16 +2894,16 @@
           "exclusive_area": 84.9671,
           "supply_price": 1513000000,
           "price_per_pyeong": 1513000000,
-          "market_price": 600000000,
-          "profit": -913000000,
+          "market_price": 818000000,
+          "profit": -695000000,
           "household_count": 27,
-          "price_source": "실거래 중위가 (1960건)",
+          "price_source": "실거래 중위가 (393건)",
           "funding": {
             "down_payment": 151300000,
             "interim_payment": 907800000,
             "balance": 453900000,
-            "estimated_jeonse": 399980701,
-            "actual_investment": 205219299,
+            "estimated_jeonse": 545307022,
+            "actual_investment": 151300000,
             "interim_interest": 72624000,
             "jeonse_ratio": 0.6666345022119999
           }
