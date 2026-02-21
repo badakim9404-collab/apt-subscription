@@ -60,7 +60,7 @@ def fetch_all_subscriptions() -> list[dict]:
 
 def _is_closed(item: dict, now: datetime) -> bool:
     """이미 마감된 건인지 판단."""
-    receipt_end = item.get("RCEPT_ENDDE", "")
+    receipt_end = item.get("RCEPT_ENDDE", "") or item.get("SUBSCRPT_RCEPT_ENDDE", "") or ""
     winner_date = item.get("PRZWNER_PRESNATN_DE", "")
 
     try:

@@ -208,8 +208,8 @@ def _build_entry(item: dict, models: list[dict], regulations: dict, max_profit: 
             "contract_start": item.get("CNTRCT_CNCLS_BGNDE", ""),
             "contract_end": item.get("CNTRCT_CNCLS_ENDDE", ""),
             "move_in_date": item.get("MVN_PREARNGE_YM", ""),
-            "receipt_start": item.get("RCEPT_BGNDE", ""),
-            "receipt_end": item.get("RCEPT_ENDDE", ""),
+            "receipt_start": item.get("RCEPT_BGNDE", "") or item.get("SUBSCRPT_RCEPT_BGNDE", "") or "",
+            "receipt_end": item.get("RCEPT_ENDDE", "") or item.get("SUBSCRPT_RCEPT_ENDDE", "") or "",
         },
 
         # 자격요건
@@ -233,8 +233,8 @@ def _determine_status(item: dict) -> str:
     from datetime import datetime
     now = datetime.now()
 
-    receipt_start = item.get("RCEPT_BGNDE", "")
-    receipt_end = item.get("RCEPT_ENDDE", "")
+    receipt_start = item.get("RCEPT_BGNDE", "") or item.get("SUBSCRPT_RCEPT_BGNDE", "") or ""
+    receipt_end = item.get("RCEPT_ENDDE", "") or item.get("SUBSCRPT_RCEPT_ENDDE", "") or ""
     winner_date = item.get("PRZWNER_PRESNATN_DE", "")
 
     try:
