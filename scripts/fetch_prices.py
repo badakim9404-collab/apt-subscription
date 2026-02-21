@@ -11,7 +11,9 @@ try:
 except ImportError:
     HAS_PDR = False
 
-from config import DATA_GO_KR_API_KEY, TRADE_API_BASE, ALL_LAWD
+import re
+
+from config import DATA_GO_KR_API_KEY, TRADE_API_BASE, ALL_LAWD, LAWD_BY_SIDO
 
 logger = logging.getLogger(__name__)
 
@@ -137,13 +139,36 @@ def _fetch_trades_raw(lawd_cd: str, months: int = 6) -> list[dict]:
     return all_trades
 
 
-def fetch_recent_trades(lawd_cd: str, area_m2: float, months: int = 6) -> list[dict]:
-    """시군구별 최근 N개월 실거래 (유사면적 ±10㎡). 캐시 활용."""
+def fetch_recent_trades(
+    lawd_cd: str, area_m2: float, months: int = 6, dong: str = "",
+) -> list[dict]:
+    """시군구별 최근 N개월 실거래. 단계적 필터링:
+
+    1단계: 같은 동 + ±5m² (≥5건이면 사용)
+    2단계: 시군구 전체 + ±5m² (≥10건이면 사용)
+    3단계: 시군구 전체 + ±10m² (폴백)
+    """
     cache_key = lawd_cd
     if cache_key not in _trade_cache:
         _trade_cache[cache_key] = _fetch_trades_raw(lawd_cd, months)
 
     all_trades = _trade_cache[cache_key]
+
+    # 1단계: 같은 동 + ±5m²
+    if dong:
+        dong_narrow = [
+            t for t in all_trades
+            if t["dong"] == dong and abs(t["area"] - area_m2) <= 5
+        ]
+        if len(dong_narrow) >= 5:
+            return dong_narrow
+
+    # 2단계: 시군구 전체 + ±5m²
+    sgg_narrow = [t for t in all_trades if abs(t["area"] - area_m2) <= 5]
+    if len(sgg_narrow) >= 10:
+        return sgg_narrow
+
+    # 3단계: 시군구 전체 + ±10m²
     return [t for t in all_trades if abs(t["area"] - area_m2) <= 10]
 
 
@@ -159,16 +184,35 @@ def get_median_price(trades: list[dict]) -> int:
 
 
 def get_lawd_cd_for_address(address: str) -> str:
-    """주소에서 LAWD_CD 5자리 추출."""
+    """주소에서 LAWD_CD 5자리 추출. 시도명을 우선 확인하여 동명 구 충돌 방지."""
     if not address:
         return ""
 
-    # 1차: 정확한 시군구명 매칭 (예: "수원시 영통구" in "경기도 수원시 영통구 ...")
+    # 1단계: 시도 판별
+    sido = None
+    if "서울" in address:
+        sido = "서울"
+    elif "인천" in address:
+        sido = "인천"
+    elif "경기" in address:
+        sido = "경기"
+
+    # 2단계: 시도가 확인된 경우 해당 시도의 LAWD만 검색
+    if sido:
+        sido_lawd = LAWD_BY_SIDO.get(sido, {})
+        for code, name in sido_lawd.items():
+            if name in address:
+                return code
+        for code, name in sido_lawd.items():
+            if "구" in name:
+                gu_name = name.split()[-1] if " " in name else name
+                if gu_name in address:
+                    return code
+
+    # 3단계: 시도 불명시 전체 검색 (기존 로직)
     for code, name in ALL_LAWD.items():
         if name in address:
             return code
-
-    # 2차: 구 이름만으로 매칭 (서울/인천은 구 이름이 유니크)
     for code, name in ALL_LAWD.items():
         if "구" in name:
             gu_name = name.split()[-1] if " " in name else name
@@ -178,13 +222,22 @@ def get_lawd_cd_for_address(address: str) -> str:
     return ""
 
 
+def _extract_dong_from_address(address: str) -> str:
+    """주소에서 법정동(읍면동) 추출."""
+    if not address:
+        return ""
+    match = re.search(r"(\S+[동리읍면])\s+\d", address)
+    if match:
+        return match.group(1)
+    return ""
+
+
 # ===== 통합 시세 추정 =====
 
 def estimate_market_price(area_m2: float, sido_nm: str, address: str = "") -> dict:
     """실거래 중위가 우선, 없으면 KB ㎡당 평균가격으로 추정.
 
-    Returns:
-        estimated_price, jeonse_ratio, estimated_jeonse, source
+    실거래 최소 5건 이상일 때만 사용, 미만이면 KB 폴백.
     """
     _load_kb_cache()
 
@@ -196,19 +249,28 @@ def estimate_market_price(area_m2: float, sido_nm: str, address: str = "") -> di
     trade_price = 0
     trade_count = 0
     lawd_cd = get_lawd_cd_for_address(address) if address else ""
+    dong = _extract_dong_from_address(address)
 
     if lawd_cd:
-        trades = fetch_recent_trades(lawd_cd, area_m2, months=6)
-        trade_price = get_median_price(trades)
+        trades = fetch_recent_trades(lawd_cd, area_m2, months=6, dong=dong)
         trade_count = len(trades)
+        # 대형(120m²+)은 거래 적어 편향 위험 → 최소 20건, 일반은 5건
+        min_trades = 20 if area_m2 > 120 else 5
+        if trade_count >= min_trades:
+            trade_price = get_median_price(trades)
 
     if trade_price > 0:
+        # 동 단위 매칭 여부 표시
+        source_detail = f"실거래 중위가 ({trade_count}건"
+        if dong and trades and trades[0].get("dong") == dong:
+            source_detail += f", {dong}"
+        source_detail += ")"
         return {
             "estimated_price": trade_price,
             "jeonse_ratio": jeonse_ratio,
             "estimated_jeonse": int(trade_price * jeonse_ratio),
             "trade_count": trade_count,
-            "source": f"실거래 중위가 ({trade_count}건)",
+            "source": source_detail,
         }
 
     # 2. KB ㎡당 평균가격 폴백
@@ -219,7 +281,7 @@ def estimate_market_price(area_m2: float, sido_nm: str, address: str = "") -> di
             "estimated_price": estimated,
             "jeonse_ratio": jeonse_ratio,
             "estimated_jeonse": int(estimated * jeonse_ratio),
-            "trade_count": 0,
+            "trade_count": trade_count,
             "source": f"KB {region} 평균",
         }
 

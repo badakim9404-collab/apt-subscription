@@ -52,6 +52,13 @@ ALL_LAWD.update(SEOUL_LAWD)
 ALL_LAWD.update(GYEONGGI_LAWD)
 ALL_LAWD.update(INCHEON_LAWD)
 
+# 시도별 LAWD (시도 구분용)
+LAWD_BY_SIDO = {
+    "서울": SEOUL_LAWD,
+    "경기": GYEONGGI_LAWD,
+    "인천": INCHEON_LAWD,
+}
+
 # 분석 기준
 MIN_PROFIT_THRESHOLD = 100_000_000  # 1억원 이상 차익
 INTEREST_RATE = 0.04  # 중도금 대출 연이율 4%
