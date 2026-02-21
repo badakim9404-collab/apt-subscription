@@ -218,6 +218,17 @@ body {
   color: var(--text-muted);
 }
 
+.card-type {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: rgba(188, 140, 255, 0.15);
+  color: var(--accent-purple);
+  margin-left: 6px;
+}
+
 .card-name {
   font-size: 17px;
   font-weight: 700;
@@ -269,7 +280,8 @@ body {
   padding: 10px 14px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
 }
 
 .profit-metric .label {
@@ -283,6 +295,12 @@ body {
   font-weight: 800;
   color: var(--accent-green);
   text-shadow: 0 0 20px var(--profit-glow);
+}
+
+.profit-metric .source {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-top: 2px;
 }
 
 .card-dates {

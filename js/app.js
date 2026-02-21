@@ -127,9 +127,15 @@
     const statusClass = getStatusClass(item.status);
     const bestModel = getBestModel(item.models);
 
+    const subType = item.subscription_type || 'APT';
+    const typeBadge = subType !== 'APT'
+      ? `<span class="card-type">${esc(subType)}</span>`
+      : '';
+
     return `
       <div class="card" data-id="${item.id}">
         <span class="card-status ${statusClass}">${item.status}</span>
+        ${typeBadge}
         <div class="card-name">${esc(item.name)}</div>
         <div class="card-location">${esc(item.sido || item.region)} ${esc(item.sigungu || '')} ${esc(item.address || '')}</div>
         <div class="card-constructor">${esc(item.constructor || '')} · 총 ${item.total_households || '-'}세대</div>
@@ -147,6 +153,7 @@
           <div class="profit-metric" ${item.max_profit <= 0 ? 'style="background:var(--bg-secondary);border-color:var(--border)"' : ''}>
             <div class="label" ${item.max_profit <= 0 ? 'style="color:var(--text-muted)"' : ''}>예상 최대 차익</div>
             <div class="value" ${item.max_profit <= 0 ? 'style="color:var(--text-secondary);text-shadow:none"' : ''}>${item.max_profit > 0 ? formatMoney(item.max_profit) : '시세 분석중'}</div>
+            ${bestModel?.price_source ? `<div class="source">${esc(bestModel.price_source)}</div>` : ''}
           </div>
         </div>
         <div class="card-dates">
