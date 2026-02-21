@@ -35,7 +35,8 @@ def analyze_subscriptions(subscriptions: list[dict]) -> list[dict]:
 
         # 상태 미리 판단
         status = _determine_status(item)
-        is_upcoming = status in ("접수예정", "접수중")
+        # _is_upcoming 플래그: 무순위/잔여, 오피스텔 중 아직 마감 안 된 건
+        is_upcoming = status in ("접수예정", "접수중") or item.get("_is_upcoming", False)
 
         # 규제 정보
         regulations = evaluate_regulations(item)
@@ -179,6 +180,9 @@ def _calculate_funding(supply_price: int, market_price: int, jeonse_ratio: float
 def _build_entry(item: dict, models: list[dict], regulations: dict, max_profit: int) -> dict:
     """최종 출력 데이터 구성."""
     status = _determine_status(item)
+    # 무순위/잔여/오피스텔 중 마감 안 된 건 → 접수예정으로 표시
+    if status == "마감" and item.get("_is_upcoming", False):
+        status = "접수예정"
 
     return {
         "id": item.get("HOUSE_MANAGE_NO", ""),
@@ -191,6 +195,7 @@ def _build_entry(item: dict, models: list[dict], regulations: dict, max_profit: 
         "homepage": item.get("HMPG_ADRES", ""),
         "total_households": item.get("TOT_SUPLY_HSHLDCO", 0),
         "status": status,
+        "subscription_type": item.get("_type", "APT"),
         "max_profit": max_profit,
 
         # 일정

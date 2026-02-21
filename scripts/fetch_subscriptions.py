@@ -10,36 +10,80 @@ logger = logging.getLogger(__name__)
 
 
 def fetch_all_subscriptions() -> list[dict]:
-    """서울+수도권 청약 분양정보를 수집하여 반환."""
+    """서울+수도권 청약 분양정보를 수집하여 반환 (APT + 오피스텔/도시형 + 무순위).
+
+    - APT: 최근 3개월 전체 수집
+    - 오피스텔/도시형, 무순위/잔여: 접수예정/접수중만 수집 (마감 건은 제외하여 속도 최적화)
+    """
     all_items = []
+    seen_ids = set()
+    now = datetime.now()
 
-    for region_name, area_code in SUBSCRIPTION_AREA_CODES.items():
-        logger.info(f"[청약수집] {region_name} (코드: {area_code})")
-        details = _fetch_detail_list(area_code)
-        logger.info(f"  → {len(details)}건 수집")
+    # 수집할 청약 유형별 엔드포인트
+    endpoints = [
+        ("APT", "getAPTLttotPblancDetail", "getAPTLttotPblancMdl", False),
+        ("오피스텔/도시형", "getUrbtyOfctlLttotPblancDetail", "getUrbtyOfctlLttotPblancMdl", True),
+        ("무순위/잔여", "getRemndrLttotPblancDetail", "getRemndrLttotPblancMdl", True),
+    ]
 
-        for detail in details:
-            house_manage_no = detail.get("HOUSE_MANAGE_NO")
-            if not house_manage_no:
-                continue
-            # 주택형별 상세 조회
-            models = _fetch_model_list(house_manage_no)
-            detail["models"] = models
-            detail["_region"] = region_name
-            all_items.append(detail)
+    for type_name, detail_ep, model_ep, upcoming_only in endpoints:
+        for region_name, area_code in SUBSCRIPTION_AREA_CODES.items():
+            logger.info(f"[청약수집] {type_name} - {region_name} (코드: {area_code})")
+            details = _fetch_detail_list(area_code, detail_ep)
+
+            kept = []
+            for detail in details:
+                if upcoming_only and _is_closed(detail, now):
+                    continue
+                kept.append(detail)
+
+            logger.info(f"  → {len(details)}건 수집, {len(kept)}건 유효")
+
+            for detail in kept:
+                house_manage_no = detail.get("HOUSE_MANAGE_NO")
+                if not house_manage_no or house_manage_no in seen_ids:
+                    continue
+                seen_ids.add(house_manage_no)
+                # 주택형별 상세 조회
+                models = _fetch_model_list(house_manage_no, model_ep)
+                detail["models"] = models
+                detail["_region"] = region_name
+                detail["_type"] = type_name
+                # upcoming_only 필터를 통과한 건 → 접수예정/접수중으로 태그
+                if upcoming_only:
+                    detail["_is_upcoming"] = True
+                all_items.append(detail)
 
     logger.info(f"[청약수집] 총 {len(all_items)}건 수집 완료")
     return all_items
 
 
-def _fetch_detail_list(area_code: str) -> list[dict]:
-    """분양 상세 목록 조회 (getAPTLttotPblancDetail)."""
-    url = f"{SUBSCRIPTION_API_BASE}/getAPTLttotPblancDetail"
+def _is_closed(item: dict, now: datetime) -> bool:
+    """이미 마감된 건인지 판단."""
+    receipt_end = item.get("RCEPT_ENDDE", "")
+    winner_date = item.get("PRZWNER_PRESNATN_DE", "")
+
+    try:
+        if receipt_end:
+            end_dt = datetime.strptime(receipt_end, "%Y-%m-%d")
+            if now > end_dt:
+                return True
+        if winner_date:
+            winner_dt = datetime.strptime(winner_date, "%Y-%m-%d")
+            if now > winner_dt:
+                return True
+    except ValueError:
+        pass
+
+    return False
+
+
+def _fetch_detail_list(area_code: str, endpoint: str = "getAPTLttotPblancDetail") -> list[dict]:
+    """분양 상세 목록 조회."""
+    url = f"{SUBSCRIPTION_API_BASE}/{endpoint}"
 
     # 최근 3개월 ~ 향후 2개월
     now = datetime.now()
-    start_date = (now - timedelta(days=90)).strftime("%Y-%m")
-    end_date = (now + timedelta(days=60)).strftime("%Y-%m")
 
     items = []
     page = 1
@@ -64,7 +108,7 @@ def _fetch_detail_list(area_code: str) -> list[dict]:
         if not batch:
             break
 
-        # 날짜 필터: 모집공고일 기준
+        # 날짜 필터: 접수시작일 기준 최근 3개월
         for item in batch:
             rcept_bgnde = item.get("RCEPT_BGNDE", "")
             if rcept_bgnde:
@@ -85,9 +129,9 @@ def _fetch_detail_list(area_code: str) -> list[dict]:
     return items
 
 
-def _fetch_model_list(house_manage_no: str) -> list[dict]:
-    """주택형별 상세 조회 (getAPTLttotPblancMdl)."""
-    url = f"{SUBSCRIPTION_API_BASE}/getAPTLttotPblancMdl"
+def _fetch_model_list(house_manage_no: str, endpoint: str = "getAPTLttotPblancMdl") -> list[dict]:
+    """주택형별 상세 조회."""
+    url = f"{SUBSCRIPTION_API_BASE}/{endpoint}"
     params = {
         "page": 1,
         "perPage": 100,

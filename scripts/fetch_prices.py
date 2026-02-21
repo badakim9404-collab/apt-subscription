@@ -18,6 +18,9 @@ logger = logging.getLogger(__name__)
 # KB 데이터 캐시
 _kb_cache = {}
 
+# 실거래 데이터 캐시: (lawd_cd, area_bucket) → trades
+_trade_cache = {}
+
 
 def _load_kb_cache():
     """KB 시세 데이터를 한 번만 로드하여 캐시."""
@@ -72,12 +75,17 @@ def _get_kb_region(sido_nm: str) -> str:
 
 # ===== 실거래 API (XML) =====
 
-def fetch_recent_trades(lawd_cd: str, area_m2: float, months: int = 6) -> list[dict]:
-    """시군구별 최근 N개월 실거래 (유사면적 ±10㎡)."""
+def _area_bucket(area_m2: float) -> int:
+    """면적을 10㎡ 버킷으로 구분 (캐시키 용)."""
+    return int(area_m2 // 10) * 10
+
+
+def _fetch_trades_raw(lawd_cd: str, months: int = 6) -> list[dict]:
+    """시군구 전체 실거래 조회 (면적 필터 없이, 캐시용)."""
     if not DATA_GO_KR_API_KEY:
         return []
 
-    trades = []
+    all_trades = []
     now = datetime.now()
 
     for i in range(months):
@@ -114,23 +122,29 @@ def fetch_recent_trades(lawd_cd: str, area_m2: float, months: int = 6) -> list[d
         for item in item_list:
             try:
                 exclu_ar = float(item.get("excluUseAr", 0))
+                amount_str = str(item.get("dealAmount", "0")).replace(",", "").strip()
+                amount = int(amount_str) * 10000
             except (ValueError, TypeError):
                 continue
-
-            if abs(exclu_ar - area_m2) <= 10:
-                try:
-                    amount_str = str(item.get("dealAmount", "0")).replace(",", "").strip()
-                    amount = int(amount_str) * 10000  # 만원 → 원
-                except (ValueError, TypeError):
-                    continue
-                trades.append({
+            if amount > 0:
+                all_trades.append({
                     "price": amount,
                     "area": exclu_ar,
                     "apt_name": item.get("aptNm", ""),
                     "dong": item.get("umdNm", ""),
                 })
 
-    return trades
+    return all_trades
+
+
+def fetch_recent_trades(lawd_cd: str, area_m2: float, months: int = 6) -> list[dict]:
+    """시군구별 최근 N개월 실거래 (유사면적 ±10㎡). 캐시 활용."""
+    cache_key = lawd_cd
+    if cache_key not in _trade_cache:
+        _trade_cache[cache_key] = _fetch_trades_raw(lawd_cd, months)
+
+    all_trades = _trade_cache[cache_key]
+    return [t for t in all_trades if abs(t["area"] - area_m2) <= 10]
 
 
 def get_median_price(trades: list[dict]) -> int:
@@ -146,12 +160,21 @@ def get_median_price(trades: list[dict]) -> int:
 
 def get_lawd_cd_for_address(address: str) -> str:
     """주소에서 LAWD_CD 5자리 추출."""
+    if not address:
+        return ""
+
+    # 1차: 정확한 시군구명 매칭 (예: "수원시 영통구" in "경기도 수원시 영통구 ...")
     for code, name in ALL_LAWD.items():
         if name in address:
             return code
+
+    # 2차: 구 이름만으로 매칭 (서울/인천은 구 이름이 유니크)
     for code, name in ALL_LAWD.items():
-        if name.rstrip("구시") in address:
-            return code
+        if "구" in name:
+            gu_name = name.split()[-1] if " " in name else name
+            if gu_name in address:
+                return code
+
     return ""
 
 
