@@ -222,10 +222,29 @@ def fetch_recent_trades(
     return [t for t in all_trades if abs(t["area"] - area_m2) <= 10]
 
 
-def get_median_price(trades: list[dict]) -> int:
-    """중위가 계산."""
+def get_median_price(trades: list[dict], target_area: float = 0) -> int:
+    """면적 보정 중위가 계산.
+
+    target_area > 0이면: 각 거래를 ₩/m²로 환산 → 중위 ₩/m² → target_area에 곱.
+    target_area = 0이면: 기존 방식 (거래가 그대로 중위가).
+    """
     if not trades:
         return 0
+
+    if target_area > 0:
+        # ₩/m² 기반 보정
+        ppm2_list = sorted(
+            t["price"] / t["area"] for t in trades if t.get("area", 0) > 0
+        )
+        if not ppm2_list:
+            return 0
+        mid = len(ppm2_list) // 2
+        if len(ppm2_list) % 2 == 0:
+            median_ppm2 = (ppm2_list[mid - 1] + ppm2_list[mid]) / 2
+        else:
+            median_ppm2 = ppm2_list[mid]
+        return int(median_ppm2 * target_area)
+
     prices = sorted(t["price"] for t in trades)
     mid = len(prices) // 2
     if len(prices) % 2 == 0:
@@ -330,7 +349,7 @@ def estimate_market_price(area_m2: float, sido_nm: str, address: str = "") -> di
         # 대형(120m²+)은 거래 적어 편향 위험 → 최소 20건, 일반은 5건
         min_trades = 20 if area_m2 > 120 else 5
         if trade_count >= min_trades:
-            trade_price = get_median_price(trades)
+            trade_price = get_median_price(trades, target_area=area_m2)
 
     if trade_price > 0:
         # 동 단위 매칭 여부 표시
