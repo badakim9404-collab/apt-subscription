@@ -135,33 +135,42 @@
       ? `<span class="card-type">${esc(subType)}</span>`
       : '';
 
+    const isNegative = item.max_profit <= 0;
+    const profitText = item.max_profit > 0
+      ? '+' + formatMoney(item.max_profit)
+      : (item.max_profit < 0 ? '가격 메리트 없음' : '시세 분석중');
+
     return `
       <div class="card" data-id="${item.id}">
-        <span class="card-status ${statusClass}">${item.status}</span>
-        ${typeBadge}
-        <div class="card-name">${esc(item.name)}</div>
-        <div class="card-location">${esc(item.sido || item.region)} ${esc(item.sigungu || '')} ${esc(item.address || '')}</div>
-        <div class="card-constructor">${esc(item.constructor || '')} · 총 ${item.total_households || '-'}세대</div>
-        <div class="card-metrics">
-          ${bestModel ? `
-            <div class="metric">
-              <div class="label">분양가 (3.3㎡)</div>
-              <div class="value">${formatMoney(bestModel.price_per_pyeong)}</div>
+        <div class="card-header-row">
+          <span class="card-status ${statusClass}">${item.status}</span>
+          ${typeBadge}
+        </div>
+        <div class="card-body">
+          <div class="card-name">${esc(item.name)}</div>
+          <div class="card-location">${esc(item.address || (item.sido || item.region) + ' ' + (item.sigungu || ''))}</div>
+          <div class="card-constructor">${esc(item.constructor || '-')} · ${item.total_households || '-'}세대</div>
+          <div class="card-metrics">
+            ${bestModel ? `
+              <div class="metric">
+                <div class="label">분양가 (3.3㎡)</div>
+                <div class="value">${formatMoney(bestModel.price_per_pyeong)}</div>
+              </div>
+              <div class="metric">
+                <div class="label">예상시세</div>
+                <div class="value">${formatMoney(bestModel.market_price)}</div>
+              </div>
+            ` : ''}
+            <div class="profit-metric ${isNegative ? 'negative' : ''}">
+              <div class="label">예상 최대 차익</div>
+              <div class="value">${profitText}</div>
+              ${bestModel?.price_source ? `<div class="source">${esc(bestModel.price_source)}</div>` : ''}
             </div>
-            <div class="metric">
-              <div class="label">예상시세</div>
-              <div class="value">${formatMoney(bestModel.market_price)}</div>
-            </div>
-          ` : ''}
-          <div class="profit-metric" ${item.max_profit <= 0 ? 'style="background:var(--bg-secondary);border-color:var(--border)"' : ''}>
-            <div class="label" ${item.max_profit <= 0 ? 'style="color:var(--text-muted)"' : ''}>예상 최대 차익</div>
-            <div class="value" ${item.max_profit <= 0 ? 'style="color:var(--text-secondary);text-shadow:none"' : ''}>${item.max_profit > 0 ? formatMoney(item.max_profit) : (item.max_profit < 0 ? '가격 메리트 없음' : '시세 분석중')}</div>
-            ${bestModel?.price_source ? `<div class="source">${esc(bestModel.price_source)}</div>` : ''}
           </div>
         </div>
         <div class="card-dates">
-          <span>${item.schedule?.receipt_start ? '접수: ' + item.schedule.receipt_start : (item.schedule?.announcement_date ? '공고: ' + item.schedule.announcement_date : '접수: -')}</span>
-          <span>당첨발표: ${item.schedule?.winner_announce_date || '-'}</span>
+          <span>${item.schedule?.receipt_start ? '접수 ' + item.schedule.receipt_start : (item.schedule?.announcement_date ? '공고 ' + item.schedule.announcement_date : '접수 -')}</span>
+          <span>발표 ${item.schedule?.winner_announce_date || '-'}</span>
         </div>
       </div>`;
   }
@@ -209,34 +218,36 @@
         <!-- 1. 청약 일정 -->
         <div class="detail-block">
           <h3>청약 일정</h3>
-          <div class="info-grid">
-            <div class="info-item">
-              <span class="label">모집공고일</span>
-              <span class="value">${schedule.announcement_date || '-'}</span>
-            </div>
-            <div class="info-item">
-              <span class="label">특별공급일</span>
-              <span class="value">${schedule.special_supply_date || '-'}</span>
-            </div>
-            <div class="info-item">
-              <span class="label">1순위 접수일</span>
-              <span class="value">${schedule.first_priority_date || '-'}</span>
-            </div>
-            <div class="info-item">
-              <span class="label">2순위 접수일</span>
-              <span class="value">${schedule.second_priority_date || '-'}</span>
-            </div>
-            <div class="info-item">
-              <span class="label">당첨자 발표일</span>
-              <span class="value highlight">${schedule.winner_announce_date || '-'}</span>
-            </div>
-            <div class="info-item">
-              <span class="label">계약기간</span>
-              <span class="value">${schedule.contract_start || '-'} ~ ${schedule.contract_end || '-'}</span>
-            </div>
-            <div class="info-item">
-              <span class="label">입주예정</span>
-              <span class="value">${schedule.move_in_date || '-'}</span>
+          <div class="detail-block-body">
+            <div class="info-grid">
+              <div class="info-item">
+                <span class="label">모집공고일</span>
+                <span class="value">${schedule.announcement_date || '-'}</span>
+              </div>
+              <div class="info-item">
+                <span class="label">특별공급일</span>
+                <span class="value">${schedule.special_supply_date || '-'}</span>
+              </div>
+              <div class="info-item">
+                <span class="label">1순위 접수일</span>
+                <span class="value">${schedule.first_priority_date || '-'}</span>
+              </div>
+              <div class="info-item">
+                <span class="label">2순위 접수일</span>
+                <span class="value">${schedule.second_priority_date || '-'}</span>
+              </div>
+              <div class="info-item">
+                <span class="label">당첨자 발표일</span>
+                <span class="value highlight">${schedule.winner_announce_date || '-'}</span>
+              </div>
+              <div class="info-item">
+                <span class="label">계약기간</span>
+                <span class="value">${schedule.contract_start || '-'} ~ ${schedule.contract_end || '-'}</span>
+              </div>
+              <div class="info-item">
+                <span class="label">입주예정</span>
+                <span class="value">${schedule.move_in_date || '-'}</span>
+              </div>
             </div>
           </div>
         </div>
@@ -244,18 +255,20 @@
         <!-- 2. 자격 요건 -->
         <div class="detail-block">
           <h3>자격 요건</h3>
-          <div class="info-grid">
-            <div class="info-item">
-              <span class="label">접수유형</span>
-              <span class="value">${esc(item.qualification?.region_limit || '-')}</span>
-            </div>
-            <div class="info-item">
-              <span class="label">주택구분</span>
-              <span class="value">${esc(item.qualification?.house_type || '-')}</span>
-            </div>
-            <div class="info-item full-width">
-              <span class="label">일반 자격요건</span>
-              <span class="value">만 19세 이상 세대주, 청약통장 가입 12개월+, 무주택세대 구성원</span>
+          <div class="detail-block-body">
+            <div class="info-grid">
+              <div class="info-item">
+                <span class="label">접수유형</span>
+                <span class="value">${esc(item.qualification?.region_limit || '-')}</span>
+              </div>
+              <div class="info-item">
+                <span class="label">주택구분</span>
+                <span class="value">${esc(item.qualification?.house_type || '-')}</span>
+              </div>
+              <div class="info-item full-width">
+                <span class="label">일반 자격요건</span>
+                <span class="value">만 19세 이상 세대주, 청약통장 가입 12개월+, 무주택세대 구성원</span>
+              </div>
             </div>
           </div>
         </div>
@@ -263,15 +276,17 @@
         <!-- 3. 전매제한 -->
         <div class="detail-block regulation">
           <h3>전매제한</h3>
-          <div class="info-grid">
-            ${buildRegulationBadges(reg)}
-            <div class="info-item">
-              <span class="label">전매제한 기간</span>
-              <span class="value warn">${reg.resale_restriction?.period || '-'}</span>
-            </div>
-            <div class="info-item full-width">
-              <span class="label">상세</span>
-              <span class="value">${reg.resale_restriction?.detail || '-'}</span>
+          <div class="detail-block-body">
+            <div class="info-grid">
+              ${buildRegulationBadges(reg)}
+              <div class="info-item">
+                <span class="label">전매제한 기간</span>
+                <span class="value warn">${reg.resale_restriction?.period || '-'}</span>
+              </div>
+              <div class="info-item full-width">
+                <span class="label">상세</span>
+                <span class="value">${reg.resale_restriction?.detail || '-'}</span>
+              </div>
             </div>
           </div>
         </div>
@@ -279,14 +294,16 @@
         <!-- 4. 재당첨 제한 -->
         <div class="detail-block regulation">
           <h3>재당첨 제한</h3>
-          <div class="info-grid">
-            <div class="info-item">
-              <span class="label">제한 기간</span>
-              <span class="value warn">${reg.rewin_restriction?.period || '-'}</span>
-            </div>
-            <div class="info-item full-width">
-              <span class="label">상세</span>
-              <span class="value">${reg.rewin_restriction?.detail || '-'}</span>
+          <div class="detail-block-body">
+            <div class="info-grid">
+              <div class="info-item">
+                <span class="label">제한 기간</span>
+                <span class="value warn">${reg.rewin_restriction?.period || '-'}</span>
+              </div>
+              <div class="info-item full-width">
+                <span class="label">상세</span>
+                <span class="value">${reg.rewin_restriction?.detail || '-'}</span>
+              </div>
             </div>
           </div>
         </div>
@@ -294,14 +311,16 @@
         <!-- 5. 거주의무 -->
         <div class="detail-block regulation">
           <h3>거주의무</h3>
-          <div class="info-grid">
-            <div class="info-item">
-              <span class="label">의무 기간</span>
-              <span class="value ${reg.residency_obligation?.required ? 'warn' : ''}">${reg.residency_obligation?.period || '-'}</span>
-            </div>
-            <div class="info-item full-width">
-              <span class="label">상세</span>
-              <span class="value">${reg.residency_obligation?.detail || '-'}</span>
+          <div class="detail-block-body">
+            <div class="info-grid">
+              <div class="info-item">
+                <span class="label">의무 기간</span>
+                <span class="value ${reg.residency_obligation?.required ? 'warn' : ''}">${reg.residency_obligation?.period || '-'}</span>
+              </div>
+              <div class="info-item full-width">
+                <span class="label">상세</span>
+                <span class="value">${reg.residency_obligation?.detail || '-'}</span>
+              </div>
             </div>
           </div>
         </div>
@@ -309,8 +328,10 @@
         <!-- 6. 투자 분석 (주택형별) -->
         <div class="detail-block investment">
           <h3>투자 분석</h3>
-          ${buildModelsTable(item.models)}
-          ${bestModel?.funding ? buildFundingDetail(bestModel) : ''}
+          <div class="detail-block-body">
+            ${buildModelsTable(item.models)}
+            ${bestModel?.funding ? buildFundingDetail(bestModel) : ''}
+          </div>
         </div>
       </div>
     `;
@@ -347,13 +368,15 @@
         <tbody>`;
 
     for (const m of models) {
+      const profitClass = (m.profit || 0) >= 0 ? 'profit-cell' : 'profit-cell loss';
+      const profitPrefix = (m.profit || 0) > 0 ? '+' : '';
       html += `
         <tr>
           <td>${esc(m.housing_type || '-')}</td>
           <td>${m.exclusive_area ? m.exclusive_area.toFixed(1) + '㎡' : '-'}</td>
           <td>${formatMoney(m.supply_price)}</td>
           <td>${formatMoney(m.market_price)}</td>
-          <td class="profit-cell">${formatMoney(m.profit)}</td>
+          <td class="${profitClass}">${profitPrefix}${formatMoney(m.profit)}</td>
           <td>${m.household_count || '-'}</td>
         </tr>`;
     }

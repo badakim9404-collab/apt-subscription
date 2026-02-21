@@ -48,11 +48,14 @@ def analyze_subscriptions(subscriptions: list[dict]) -> list[dict]:
         # 주소
         address = item.get("HSSPLY_ADRES", "") or ""
 
+        # 타입 판별 (오피스텔 vs 아파트)
+        sub_type = item.get("_type", "APT")
+
         # 주택형별 분석
         analyzed_models = []
 
         for model in models:
-            result = _analyze_model(model, sido, address, regulations)
+            result = _analyze_model(model, sido, address, regulations, sub_type)
             if result:
                 analyzed_models.append(result)
 
@@ -103,7 +106,7 @@ def _parse_exclusive_area(model: dict) -> float:
     return 0.0
 
 
-def _analyze_model(model: dict, sido: str, address: str = "", regulations: dict | None = None) -> dict | None:
+def _analyze_model(model: dict, sido: str, address: str = "", regulations: dict | None = None, subscription_type: str = "APT") -> dict | None:
     """개별 주택형 분석."""
     # 분양가 (만원 단위) — APT: LTTOT_TOP_AMOUNT, 오피스텔: SUPLY_AMOUNT
     try:
@@ -128,7 +131,7 @@ def _analyze_model(model: dict, sido: str, address: str = "", regulations: dict 
         return None
 
     # 실거래 + KB 시세 추정
-    market = estimate_market_price(exclusive_area, sido, address)
+    market = estimate_market_price(exclusive_area, sido, address, subscription_type)
     market_price = market["estimated_price"]
 
     if market_price <= 0:

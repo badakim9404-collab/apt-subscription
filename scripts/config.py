@@ -74,3 +74,4 @@ IS_FIRST_HOME = True                # 생애최초 무주택
 # API 엔드포인트
 SUBSCRIPTION_API_BASE = "https://api.odcloud.kr/api/ApplyhomeInfoDetailSvc/v1"
 TRADE_API_BASE = "https://apis.data.go.kr/1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTradeDev"
+OFFICETEL_TRADE_API_BASE = "https://apis.data.go.kr/1613000/RTMSDataSvcOffiTradeDev/getRTMSDataSvcOffiTradeDev"
