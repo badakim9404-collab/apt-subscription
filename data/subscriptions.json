@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-21 17:46:22",
+  "updated_at": "2026-02-21 19:26:47",
   "total_collected": 60,
   "total_filtered": 25,
   "items": [
@@ -69,10 +69,10 @@
             "down_payment": 60820000,
             "interim_payment": 364920000,
             "balance": 182460000,
-            "estimated_jeonse": 1159701620,
+            "estimated_jeonse": 792611957,
             "actual_investment": 60820000,
             "interim_interest": 29193600,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.455619331885
           }
         },
         {
@@ -89,10 +89,10 @@
             "down_payment": 72570000,
             "interim_payment": 435420000,
             "balance": 217710000,
-            "estimated_jeonse": 1386599764,
+            "estimated_jeonse": 947688210,
             "actual_investment": 72570000,
             "interim_interest": 34833600,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.455619331885
           }
         }
       ]
@@ -163,10 +163,10 @@
             "down_payment": 108815000,
             "interim_payment": 652890000,
             "balance": 326445000,
-            "estimated_jeonse": 1613922129,
+            "estimated_jeonse": 1103054402,
             "actual_investment": 108815000,
             "interim_interest": 52231200,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.455619331885
           }
         }
       ]
@@ -237,10 +237,10 @@
             "down_payment": 201200000,
             "interim_payment": 1207200000,
             "balance": 603600000,
-            "estimated_jeonse": 809765189,
-            "actual_investment": 201200000,
+            "estimated_jeonse": 601543793,
+            "actual_investment": 203256207,
             "interim_interest": 96576000,
-            "jeonse_ratio": 0.506103243362
+            "jeonse_ratio": 0.37596487087200003
           }
         },
         {
@@ -257,10 +257,10 @@
             "down_payment": 281300000,
             "interim_payment": 1687800000,
             "balance": 843900000,
-            "estimated_jeonse": 1720751027,
+            "estimated_jeonse": 1278280560,
             "actual_investment": 281300000,
             "interim_interest": 135024000,
-            "jeonse_ratio": 0.506103243362
+            "jeonse_ratio": 0.37596487087200003
           }
         },
         {
@@ -277,10 +277,10 @@
             "down_payment": 269700000,
             "interim_payment": 1618200000,
             "balance": 809100000,
-            "estimated_jeonse": 1720751027,
+            "estimated_jeonse": 1278280560,
             "actual_investment": 269700000,
             "interim_interest": 129456000,
-            "jeonse_ratio": 0.506103243362
+            "jeonse_ratio": 0.37596487087200003
           }
         },
         {
@@ -297,10 +297,10 @@
             "down_payment": 275000000,
             "interim_payment": 1650000000,
             "balance": 825000000,
-            "estimated_jeonse": 1720751027,
+            "estimated_jeonse": 1278280560,
             "actual_investment": 275000000,
             "interim_interest": 132000000,
-            "jeonse_ratio": 0.506103243362
+            "jeonse_ratio": 0.37596487087200003
           }
         },
         {
@@ -317,10 +317,10 @@
             "down_payment": 281100000,
             "interim_payment": 1686600000,
             "balance": 843300000,
-            "estimated_jeonse": 1720751027,
+            "estimated_jeonse": 1278280560,
             "actual_investment": 281100000,
             "interim_interest": 134928000,
-            "jeonse_ratio": 0.506103243362
+            "jeonse_ratio": 0.37596487087200003
           }
         },
         {
@@ -337,10 +337,10 @@
             "down_payment": 379800000,
             "interim_payment": 2278800000,
             "balance": 1139400000,
-            "estimated_jeonse": 2324709747,
+            "estimated_jeonse": 1726938547,
             "actual_investment": 379800000,
             "interim_interest": 182304000,
-            "jeonse_ratio": 0.506103243362
+            "jeonse_ratio": 0.37596487087200003
           }
         }
       ]
@@ -411,10 +411,10 @@
             "down_payment": 9767000,
             "interim_payment": 58602000,
             "balance": 29301000,
-            "estimated_jeonse": 397314163,
+            "estimated_jeonse": 375622289,
             "actual_investment": 9767000,
             "interim_interest": 4688160,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.630238741231
           }
         }
       ]
@@ -485,10 +485,10 @@
             "down_payment": 45500000,
             "interim_payment": 273000000,
             "balance": 136500000,
-            "estimated_jeonse": 423560765,
+            "estimated_jeonse": 409083939,
             "actual_investment": 45500000,
             "interim_interest": 21840000,
-            "jeonse_ratio": 0.683162524493
+            "jeonse_ratio": 0.659812804996
           }
         },
         {
@@ -505,10 +505,10 @@
             "down_payment": 43500000,
             "interim_payment": 261000000,
             "balance": 130500000,
-            "estimated_jeonse": 423560765,
+            "estimated_jeonse": 409083939,
             "actual_investment": 43500000,
             "interim_interest": 20880000,
-            "jeonse_ratio": 0.683162524493
+            "jeonse_ratio": 0.659812804996
           }
         },
         {
@@ -525,10 +525,10 @@
             "down_payment": 83400000,
             "interim_payment": 500400000,
             "balance": 250200000,
-            "estimated_jeonse": 795362590,
+            "estimated_jeonse": 768177999,
             "actual_investment": 83400000,
             "interim_interest": 40032000,
-            "jeonse_ratio": 0.683162524493
+            "jeonse_ratio": 0.659812804996
           }
         },
         {
@@ -545,10 +545,10 @@
             "down_payment": 82800000,
             "interim_payment": 496800000,
             "balance": 248400000,
-            "estimated_jeonse": 796351677,
+            "estimated_jeonse": 769133281,
             "actual_investment": 82800000,
             "interim_interest": 39744000,
-            "jeonse_ratio": 0.683162524493
+            "jeonse_ratio": 0.659812804996
           }
         },
         {
@@ -565,10 +565,10 @@
             "down_payment": 83300000,
             "interim_payment": 499800000,
             "balance": 249900000,
-            "estimated_jeonse": 795996146,
+            "estimated_jeonse": 768789901,
             "actual_investment": 83300000,
             "interim_interest": 39984000,
-            "jeonse_ratio": 0.683162524493
+            "jeonse_ratio": 0.659812804996
           }
         }
       ]
@@ -639,10 +639,10 @@
             "down_payment": 48782000,
             "interim_payment": 292692000,
             "balance": 146346000,
-            "estimated_jeonse": 542640484,
+            "estimated_jeonse": 598128852,
             "actual_investment": 48782000,
             "interim_interest": 23415360,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.734802030236
           }
         },
         {
@@ -659,10 +659,10 @@
             "down_payment": 55196000,
             "interim_payment": 331176000,
             "balance": 165588000,
-            "estimated_jeonse": 572639037,
+            "estimated_jeonse": 631194943,
             "actual_investment": 55196000,
             "interim_interest": 26494080,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.734802030236
           }
         }
       ]
@@ -733,10 +733,10 @@
             "down_payment": 56871000,
             "interim_payment": 341226000,
             "balance": 170613000,
-            "estimated_jeonse": 542640484,
+            "estimated_jeonse": 598128852,
             "actual_investment": 56871000,
             "interim_interest": 27298080,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.734802030236
           }
         },
         {
@@ -753,10 +753,10 @@
             "down_payment": 64411000,
             "interim_payment": 386466000,
             "balance": 193233000,
-            "estimated_jeonse": 572639037,
+            "estimated_jeonse": 631194943,
             "actual_investment": 64411000,
             "interim_interest": 30917280,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.734802030236
           }
         }
       ]
@@ -827,104 +827,10 @@
             "down_payment": 38451000,
             "interim_payment": 230706000,
             "balance": 115353000,
-            "estimated_jeonse": 373315321,
+            "estimated_jeonse": 411489136,
             "actual_investment": 38451000,
             "interim_interest": 18456480,
-            "jeonse_ratio": 0.6666345022119999
-          }
-        }
-      ]
-    },
-    {
-      "id": "2025000564",
-      "name": "화성 남양뉴타운 우미 린 에듀하이",
-      "region": "경기",
-      "sido": "경기",
-      "sigungu": "",
-      "address": "경기도 화성시 남양읍 남양리 2198 (남양뉴타운 B16BL)",
-      "constructor": "(주)우미산업개발",
-      "homepage": "https://hn1.lynn.co.kr",
-      "total_households": 556,
-      "status": "마감",
-      "subscription_type": "APT",
-      "max_profit": 154290799,
-      "schedule": {
-        "announcement_date": "2025-11-21",
-        "special_supply_date": "2025-12-01",
-        "first_priority_date": "2025-12-02",
-        "second_priority_date": "2025-12-03",
-        "winner_announce_date": "2025-12-10",
-        "contract_start": "2025-12-21",
-        "contract_end": "2025-12-23",
-        "move_in_date": "202807",
-        "receipt_start": "2025-12-01",
-        "receipt_end": "2025-12-03"
-      },
-      "qualification": {
-        "region_limit": "",
-        "house_type": "APT",
-        "rent_secd": "분양주택",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000564&pblancNo=2025000564"
-      },
-      "regulations": {
-        "is_speculative_zone": false,
-        "is_adjusted_zone": false,
-        "is_price_cap": true,
-        "is_public_zone": false,
-        "resale_restriction": {
-          "period": "3~5년",
-          "detail": "분양가상한제 적용 단지. 시세 차이에 따라 3~5년.",
-          "severity": "보통"
-        },
-        "rewin_restriction": {
-          "period": "없음",
-          "detail": "비규제지역은 재당첨 제한 없음."
-        },
-        "residency_obligation": {
-          "period": "2~3년",
-          "detail": "분양가상한제 적용 단지. 시세 차이에 따라 2~3년 실거주 의무.",
-          "required": true
-        }
-      },
-      "models": [
-        {
-          "housing_type": "084.9955A",
-          "supply_area": 112.7906,
-          "exclusive_area": 84.9955,
-          "supply_price": 458400000,
-          "price_per_pyeong": 13435328,
-          "market_price": 612690799,
-          "profit": 154290799,
-          "household_count": 145,
-          "price_source": "KB 경기 평균",
-          "funding": {
-            "down_payment": 45840000,
-            "interim_payment": 275040000,
-            "balance": 137520000,
-            "estimated_jeonse": 408440825,
-            "actual_investment": 45840000,
-            "interim_interest": 22003200,
-            "jeonse_ratio": 0.6666345022119999
-          }
-        },
-        {
-          "housing_type": "084.9695B",
-          "supply_area": 113.2141,
-          "exclusive_area": 84.9695,
-          "supply_price": 458400000,
-          "price_per_pyeong": 13385070,
-          "market_price": 612503378,
-          "profit": 154103378,
-          "household_count": 50,
-          "price_source": "KB 경기 평균",
-          "funding": {
-            "down_payment": 45840000,
-            "interim_payment": 275040000,
-            "balance": 137520000,
-            "estimated_jeonse": 408315884,
-            "actual_investment": 45840000,
-            "interim_interest": 22003200,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.734802030236
           }
         }
       ]
@@ -995,10 +901,10 @@
             "down_payment": 55810000,
             "interim_payment": 334860000,
             "balance": 167430000,
-            "estimated_jeonse": 474114791,
+            "estimated_jeonse": 457910086,
             "actual_investment": 55810000,
             "interim_interest": 26788800,
-            "jeonse_ratio": 0.683162524493
+            "jeonse_ratio": 0.659812804996
           }
         },
         {
@@ -1015,10 +921,10 @@
             "down_payment": 56590000,
             "interim_payment": 339540000,
             "balance": 169770000,
-            "estimated_jeonse": 474114791,
+            "estimated_jeonse": 457910086,
             "actual_investment": 56590000,
             "interim_interest": 27163200,
-            "jeonse_ratio": 0.683162524493
+            "jeonse_ratio": 0.659812804996
           }
         },
         {
@@ -1035,10 +941,10 @@
             "down_payment": 56190000,
             "interim_payment": 337140000,
             "balance": 168570000,
-            "estimated_jeonse": 474114791,
+            "estimated_jeonse": 457910086,
             "actual_investment": 56190000,
             "interim_interest": 26971200,
-            "jeonse_ratio": 0.683162524493
+            "jeonse_ratio": 0.659812804996
           }
         },
         {
@@ -1055,10 +961,10 @@
             "down_payment": 54290000,
             "interim_payment": 325740000,
             "balance": 162870000,
-            "estimated_jeonse": 474114791,
+            "estimated_jeonse": 457910086,
             "actual_investment": 54290000,
             "interim_interest": 26059200,
-            "jeonse_ratio": 0.683162524493
+            "jeonse_ratio": 0.659812804996
           }
         },
         {
@@ -1075,10 +981,10 @@
             "down_payment": 61680000,
             "interim_payment": 370080000,
             "balance": 185040000,
-            "estimated_jeonse": 459768378,
+            "estimated_jeonse": 444054017,
             "actual_investment": 61680000,
             "interim_interest": 29606400,
-            "jeonse_ratio": 0.683162524493
+            "jeonse_ratio": 0.659812804996
           }
         },
         {
@@ -1095,10 +1001,10 @@
             "down_payment": 64280000,
             "interim_payment": 385680000,
             "balance": 192840000,
-            "estimated_jeonse": 459768378,
+            "estimated_jeonse": 444054017,
             "actual_investment": 64280000,
             "interim_interest": 30854400,
-            "jeonse_ratio": 0.683162524493
+            "jeonse_ratio": 0.659812804996
           }
         }
       ]
@@ -1169,10 +1075,10 @@
             "down_payment": 8290000,
             "interim_payment": 49740000,
             "balance": 24870000,
-            "estimated_jeonse": 39331435,
+            "estimated_jeonse": 48270333,
             "actual_investment": 8290000,
             "interim_interest": 3979200,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.818141253287
           }
         },
         {
@@ -1189,10 +1095,10 @@
             "down_payment": 8290000,
             "interim_payment": 49740000,
             "balance": 24870000,
-            "estimated_jeonse": 39331435,
+            "estimated_jeonse": 48270333,
             "actual_investment": 8290000,
             "interim_interest": 3979200,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.818141253287
           }
         },
         {
@@ -1209,10 +1115,10 @@
             "down_payment": 8290000,
             "interim_payment": 49740000,
             "balance": 24870000,
-            "estimated_jeonse": 39331435,
+            "estimated_jeonse": 48270333,
             "actual_investment": 8290000,
             "interim_interest": 3979200,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.818141253287
           }
         },
         {
@@ -1229,10 +1135,10 @@
             "down_payment": 8290000,
             "interim_payment": 49740000,
             "balance": 24870000,
-            "estimated_jeonse": 39331435,
+            "estimated_jeonse": 48270333,
             "actual_investment": 8290000,
             "interim_interest": 3979200,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.818141253287
           }
         },
         {
@@ -1249,10 +1155,10 @@
             "down_payment": 10600000,
             "interim_payment": 63600000,
             "balance": 31800000,
-            "estimated_jeonse": 41997973,
+            "estimated_jeonse": 51542898,
             "actual_investment": 10600000,
             "interim_interest": 5088000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.818141253287
           }
         },
         {
@@ -1269,10 +1175,10 @@
             "down_payment": 10600000,
             "interim_payment": 63600000,
             "balance": 31800000,
-            "estimated_jeonse": 41997973,
+            "estimated_jeonse": 51542898,
             "actual_investment": 10600000,
             "interim_interest": 5088000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.818141253287
           }
         },
         {
@@ -1289,10 +1195,10 @@
             "down_payment": 10600000,
             "interim_payment": 63600000,
             "balance": 31800000,
-            "estimated_jeonse": 41997973,
+            "estimated_jeonse": 51542898,
             "actual_investment": 10600000,
             "interim_interest": 5088000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.818141253287
           }
         },
         {
@@ -1309,10 +1215,10 @@
             "down_payment": 10600000,
             "interim_payment": 63600000,
             "balance": 31800000,
-            "estimated_jeonse": 41997973,
+            "estimated_jeonse": 51542898,
             "actual_investment": 10600000,
             "interim_interest": 5088000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.818141253287
           }
         },
         {
@@ -1329,10 +1235,10 @@
             "down_payment": 13800000,
             "interim_payment": 82800000,
             "balance": 41400000,
-            "estimated_jeonse": 186657660,
+            "estimated_jeonse": 229079550,
             "actual_investment": 13800000,
             "interim_interest": 6624000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.818141253287
           }
         },
         {
@@ -1349,10 +1255,10 @@
             "down_payment": 13800000,
             "interim_payment": 82800000,
             "balance": 41400000,
-            "estimated_jeonse": 186657660,
+            "estimated_jeonse": 229079550,
             "actual_investment": 13800000,
             "interim_interest": 6624000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.818141253287
           }
         },
         {
@@ -1369,10 +1275,10 @@
             "down_payment": 13800000,
             "interim_payment": 82800000,
             "balance": 41400000,
-            "estimated_jeonse": 186657660,
+            "estimated_jeonse": 229079550,
             "actual_investment": 13800000,
             "interim_interest": 6624000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.818141253287
           }
         },
         {
@@ -1389,84 +1295,104 @@
             "down_payment": 13800000,
             "interim_payment": 82800000,
             "balance": 41400000,
-            "estimated_jeonse": 186657660,
+            "estimated_jeonse": 229079550,
             "actual_investment": 13800000,
             "interim_interest": 6624000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.818141253287
           }
         }
       ]
     },
     {
-      "id": "2026910043",
-      "name": "화성 동탄2 A107BL 숨마데시앙",
+      "id": "2025000564",
+      "name": "화성 남양뉴타운 우미 린 에듀하이",
       "region": "경기",
       "sido": "경기",
       "sigungu": "",
-      "address": "경기도 화성시 동탄구 동탄신리천로3길 71, 숨마 데시앙(동탄2택지개발지구 A107BL)",
-      "constructor": "케이비부동산신탁 주식회사",
-      "homepage": "http://동탄-a106-a107.com",
-      "total_households": 1,
-      "status": "접수예정",
-      "subscription_type": "무순위/잔여",
-      "max_profit": 92447299,
+      "address": "경기도 화성시 남양읍 남양리 2198 (남양뉴타운 B16BL)",
+      "constructor": "(주)우미산업개발",
+      "homepage": "https://hn1.lynn.co.kr",
+      "total_households": 556,
+      "status": "마감",
+      "subscription_type": "APT",
+      "max_profit": 134042323,
       "schedule": {
-        "announcement_date": "2026-02-20",
-        "special_supply_date": null,
-        "first_priority_date": "",
-        "second_priority_date": "",
-        "winner_announce_date": "2026-03-04",
-        "contract_start": "2026-03-11",
-        "contract_end": "2026-03-13",
-        "move_in_date": "202603",
-        "receipt_start": "2026-02-25",
-        "receipt_end": "2026-02-25"
+        "announcement_date": "2025-11-21",
+        "special_supply_date": "2025-12-01",
+        "first_priority_date": "2025-12-02",
+        "second_priority_date": "2025-12-03",
+        "winner_announce_date": "2025-12-10",
+        "contract_start": "2025-12-21",
+        "contract_end": "2025-12-23",
+        "move_in_date": "202807",
+        "receipt_start": "2025-12-01",
+        "receipt_end": "2025-12-03"
       },
       "qualification": {
         "region_limit": "",
-        "house_type": "무순위",
-        "rent_secd": "",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910043&pblancNo=2026910043"
+        "house_type": "APT",
+        "rent_secd": "분양주택",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000564&pblancNo=2025000564"
       },
       "regulations": {
         "is_speculative_zone": false,
         "is_adjusted_zone": false,
-        "is_price_cap": false,
+        "is_price_cap": true,
         "is_public_zone": false,
         "resale_restriction": {
-          "period": "6개월~1년",
-          "detail": "비규제지역. 최소 전매제한 적용.",
-          "severity": "약함"
+          "period": "3~5년",
+          "detail": "분양가상한제 적용 단지. 시세 차이에 따라 3~5년.",
+          "severity": "보통"
         },
         "rewin_restriction": {
           "period": "없음",
           "detail": "비규제지역은 재당첨 제한 없음."
         },
         "residency_obligation": {
-          "period": "없음",
-          "detail": "거주의무 없음.",
-          "required": false
+          "period": "2~3년",
+          "detail": "분양가상한제 적용 단지. 시세 차이에 따라 2~3년 실거주 의무.",
+          "required": true
         }
       },
       "models": [
         {
-          "housing_type": "099.7498A",
-          "supply_area": 0,
-          "exclusive_area": 99.7498,
-          "supply_price": 626600000,
-          "price_per_pyeong": 626600000,
-          "market_price": 719047299,
-          "profit": 92447299,
-          "household_count": 1,
-          "price_source": "KB 경기 평균",
+          "housing_type": "084.9955A",
+          "supply_area": 112.7906,
+          "exclusive_area": 84.9955,
+          "supply_price": 458400000,
+          "price_per_pyeong": 13435328,
+          "market_price": 592442323,
+          "profit": 134042323,
+          "household_count": 145,
+          "price_source": "KB 화성시",
           "funding": {
-            "down_payment": 62660000,
-            "interim_payment": 375960000,
-            "balance": 187980000,
-            "estimated_jeonse": 479341738,
-            "actual_investment": 62660000,
-            "interim_interest": 30076800,
-            "jeonse_ratio": 0.6666345022119999
+            "down_payment": 45840000,
+            "interim_payment": 275040000,
+            "balance": 137520000,
+            "estimated_jeonse": 383359713,
+            "actual_investment": 45840000,
+            "interim_interest": 22003200,
+            "jeonse_ratio": 0.6470836035080001
+          }
+        },
+        {
+          "housing_type": "084.9695B",
+          "supply_area": 113.2141,
+          "exclusive_area": 84.9695,
+          "supply_price": 458400000,
+          "price_per_pyeong": 13385070,
+          "market_price": 592261096,
+          "profit": 133861096,
+          "household_count": 50,
+          "price_source": "KB 화성시",
+          "funding": {
+            "down_payment": 45840000,
+            "interim_payment": 275040000,
+            "balance": 137520000,
+            "estimated_jeonse": 383242444,
+            "actual_investment": 45840000,
+            "interim_interest": 22003200,
+            "jeonse_ratio": 0.6470836035080001
           }
         }
       ]
@@ -1537,10 +1463,10 @@
             "down_payment": 37655000,
             "interim_payment": 225930000,
             "balance": 112965000,
-            "estimated_jeonse": 239988420,
+            "estimated_jeonse": 261443699,
             "actual_investment": 37655000,
             "interim_interest": 18074400,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.726232498979
           }
         },
         {
@@ -1557,10 +1483,10 @@
             "down_payment": 39900000,
             "interim_payment": 239400000,
             "balance": 119700000,
-            "estimated_jeonse": 316651388,
+            "estimated_jeonse": 344960437,
             "actual_investment": 39900000,
             "interim_interest": 19152000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.726232498979
           }
         },
         {
@@ -1577,10 +1503,84 @@
             "down_payment": 52684000,
             "interim_payment": 316104000,
             "balance": 158052000,
-            "estimated_jeonse": 332650616,
+            "estimated_jeonse": 362390016,
             "actual_investment": 52684000,
             "interim_interest": 25288320,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.726232498979
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026910043",
+      "name": "화성 동탄2 A107BL 숨마데시앙",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 화성시 동탄구 동탄신리천로3길 71, 숨마 데시앙(동탄2택지개발지구 A107BL)",
+      "constructor": "케이비부동산신탁 주식회사",
+      "homepage": "http://동탄-a106-a107.com",
+      "total_households": 1,
+      "status": "접수예정",
+      "subscription_type": "무순위/잔여",
+      "max_profit": 68683906,
+      "schedule": {
+        "announcement_date": "2026-02-20",
+        "special_supply_date": null,
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-03-04",
+        "contract_start": "2026-03-11",
+        "contract_end": "2026-03-13",
+        "move_in_date": "202603",
+        "receipt_start": "2026-02-25",
+        "receipt_end": "2026-02-25"
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "무순위",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910043&pblancNo=2026910043"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": [
+        {
+          "housing_type": "099.7498A",
+          "supply_area": 0,
+          "exclusive_area": 99.7498,
+          "supply_price": 626600000,
+          "price_per_pyeong": 626600000,
+          "market_price": 695283906,
+          "profit": 68683906,
+          "household_count": 1,
+          "price_source": "KB 화성시",
+          "funding": {
+            "down_payment": 62660000,
+            "interim_payment": 375960000,
+            "balance": 187980000,
+            "estimated_jeonse": 449906815,
+            "actual_investment": 62660000,
+            "interim_interest": 30076800,
+            "jeonse_ratio": 0.6470836035080001
           }
         }
       ]
@@ -1597,7 +1597,7 @@
       "total_households": 1,
       "status": "접수예정",
       "subscription_type": "무순위/잔여",
-      "max_profit": 74775070,
+      "max_profit": 51040502,
       "schedule": {
         "announcement_date": "2026-02-20",
         "special_supply_date": null,
@@ -1643,18 +1643,18 @@
           "exclusive_area": 99.6288,
           "supply_price": 643400000,
           "price_per_pyeong": 643400000,
-          "market_price": 718175070,
-          "profit": 74775070,
+          "market_price": 694440502,
+          "profit": 51040502,
           "household_count": 1,
-          "price_source": "KB 경기 평균",
+          "price_source": "KB 화성시",
           "funding": {
             "down_payment": 64340000,
             "interim_payment": 386040000,
             "balance": 193020000,
-            "estimated_jeonse": 478760280,
+            "estimated_jeonse": 449361062,
             "actual_investment": 64340000,
             "interim_interest": 30883200,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.6470836035080001
           }
         }
       ]
@@ -1725,10 +1725,10 @@
             "down_payment": 62900000,
             "interim_payment": 377400000,
             "balance": 188700000,
-            "estimated_jeonse": 439978771,
+            "estimated_jeonse": 467817577,
             "actual_investment": 62900000,
             "interim_interest": 30192000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.708814511267
           }
         }
       ]
@@ -1799,10 +1799,10 @@
             "down_payment": 87000000,
             "interim_payment": 522000000,
             "balance": 261000000,
-            "estimated_jeonse": 440056770,
+            "estimated_jeonse": 481903061,
             "actual_investment": 87000000,
             "interim_interest": 41760000,
-            "jeonse_ratio": 0.506103243362
+            "jeonse_ratio": 0.554230088009
           }
         },
         {
@@ -1819,10 +1819,10 @@
             "down_payment": 87000000,
             "interim_payment": 522000000,
             "balance": 261000000,
-            "estimated_jeonse": 440056770,
+            "estimated_jeonse": 481903061,
             "actual_investment": 87000000,
             "interim_interest": 41760000,
-            "jeonse_ratio": 0.506103243362
+            "jeonse_ratio": 0.554230088009
           }
         },
         {
@@ -1839,10 +1839,10 @@
             "down_payment": 87000000,
             "interim_payment": 522000000,
             "balance": 261000000,
-            "estimated_jeonse": 440056770,
+            "estimated_jeonse": 481903061,
             "actual_investment": 87000000,
             "interim_interest": 41760000,
-            "jeonse_ratio": 0.506103243362
+            "jeonse_ratio": 0.554230088009
           }
         }
       ]
@@ -1913,10 +1913,10 @@
             "down_payment": 45200000,
             "interim_payment": 271200000,
             "balance": 135600000,
-            "estimated_jeonse": 217322847,
+            "estimated_jeonse": 224921008,
             "actual_investment": 45200000,
             "interim_interest": 21696000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.6899417441260001
           }
         },
         {
@@ -1933,10 +1933,10 @@
             "down_payment": 39100000,
             "interim_payment": 234600000,
             "balance": 117300000,
-            "estimated_jeonse": 217322847,
+            "estimated_jeonse": 224921008,
             "actual_investment": 39100000,
             "interim_interest": 18768000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.6899417441260001
           }
         },
         {
@@ -1953,10 +1953,10 @@
             "down_payment": 45200000,
             "interim_payment": 271200000,
             "balance": 135600000,
-            "estimated_jeonse": 217322847,
+            "estimated_jeonse": 224921008,
             "actual_investment": 45200000,
             "interim_interest": 21696000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.6899417441260001
           }
         },
         {
@@ -1973,10 +1973,10 @@
             "down_payment": 56000000,
             "interim_payment": 336000000,
             "balance": 168000000,
-            "estimated_jeonse": 267987069,
+            "estimated_jeonse": 277356581,
             "actual_investment": 56000000,
             "interim_interest": 26880000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.6899417441260001
           }
         },
         {
@@ -1993,10 +1993,10 @@
             "down_payment": 62900000,
             "interim_payment": 377400000,
             "balance": 188700000,
-            "estimated_jeonse": 249821279,
+            "estimated_jeonse": 258555668,
             "actual_investment": 62900000,
             "interim_interest": 30192000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.6899417441260001
           }
         },
         {
@@ -2013,10 +2013,10 @@
             "down_payment": 53200000,
             "interim_payment": 319200000,
             "balance": 159600000,
-            "estimated_jeonse": 249821279,
+            "estimated_jeonse": 258555668,
             "actual_investment": 53200000,
             "interim_interest": 25536000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.6899417441260001
           }
         }
       ]
@@ -2079,18 +2079,18 @@
           "exclusive_area": 59.9563,
           "supply_price": 891500000,
           "price_per_pyeong": 35019109,
-          "market_price": 432195509,
-          "profit": -459304491,
+          "market_price": 412638786,
+          "profit": -478861214,
           "household_count": 46,
-          "price_source": "KB 경기 평균",
+          "price_source": "KB 부천시",
           "funding": {
             "down_payment": 89150000,
             "interim_payment": 534900000,
             "balance": 267450000,
-            "estimated_jeonse": 288116438,
+            "estimated_jeonse": 276618370,
             "actual_investment": 89150000,
             "interim_interest": 42792000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.670364443434
           }
         },
         {
@@ -2099,18 +2099,18 @@
           "exclusive_area": 59.8585,
           "supply_price": 868300000,
           "price_per_pyeong": 34332201,
-          "market_price": 431490517,
-          "profit": -436809483,
+          "market_price": 411965695,
+          "profit": -456334305,
           "household_count": 59,
-          "price_source": "KB 경기 평균",
+          "price_source": "KB 부천시",
           "funding": {
             "down_payment": 86830000,
             "interim_payment": 520980000,
             "balance": 260490000,
-            "estimated_jeonse": 287646466,
+            "estimated_jeonse": 276167153,
             "actual_investment": 86830000,
             "interim_interest": 41678400,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.670364443434
           }
         },
         {
@@ -2119,18 +2119,18 @@
           "exclusive_area": 84.9174,
           "supply_price": 1137600000,
           "price_per_pyeong": 32089476,
-          "market_price": 612127815,
-          "profit": -525472185,
+          "market_price": 584429207,
+          "profit": -553170793,
           "household_count": 4,
-          "price_source": "KB 경기 평균",
+          "price_source": "KB 부천시",
           "funding": {
             "down_payment": 113760000,
             "interim_payment": 682560000,
             "balance": 341280000,
-            "estimated_jeonse": 408065521,
+            "estimated_jeonse": 391780560,
             "actual_investment": 113760000,
             "interim_interest": 54604800,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.670364443434
           }
         }
       ]
@@ -2201,10 +2201,10 @@
             "down_payment": 49120000,
             "interim_payment": 294720000,
             "balance": 147360000,
-            "estimated_jeonse": 218322799,
+            "estimated_jeonse": 206403187,
             "actual_investment": 49120000,
             "interim_interest": 23577600,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.630238741231
           }
         },
         {
@@ -2221,10 +2221,10 @@
             "down_payment": 71380000,
             "interim_payment": 428280000,
             "balance": 214140000,
-            "estimated_jeonse": 159992280,
-            "actual_investment": 125527720,
+            "estimated_jeonse": 151257297,
+            "actual_investment": 134262703,
             "interim_interest": 34262400,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.630238741231
           }
         },
         {
@@ -2241,10 +2241,10 @@
             "down_payment": 81270000,
             "interim_payment": 487620000,
             "balance": 243810000,
-            "estimated_jeonse": 325984271,
+            "estimated_jeonse": 308186744,
             "actual_investment": 81270000,
             "interim_interest": 39009600,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.630238741231
           }
         },
         {
@@ -2261,10 +2261,10 @@
             "down_payment": 101980000,
             "interim_payment": 611880000,
             "balance": 305940000,
-            "estimated_jeonse": 562972837,
+            "estimated_jeonse": 532236616,
             "actual_investment": 101980000,
             "interim_interest": 48950400,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.630238741231
           }
         },
         {
@@ -2281,10 +2281,10 @@
             "down_payment": 104270000,
             "interim_payment": 625620000,
             "balance": 312810000,
-            "estimated_jeonse": 562972837,
+            "estimated_jeonse": 532236616,
             "actual_investment": 104270000,
             "interim_interest": 50049600,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.630238741231
           }
         },
         {
@@ -2301,10 +2301,10 @@
             "down_payment": 101360000,
             "interim_payment": 608160000,
             "balance": 304080000,
-            "estimated_jeonse": 562972837,
+            "estimated_jeonse": 532236616,
             "actual_investment": 101360000,
             "interim_interest": 48652800,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.630238741231
           }
         },
         {
@@ -2321,10 +2321,10 @@
             "down_payment": 124140000,
             "interim_payment": 744840000,
             "balance": 372420000,
-            "estimated_jeonse": 587638313,
+            "estimated_jeonse": 555555450,
             "actual_investment": 124140000,
             "interim_interest": 59587200,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.630238741231
           }
         },
         {
@@ -2341,10 +2341,10 @@
             "down_payment": 135070000,
             "interim_payment": 810420000,
             "balance": 405210000,
-            "estimated_jeonse": 633302777,
+            "estimated_jeonse": 598726804,
             "actual_investment": 135070000,
             "interim_interest": 64833600,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.630238741231
           }
         },
         {
@@ -2361,10 +2361,10 @@
             "down_payment": 183650000,
             "interim_payment": 1101900000,
             "balance": 550950000,
-            "estimated_jeonse": 626636432,
+            "estimated_jeonse": 592424416,
             "actual_investment": 183650000,
             "interim_interest": 88152000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.630238741231
           }
         }
       ]
@@ -2594,10 +2594,10 @@
             "down_payment": 48170000,
             "interim_payment": 289020000,
             "balance": 144510000,
-            "estimated_jeonse": 239988420,
+            "estimated_jeonse": 261443699,
             "actual_investment": 48170000,
             "interim_interest": 23121600,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.726232498979
           }
         },
         {
@@ -2614,10 +2614,10 @@
             "down_payment": 142140000,
             "interim_payment": 852840000,
             "balance": 426420000,
-            "estimated_jeonse": 286319518,
-            "actual_investment": 282240482,
+            "estimated_jeonse": 311916858,
+            "actual_investment": 256643142,
             "interim_interest": 68227200,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.726232498979
           }
         }
       ]
@@ -2688,10 +2688,10 @@
             "down_payment": 149200000,
             "interim_payment": 895200000,
             "balance": 447600000,
-            "estimated_jeonse": 818293851,
+            "estimated_jeonse": 539356035,
             "actual_investment": 149200000,
             "interim_interest": 71616000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.439393918813
           }
         },
         {
@@ -2708,10 +2708,10 @@
             "down_payment": 182200000,
             "interim_payment": 1093200000,
             "balance": 546600000,
-            "estimated_jeonse": 913289268,
+            "estimated_jeonse": 601969668,
             "actual_investment": 182200000,
             "interim_interest": 87456000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.439393918813
           }
         },
         {
@@ -2728,10 +2728,10 @@
             "down_payment": 183300000,
             "interim_payment": 1099800000,
             "balance": 549900000,
-            "estimated_jeonse": 933288303,
+            "estimated_jeonse": 615151486,
             "actual_investment": 183300000,
             "interim_interest": 87984000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.439393918813
           }
         },
         {
@@ -2748,10 +2748,10 @@
             "down_payment": 199700000,
             "interim_payment": 1198200000,
             "balance": 599100000,
-            "estimated_jeonse": 799961402,
-            "actual_investment": 199700000,
+            "estimated_jeonse": 527272702,
+            "actual_investment": 271527298,
             "interim_interest": 95856000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.439393918813
           }
         },
         {
@@ -2768,10 +2768,10 @@
             "down_payment": 218000000,
             "interim_payment": 1308000000,
             "balance": 654000000,
-            "estimated_jeonse": 798961450,
-            "actual_investment": 218000000,
+            "estimated_jeonse": 526613611,
+            "actual_investment": 345386389,
             "interim_interest": 104640000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.439393918813
           }
         }
       ]
@@ -2842,10 +2842,10 @@
             "down_payment": 156500000,
             "interim_payment": 939000000,
             "balance": 469500000,
-            "estimated_jeonse": 545307022,
+            "estimated_jeonse": 515114087,
             "actual_investment": 156500000,
             "interim_interest": 75120000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.629723823173
           }
         },
         {
@@ -2862,10 +2862,10 @@
             "down_payment": 149200000,
             "interim_payment": 895200000,
             "balance": 447600000,
-            "estimated_jeonse": 545307022,
+            "estimated_jeonse": 515114087,
             "actual_investment": 149200000,
             "interim_interest": 71616000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.629723823173
           }
         },
         {
@@ -2882,10 +2882,10 @@
             "down_payment": 154900000,
             "interim_payment": 929400000,
             "balance": 464700000,
-            "estimated_jeonse": 545307022,
+            "estimated_jeonse": 515114087,
             "actual_investment": 154900000,
             "interim_interest": 74352000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.629723823173
           }
         },
         {
@@ -2902,10 +2902,10 @@
             "down_payment": 151300000,
             "interim_payment": 907800000,
             "balance": 453900000,
-            "estimated_jeonse": 545307022,
+            "estimated_jeonse": 515114087,
             "actual_investment": 151300000,
             "interim_interest": 72624000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.629723823173
           }
         },
         {
@@ -2922,10 +2922,10 @@
             "down_payment": 500000000,
             "interim_payment": 3000000000,
             "balance": 1500000000,
-            "estimated_jeonse": 366648976,
-            "actual_investment": 1633351024,
+            "estimated_jeonse": 346348102,
+            "actual_investment": 1653651898,
             "interim_interest": 240000000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.629723823173
           }
         },
         {
@@ -2942,10 +2942,10 @@
             "down_payment": 520000000,
             "interim_payment": 3120000000,
             "balance": 1560000000,
-            "estimated_jeonse": 676634019,
-            "actual_investment": 1403365981,
+            "estimated_jeonse": 639169680,
+            "actual_investment": 1440830320,
             "interim_interest": 249600000,
-            "jeonse_ratio": 0.6666345022119999
+            "jeonse_ratio": 0.629723823173
           }
         }
       ]

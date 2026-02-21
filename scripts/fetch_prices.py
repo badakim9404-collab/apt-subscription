@@ -17,15 +17,22 @@ from config import DATA_GO_KR_API_KEY, TRADE_API_BASE, ALL_LAWD, LAWD_BY_SIDO
 
 logger = logging.getLogger(__name__)
 
-# KB 데이터 캐시
+# KB 데이터 캐시: "서울_강남구" → 시군구, "서울" → 시도 폴백
 _kb_cache = {}
 
-# 실거래 데이터 캐시: (lawd_cd, area_bucket) → trades
+# 실거래 데이터 캐시: lawd_cd → trades
 _trade_cache = {}
+
+# KB 시도별 지역코드 (10자리)
+_KB_SIDO_CODES = {
+    "서울": "1100000000",
+    "경기": "4100000000",
+    "인천": "2800000000",
+}
 
 
 def _load_kb_cache():
-    """KB 시세 데이터를 한 번만 로드하여 캐시."""
+    """KB 시세 데이터를 한 번만 로드하여 캐시. 시군구 레벨 + 시도 폴백."""
     if _kb_cache:
         return
     if not HAS_PDR:
@@ -35,7 +42,36 @@ def _load_kb_cache():
     try:
         kb = pdr.Kbland()
 
-        # ㎡당 평균가격 (시도별)
+        # 1. 시군구 레벨 로드 (서울/경기/인천)
+        for sido, region_code in _KB_SIDO_CODES.items():
+            try:
+                df_price = kb.get_average_price_per_squaremeter(
+                    "01", "01", 지역코드=region_code,
+                )
+                latest_date = df_price["날짜"].max()
+                latest = df_price[df_price["날짜"] == latest_date]
+                for _, row in latest.iterrows():
+                    name = row["지역명"]
+                    price_per_m2 = float(row["㎡당 평균가격"])
+                    _kb_cache[f"{sido}_{name}"] = {"price_per_m2": price_per_m2}
+                logger.info(f"  KB ㎡당 평균가격 - {sido} ({len(latest)}개 시군구, 기준: {latest_date})")
+
+                df_jeonse = kb.get_jeonse_price_ratio("01", 지역코드=region_code)
+                latest_jdate = df_jeonse["날짜"].max()
+                latest_j = df_jeonse[df_jeonse["날짜"] == latest_jdate]
+                for _, row in latest_j.iterrows():
+                    name = row["지역명"]
+                    ratio = float(row["전세가격비율"]) / 100.0
+                    key = f"{sido}_{name}"
+                    if key in _kb_cache:
+                        _kb_cache[key]["jeonse_ratio"] = ratio
+                    else:
+                        _kb_cache[key] = {"jeonse_ratio": ratio}
+                logger.info(f"  KB 전세가율 - {sido} ({len(latest_j)}개 시군구, 기준: {latest_jdate})")
+            except Exception as e:
+                logger.warning(f"  KB {sido} 시군구 로드 실패: {e}")
+
+        # 2. 시도 레벨 폴백용 로드
         df_price = kb.get_average_price_per_squaremeter("01", "01")
         latest_date = df_price["날짜"].max()
         latest_price = df_price[df_price["날짜"] == latest_date]
@@ -43,9 +79,8 @@ def _load_kb_cache():
             region = row["지역명"]
             price_per_m2 = float(row["㎡당 평균가격"])
             _kb_cache[region] = {"price_per_m2": price_per_m2}
-        logger.info(f"  KB ㎡당 평균가격 로드 ({len(latest_price)}개 지역, 기준: {latest_date})")
+        logger.info(f"  KB ㎡당 평균가격 시도 폴백 ({len(latest_price)}개 지역)")
 
-        # 전세가율 (시도별)
         df_jeonse = kb.get_jeonse_price_ratio("01")
         latest_jdate = df_jeonse["날짜"].max()
         latest_jeonse = df_jeonse[df_jeonse["날짜"] == latest_jdate]
@@ -56,7 +91,6 @@ def _load_kb_cache():
                 _kb_cache[region]["jeonse_ratio"] = ratio
             else:
                 _kb_cache[region] = {"jeonse_ratio": ratio}
-        logger.info(f"  KB 전세가율 로드 ({len(latest_jeonse)}개 지역, 기준: {latest_jdate})")
 
     except Exception as e:
         logger.error(f"  KB 데이터 로드 실패: {e}")
@@ -250,22 +284,45 @@ def _extract_dong_from_address(address: str) -> str:
 
 # ===== 통합 시세 추정 =====
 
+def _get_kb_data(sido_nm: str, lawd_cd: str) -> tuple[dict, str]:
+    """시군구 레벨 KB 데이터 조회. 없으면 시도 폴백.
+
+    Returns: (kb_data dict, source_label str)
+    """
+    region = _get_kb_region(sido_nm)
+
+    # 1. 시군구 레벨 시도
+    if lawd_cd:
+        sigungu_name = ALL_LAWD.get(lawd_cd, "")
+        if sigungu_name:
+            key = f"{region}_{sigungu_name}"
+            data = _kb_cache.get(key)
+            if data:
+                return data, f"KB {sigungu_name}"
+
+    # 2. 시도 레벨 폴백
+    data = _kb_cache.get(region, {})
+    return data, f"KB {region} 평균"
+
+
 def estimate_market_price(area_m2: float, sido_nm: str, address: str = "") -> dict:
     """실거래 중위가 우선, 없으면 KB ㎡당 평균가격으로 추정.
 
+    KB는 시군구 레벨 우선, 없으면 시도 폴백.
     실거래 최소 5건 이상일 때만 사용, 미만이면 KB 폴백.
     """
     _load_kb_cache()
 
-    region = _get_kb_region(sido_nm)
-    kb_data = _kb_cache.get(region, {})
+    lawd_cd = get_lawd_cd_for_address(address) if address else ""
+    dong = _extract_dong_from_address(address)
+
+    # KB 데이터 (시군구 우선 → 시도 폴백)
+    kb_data, kb_source = _get_kb_data(sido_nm, lawd_cd)
     jeonse_ratio = kb_data.get("jeonse_ratio", 0.6)
 
     # 1. 실거래 중위가 시도
     trade_price = 0
     trade_count = 0
-    lawd_cd = get_lawd_cd_for_address(address) if address else ""
-    dong = _extract_dong_from_address(address)
 
     if lawd_cd:
         trades = fetch_recent_trades(lawd_cd, area_m2, months=6, dong=dong)
@@ -289,7 +346,7 @@ def estimate_market_price(area_m2: float, sido_nm: str, address: str = "") -> di
             "source": source_detail,
         }
 
-    # 2. KB ㎡당 평균가격 폴백
+    # 2. KB ㎡당 평균가격 폴백 (시군구 → 시도)
     price_per_m2 = kb_data.get("price_per_m2", 0)
     if price_per_m2 > 0:
         estimated = int(price_per_m2 * area_m2 * 10000)
@@ -298,7 +355,7 @@ def estimate_market_price(area_m2: float, sido_nm: str, address: str = "") -> di
             "jeonse_ratio": jeonse_ratio,
             "estimated_jeonse": int(estimated * jeonse_ratio),
             "trade_count": trade_count,
-            "source": f"KB {region} 평균",
+            "source": kb_source,
         }
 
     return {
