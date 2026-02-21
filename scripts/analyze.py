@@ -1,6 +1,7 @@
 """분양가 vs 시세 비교, 필요자금 계산, 필터링"""
 import logging
 import re
+from datetime import datetime
 
 from config import (
     MIN_PROFIT_THRESHOLD, INTEREST_RATE,
@@ -337,7 +338,6 @@ def _build_entry(item: dict, models: list[dict], regulations: dict, max_profit: 
 
 def _determine_status(item: dict) -> str:
     """청약 상태 판단."""
-    from datetime import datetime
     now = datetime.now()
 
     receipt_start = item.get("RCEPT_BGNDE", "") or item.get("SUBSCRPT_RCEPT_BGNDE", "") or ""

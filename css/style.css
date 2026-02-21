@@ -35,8 +35,6 @@
   --accent-amber: #f59e0b;
   --accent-amber-bg: rgba(245, 158, 11, 0.08);
   --accent-purple: #a78bfa;
-  --accent-cyan: #22d3ee;
-
   /* 서체 */
   --font-sans: 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
@@ -434,11 +432,6 @@ body {
   border-top: 1px solid var(--border-light);
   padding: 10px 18px;
   letter-spacing: 0.01em;
-}
-
-.card-households {
-  font-size: 11px;
-  color: var(--text-dim);
 }
 
 /* ===== DETAIL VIEW (리서치 리포트 상세) ===== */

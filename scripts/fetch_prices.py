@@ -124,11 +124,6 @@ def _get_kb_region(sido_nm: str) -> str:
 
 # ===== 실거래 API (XML) =====
 
-def _area_bucket(area_m2: float) -> int:
-    """면적을 10㎡ 버킷으로 구분 (캐시키 용)."""
-    return int(area_m2 // 10) * 10
-
-
 def _fetch_trades_raw(lawd_cd: str, months: int = 6, property_type: str = "APT") -> list[dict]:
     """시군구 전체 실거래 조회 (면적 필터 없이, 캐시용).
 
@@ -141,7 +136,7 @@ def _fetch_trades_raw(lawd_cd: str, months: int = 6, property_type: str = "APT")
 
     all_trades = []
     now = datetime.now()
-    offi_failed = False
+    api_errors = 0
 
     for i in range(months):
         dt = now - timedelta(days=30 * i)
@@ -160,8 +155,7 @@ def _fetch_trades_raw(lawd_cd: str, months: int = 6, property_type: str = "APT")
             data = xmltodict.parse(resp.text)
         except Exception as e:
             logger.debug(f"  실거래 API ({lawd_cd}, {deal_ymd}): {e}")
-            if property_type == "OFFI" and not offi_failed:
-                offi_failed = True
+            api_errors += 1
             continue
 
         header = data.get("response", {}).get("header", {})
@@ -193,8 +187,8 @@ def _fetch_trades_raw(lawd_cd: str, months: int = 6, property_type: str = "APT")
                     "build_year": build_year,
                 })
 
-    # 오피스텔 API 실패 시 아파트 API로 폴백
-    if property_type == "OFFI" and not all_trades and offi_failed:
+    # 오피스텔 API 전체 실패 시 아파트 API로 폴백
+    if property_type == "OFFI" and not all_trades and api_errors == months:
         logger.warning(f"  오피스텔 실거래 API 미지원 → 아파트 실거래로 폴백 ({lawd_cd})")
         return _fetch_trades_raw(lawd_cd, months, "APT")
 
