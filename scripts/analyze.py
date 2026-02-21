@@ -2,7 +2,11 @@
 import logging
 import re
 
-from config import MIN_PROFIT_THRESHOLD, INTEREST_RATE
+from config import (
+    MIN_PROFIT_THRESHOLD, INTEREST_RATE,
+    HOUSEHOLD_INCOME, EXISTING_DEBT_ANNUAL,
+    MORTGAGE_RATE, MORTGAGE_YEARS, DSR_LIMIT, IS_FIRST_HOME,
+)
 from rules import evaluate_regulations
 from fetch_prices import estimate_market_price
 
@@ -46,23 +50,20 @@ def analyze_subscriptions(subscriptions: list[dict]) -> list[dict]:
 
         # 주택형별 분석
         analyzed_models = []
-        max_profit = 0
 
         for model in models:
-            result = _analyze_model(model, sido, address)
+            result = _analyze_model(model, sido, address, regulations)
             if result:
                 analyzed_models.append(result)
-                if result["profit"] > max_profit:
-                    max_profit = result["profit"]
 
         # 동일 단지 내 교차 추정 (실거래 → KB 폴백 모델에 적용)
-        analyzed_models = _apply_cross_model_estimation(analyzed_models)
+        analyzed_models = _apply_cross_model_estimation(analyzed_models, regulations)
 
-        # 교차 추정 후 max_profit 재계산
-        max_profit = 0
-        for m in analyzed_models:
-            if m["profit"] > max_profit:
-                max_profit = m["profit"]
+        # max_profit: 분석 모델 있으면 음수 허용, 없으면 0 (시세 데이터 없음)
+        if analyzed_models:
+            max_profit = max(m["profit"] for m in analyzed_models)
+        else:
+            max_profit = 0
 
         # 접수예정/접수중 → 무조건 포함, 마감 → 1억+ 필터
         if not is_upcoming and max_profit < MIN_PROFIT_THRESHOLD:
@@ -102,7 +103,7 @@ def _parse_exclusive_area(model: dict) -> float:
     return 0.0
 
 
-def _analyze_model(model: dict, sido: str, address: str = "") -> dict | None:
+def _analyze_model(model: dict, sido: str, address: str = "", regulations: dict | None = None) -> dict | None:
     """개별 주택형 분석."""
     # 분양가 (최고가, 만원 단위)
     try:
@@ -140,7 +141,7 @@ def _analyze_model(model: dict, sido: str, address: str = "") -> dict | None:
     price_per_pyeong = int(supply_price / pyeong)
 
     # 필요자금 계산
-    funding = _calculate_funding(supply_price, market_price, market["jeonse_ratio"])
+    funding = _calculate_funding(supply_price, market_price, market["jeonse_ratio"], regulations or {})
 
     # 세대수
     try:
@@ -162,7 +163,7 @@ def _analyze_model(model: dict, sido: str, address: str = "") -> dict | None:
     }
 
 
-def _apply_cross_model_estimation(analyzed_models: list[dict]) -> list[dict]:
+def _apply_cross_model_estimation(analyzed_models: list[dict], regulations: dict | None = None) -> list[dict]:
     """동일 단지 내 실거래 기반 ₩/m² 교차 추정.
 
     실거래 데이터가 충분한 주택형의 ₩/m²를 사용하여
@@ -191,21 +192,74 @@ def _apply_cross_model_estimation(analyzed_models: list[dict]) -> list[dict]:
             m["market_price"] = new_market
             m["profit"] = new_market - m["supply_price"]
             m["price_source"] = f"단지내 m²단가 추정 ({avg_ppm2/10000:.0f}만/m²)"
-            m["funding"] = _calculate_funding(m["supply_price"], new_market, jeonse_ratio)
+            m["funding"] = _calculate_funding(m["supply_price"], new_market, jeonse_ratio, regulations or {})
             logger.info(f"    → {m['housing_type']} 교차추정: {new_market/100000000:.2f}억 ({avg_ppm2/10000:.0f}만/m²)")
 
     return analyzed_models
 
 
-def _calculate_funding(supply_price: int, market_price: int, jeonse_ratio: float) -> dict:
-    """예상 필요자금 계산."""
+def _calculate_max_loan(supply_price: int, regulations: dict) -> dict:
+    """LTV·DSR 기반 최대 대출가능액 계산."""
+    is_speculative = regulations.get("is_speculative_zone", False)
+    is_adjusted = regulations.get("is_adjusted_zone", False)
+
+    # --- LTV 한도 ---
+    if IS_FIRST_HOME:
+        if is_speculative:
+            if supply_price <= 900_000_000:
+                ltv_rate = 0.80
+                ltv_limit = min(int(supply_price * ltv_rate), 600_000_000)
+            else:
+                ltv_rate = 0.50
+                ltv_limit = int(supply_price * ltv_rate)
+        elif is_adjusted:
+            if supply_price <= 900_000_000:
+                ltv_rate = 0.80
+                ltv_limit = min(int(supply_price * ltv_rate), 600_000_000)
+            else:
+                ltv_rate = 0.70
+                ltv_limit = int(supply_price * ltv_rate)
+        else:
+            ltv_rate = 0.80
+            ltv_limit = int(supply_price * ltv_rate)
+    else:
+        # 일반(비 생애최초) — 단순화
+        ltv_rate = 0.70 if (is_speculative or is_adjusted) else 0.80
+        ltv_limit = int(supply_price * ltv_rate)
+
+    # --- DSR 한도 ---
+    r = MORTGAGE_RATE / 12
+    n = MORTGAGE_YEARS * 12
+    annual_repay_factor = 12 * r * (1 + r) ** n / ((1 + r) ** n - 1)
+    dsr_limit_amount = int(
+        (HOUSEHOLD_INCOME * DSR_LIMIT - EXISTING_DEBT_ANNUAL) / annual_repay_factor
+    )
+    dsr_limit_amount = max(dsr_limit_amount, 0)
+
+    max_loan = min(ltv_limit, dsr_limit_amount)
+
+    return {
+        "ltv_rate": ltv_rate,
+        "ltv_limit": ltv_limit,
+        "dsr_limit_amount": dsr_limit_amount,
+        "max_loan": max_loan,
+    }
+
+
+def _calculate_funding(supply_price: int, market_price: int, jeonse_ratio: float, regulations: dict) -> dict:
+    """예상 필요자금 계산 (전세 투자 / 대출 매수 시나리오)."""
     down_payment = int(supply_price * 0.1)          # 계약금 10%
     interim_payment = int(supply_price * 0.6)       # 중도금 60%
     balance = int(supply_price * 0.3)               # 잔금 30%
 
+    # 시나리오 1: 전세 투자
     estimated_jeonse = int(market_price * jeonse_ratio)
-    # 실투자금 = 계약금 + max(잔금 - 전세가, 0)
-    actual_investment = down_payment + max(balance - estimated_jeonse, 0)
+    jeonse_investment = supply_price - estimated_jeonse  # 마이너스 허용
+
+    # 시나리오 2: 대출 매수
+    loan_info = _calculate_max_loan(supply_price, regulations)
+    loan_amount = loan_info["max_loan"]
+    loan_investment = supply_price - loan_amount
 
     # 중도금 이자 (약 2년 기준)
     interim_interest = int(interim_payment * INTEREST_RATE * 2)
@@ -215,7 +269,12 @@ def _calculate_funding(supply_price: int, market_price: int, jeonse_ratio: float
         "interim_payment": interim_payment,
         "balance": balance,
         "estimated_jeonse": estimated_jeonse,
-        "actual_investment": actual_investment,
+        "jeonse_investment": jeonse_investment,
+        "loan_amount": loan_amount,
+        "loan_investment": loan_investment,
+        "ltv_rate": loan_info["ltv_rate"],
+        "ltv_limit": loan_info["ltv_limit"],
+        "dsr_limit_amount": loan_info["dsr_limit_amount"],
         "interim_interest": interim_interest,
         "jeonse_ratio": jeonse_ratio,
     }

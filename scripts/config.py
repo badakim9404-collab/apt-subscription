@@ -63,6 +63,14 @@ LAWD_BY_SIDO = {
 MIN_PROFIT_THRESHOLD = 100_000_000  # 1억원 이상 차익
 INTEREST_RATE = 0.04  # 중도금 대출 연이율 4%
 
+# 사용자 프로필 (대출 시뮬레이션용)
+HOUSEHOLD_INCOME = 120_000_000      # 가구 연소득
+EXISTING_DEBT_ANNUAL = 0            # 기존 대출 연상환액
+MORTGAGE_RATE = 0.04                # 주택담보대출 금리
+MORTGAGE_YEARS = 40                 # 대출 기간 (년)
+DSR_LIMIT = 0.40                    # DSR 한도 (은행권 40%)
+IS_FIRST_HOME = True                # 생애최초 무주택
+
 # API 엔드포인트
 SUBSCRIPTION_API_BASE = "https://api.odcloud.kr/api/ApplyhomeInfoDetailSvc/v1"
 TRADE_API_BASE = "https://apis.data.go.kr/1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTradeDev"

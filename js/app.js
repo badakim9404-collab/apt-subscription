@@ -155,7 +155,7 @@
           ` : ''}
           <div class="profit-metric" ${item.max_profit <= 0 ? 'style="background:var(--bg-secondary);border-color:var(--border)"' : ''}>
             <div class="label" ${item.max_profit <= 0 ? 'style="color:var(--text-muted)"' : ''}>예상 최대 차익</div>
-            <div class="value" ${item.max_profit <= 0 ? 'style="color:var(--text-secondary);text-shadow:none"' : ''}>${item.max_profit > 0 ? formatMoney(item.max_profit) : '시세 분석중'}</div>
+            <div class="value" ${item.max_profit <= 0 ? 'style="color:var(--text-secondary);text-shadow:none"' : ''}>${item.max_profit > 0 ? formatMoney(item.max_profit) : (item.max_profit < 0 ? '가격 메리트 없음' : '시세 분석중')}</div>
             ${bestModel?.price_source ? `<div class="source">${esc(bestModel.price_source)}</div>` : ''}
           </div>
         </div>
@@ -366,12 +366,22 @@
     const f = model.funding;
     if (!f) return '';
 
+    // 전세 투자 실투자금 표시 (마이너스 = 역전세 수익)
+    const jeonseInvStyle = f.jeonse_investment < 0
+      ? 'color:var(--accent-green);font-weight:700'
+      : 'font-weight:700';
+    const jeonseInvText = f.jeonse_investment < 0
+      ? '+' + formatMoney(Math.abs(f.jeonse_investment)) + ' 역전세'
+      : formatMoney(f.jeonse_investment);
+
     return `
       <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border)">
         <div style="font-size:13px;font-weight:600;color:var(--accent-green);margin-bottom:12px">
           예상 필요자금 상세 (최대 차익 주택형 기준)
         </div>
-        <div class="info-grid">
+
+        <!-- 공통 정보 -->
+        <div class="info-grid" style="margin-bottom:16px">
           <div class="info-item">
             <span class="label">분양가 총액</span>
             <span class="value">${formatMoney(model.supply_price)}</span>
@@ -381,28 +391,53 @@
             <span class="value">${formatMoney(model.market_price)}</span>
           </div>
           <div class="info-item">
-            <span class="label">계약금 (10%)</span>
-            <span class="value">${formatMoney(f.down_payment)}</span>
-          </div>
-          <div class="info-item">
-            <span class="label">중도금 (60%)</span>
-            <span class="value">${formatMoney(f.interim_payment)}</span>
-          </div>
-          <div class="info-item">
-            <span class="label">잔금 (30%)</span>
-            <span class="value">${formatMoney(f.balance)}</span>
-          </div>
-          <div class="info-item">
-            <span class="label">예상 전세가 (전세가율 ${(f.jeonse_ratio * 100).toFixed(0)}%)</span>
-            <span class="value">${formatMoney(f.estimated_jeonse)}</span>
-          </div>
-          <div class="info-item">
             <span class="label">중도금 이자 (연 4%, 2년)</span>
             <span class="value">${formatMoney(f.interim_interest)}</span>
           </div>
-          <div class="info-item">
-            <span class="label">예상 실투자금</span>
-            <span class="value highlight" style="font-size:18px">${formatMoney(f.actual_investment)}</span>
+        </div>
+
+        <!-- 시나리오 블록 컨테이너 -->
+        <div class="scenario-container">
+          <!-- 시나리오 1: 전세 투자 -->
+          <div class="scenario-block scenario-jeonse">
+            <div class="scenario-label">시나리오 1: 전세 투자</div>
+            <div class="info-grid">
+              <div class="info-item full-width">
+                <span class="label">예상 전세가 (전세가율 ${(f.jeonse_ratio * 100).toFixed(0)}%)</span>
+                <span class="value">${formatMoney(f.estimated_jeonse)}</span>
+              </div>
+              <div class="info-item full-width">
+                <span class="label">실투자금 = 분양가 - 전세가</span>
+                <span class="value highlight" style="font-size:18px;${jeonseInvStyle}">${jeonseInvText}</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 시나리오 2: 대출 매수 -->
+          <div class="scenario-block scenario-loan">
+            <div class="scenario-label">시나리오 2: 대출 매수</div>
+            <div class="info-grid">
+              <div class="info-item">
+                <span class="label">적용 LTV</span>
+                <span class="value">${(f.ltv_rate * 100).toFixed(0)}%</span>
+              </div>
+              <div class="info-item">
+                <span class="label">LTV 한도</span>
+                <span class="value">${formatMoney(f.ltv_limit)}</span>
+              </div>
+              <div class="info-item">
+                <span class="label">DSR 한도</span>
+                <span class="value">${formatMoney(f.dsr_limit_amount)}</span>
+              </div>
+              <div class="info-item">
+                <span class="label">대출가능액</span>
+                <span class="value">${formatMoney(f.loan_amount)}</span>
+              </div>
+              <div class="info-item full-width">
+                <span class="label">실투자금 = 분양가 - 대출가능액</span>
+                <span class="value highlight" style="font-size:18px">${formatMoney(f.loan_investment)}</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>`;

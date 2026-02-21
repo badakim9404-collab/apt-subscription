@@ -520,6 +520,53 @@ body {
   font-weight: 700;
 }
 
+/* ===== SCENARIO BLOCKS ===== */
+.scenario-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.scenario-block {
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.scenario-label {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.scenario-jeonse {
+  border-color: rgba(88, 166, 255, 0.3);
+}
+
+.scenario-jeonse .scenario-label {
+  background: rgba(88, 166, 255, 0.12);
+  color: var(--accent-blue);
+}
+
+.scenario-loan {
+  border-color: rgba(188, 140, 255, 0.3);
+}
+
+.scenario-loan .scenario-label {
+  background: rgba(188, 140, 255, 0.12);
+  color: var(--accent-purple);
+}
+
+@media (max-width: 768px) {
+  .scenario-container {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ===== EMPTY STATE ===== */
 .empty-state {
   text-align: center;
