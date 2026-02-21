@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-21 04:28:23",
-  "total_collected": 50,
-  "total_filtered": 17,
+  "updated_at": "2026-02-21 15:16:31",
+  "total_collected": 60,
+  "total_filtered": 27,
   "items": [
     {
       "id": "2025820020",
@@ -14,6 +14,7 @@
       "homepage": "https://apply.lh.or.kr/",
       "total_households": 812,
       "status": "마감",
+      "subscription_type": "APT",
       "max_profit": 1291800000,
       "schedule": {
         "announcement_date": "2025-12-30",
@@ -107,6 +108,7 @@
       "homepage": "https://apply.lh.or.kr/",
       "total_households": 120,
       "status": "마감",
+      "subscription_type": "APT",
       "max_profit": 1201850000,
       "schedule": {
         "announcement_date": "2025-12-30",
@@ -180,6 +182,7 @@
       "homepage": "https://apply.lh.or.kr",
       "total_households": 641,
       "status": "마감",
+      "subscription_type": "APT",
       "max_profit": 906540000,
       "schedule": {
         "announcement_date": "2025-12-31",
@@ -273,6 +276,7 @@
       "homepage": "https://www.신일비아프크레스트.com",
       "total_households": 516,
       "status": "마감",
+      "subscription_type": "APT",
       "max_profit": 830700000,
       "schedule": {
         "announcement_date": "2025-12-19",
@@ -426,6 +430,7 @@
       "homepage": "https://www.신일비아프크레스트.com",
       "total_households": 444,
       "status": "마감",
+      "subscription_type": "APT",
       "max_profit": 830700000,
       "schedule": {
         "announcement_date": "2025-12-19",
@@ -559,6 +564,7 @@
       "homepage": "http://www.daelasoo-ocean.com",
       "total_households": 297,
       "status": "마감",
+      "subscription_type": "APT",
       "max_profit": 813500000,
       "schedule": {
         "announcement_date": "2025-12-22",
@@ -652,6 +658,7 @@
       "homepage": "http://www.detre-yj1.co.kr",
       "total_households": 903,
       "status": "마감",
+      "subscription_type": "APT",
       "max_profit": 750300000,
       "schedule": {
         "announcement_date": "2025-12-19",
@@ -825,6 +832,7 @@
       "homepage": "https://apply.lh.or.kr",
       "total_households": 309,
       "status": "마감",
+      "subscription_type": "APT",
       "max_profit": 492330000,
       "schedule": {
         "announcement_date": "2025-12-29",
@@ -898,6 +906,7 @@
       "homepage": "http://apply.lh.or.kr",
       "total_households": 260,
       "status": "마감",
+      "subscription_type": "APT",
       "max_profit": 252180000,
       "schedule": {
         "announcement_date": "2025-12-30",
@@ -991,6 +1000,7 @@
       "homepage": "https://apply.lh.or.kr",
       "total_households": 491,
       "status": "마감",
+      "subscription_type": "APT",
       "max_profit": 171290000,
       "schedule": {
         "announcement_date": "2025-11-27",
@@ -1084,6 +1094,7 @@
       "homepage": "https://hn1.lynn.co.kr",
       "total_households": 556,
       "status": "마감",
+      "subscription_type": "APT",
       "max_profit": 154290799,
       "schedule": {
         "announcement_date": "2025-11-21",
@@ -1167,6 +1178,308 @@
       ]
     },
     {
+      "id": "2026910039",
+      "name": "루원시티 대성베르힐 더 센트로",
+      "region": "인천",
+      "sido": "인천",
+      "sigungu": "",
+      "address": "인천광역시 서구 서곶로 50 (루원시티 대성베르힐 더 센트로)",
+      "constructor": "디에스종합건설 주식회사",
+      "homepage": "https://www.verthill.com",
+      "total_households": 9,
+      "status": "접수마감",
+      "subscription_type": "무순위/잔여",
+      "max_profit": 113000000,
+      "schedule": {
+        "announcement_date": "2026-02-13",
+        "special_supply_date": null,
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-02-24",
+        "contract_start": "2026-04-03",
+        "contract_end": "2026-04-03",
+        "move_in_date": "202606",
+        "receipt_start": "",
+        "receipt_end": ""
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "무순위",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910039&pblancNo=2026910039"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": [
+        {
+          "housing_type": "084.8036A",
+          "supply_area": 0,
+          "exclusive_area": 84.8036,
+          "supply_price": 455000000,
+          "price_per_pyeong": 455000000,
+          "market_price": 550000000,
+          "profit": 95000000,
+          "household_count": 1,
+          "price_source": "실거래 중위가 (1571건)",
+          "funding": {
+            "down_payment": 45500000,
+            "interim_payment": 273000000,
+            "balance": 136500000,
+            "estimated_jeonse": 375739388,
+            "actual_investment": 45500000,
+            "interim_interest": 21840000,
+            "jeonse_ratio": 0.683162524493
+          }
+        },
+        {
+          "housing_type": "084.6059B",
+          "supply_area": 0,
+          "exclusive_area": 84.6059,
+          "supply_price": 435000000,
+          "price_per_pyeong": 435000000,
+          "market_price": 548000000,
+          "profit": 113000000,
+          "household_count": 4,
+          "price_source": "실거래 중위가 (1579건)",
+          "funding": {
+            "down_payment": 43500000,
+            "interim_payment": 261000000,
+            "balance": 130500000,
+            "estimated_jeonse": 374373063,
+            "actual_investment": 43500000,
+            "interim_interest": 20880000,
+            "jeonse_ratio": 0.683162524493
+          }
+        },
+        {
+          "housing_type": "159.0584A",
+          "supply_area": 0,
+          "exclusive_area": 159.0584,
+          "supply_price": 834000000,
+          "price_per_pyeong": 834000000,
+          "market_price": 410000000,
+          "profit": -424000000,
+          "household_count": 2,
+          "price_source": "실거래 중위가 (18건)",
+          "funding": {
+            "down_payment": 83400000,
+            "interim_payment": 500400000,
+            "balance": 250200000,
+            "estimated_jeonse": 280096635,
+            "actual_investment": 83400000,
+            "interim_interest": 40032000,
+            "jeonse_ratio": 0.683162524493
+          }
+        },
+        {
+          "housing_type": "159.2562B",
+          "supply_area": 0,
+          "exclusive_area": 159.2562,
+          "supply_price": 828000000,
+          "price_per_pyeong": 828000000,
+          "market_price": 410000000,
+          "profit": -418000000,
+          "household_count": 1,
+          "price_source": "실거래 중위가 (18건)",
+          "funding": {
+            "down_payment": 82800000,
+            "interim_payment": 496800000,
+            "balance": 248400000,
+            "estimated_jeonse": 280096635,
+            "actual_investment": 82800000,
+            "interim_interest": 39744000,
+            "jeonse_ratio": 0.683162524493
+          }
+        },
+        {
+          "housing_type": "159.1851C",
+          "supply_area": 0,
+          "exclusive_area": 159.1851,
+          "supply_price": 833000000,
+          "price_per_pyeong": 833000000,
+          "market_price": 410000000,
+          "profit": -423000000,
+          "household_count": 1,
+          "price_source": "실거래 중위가 (18건)",
+          "funding": {
+            "down_payment": 83300000,
+            "interim_payment": 499800000,
+            "balance": 249900000,
+            "estimated_jeonse": 280096635,
+            "actual_investment": 83300000,
+            "interim_interest": 39984000,
+            "jeonse_ratio": 0.683162524493
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026910043",
+      "name": "화성 동탄2 A107BL 숨마데시앙",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 화성시 동탄구 동탄신리천로3길 71, 숨마 데시앙(동탄2택지개발지구 A107BL)",
+      "constructor": "케이비부동산신탁 주식회사",
+      "homepage": "http://동탄-a106-a107.com",
+      "total_households": 1,
+      "status": "접수마감",
+      "subscription_type": "무순위/잔여",
+      "max_profit": 92447299,
+      "schedule": {
+        "announcement_date": "2026-02-20",
+        "special_supply_date": null,
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-03-04",
+        "contract_start": "2026-03-11",
+        "contract_end": "2026-03-13",
+        "move_in_date": "202603",
+        "receipt_start": "",
+        "receipt_end": ""
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "무순위",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910043&pblancNo=2026910043"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": [
+        {
+          "housing_type": "099.7498A",
+          "supply_area": 0,
+          "exclusive_area": 99.7498,
+          "supply_price": 626600000,
+          "price_per_pyeong": 626600000,
+          "market_price": 719047299,
+          "profit": 92447299,
+          "household_count": 1,
+          "price_source": "KB 경기 평균",
+          "funding": {
+            "down_payment": 62660000,
+            "interim_payment": 375960000,
+            "balance": 187980000,
+            "estimated_jeonse": 479341738,
+            "actual_investment": 62660000,
+            "interim_interest": 30076800,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026910044",
+      "name": "화성 동탄2 A106BL 아테라 파밀리에(구 어울림 파밀리에)",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 화성시 동탄구 동탄신리천로3길 59, 아테라 파밀리에(동탄2택지개발지구 A106BL)",
+      "constructor": "케이비부동산신탁 주식회사",
+      "homepage": "http://동탄-a106-a107.com",
+      "total_households": 1,
+      "status": "접수마감",
+      "subscription_type": "무순위/잔여",
+      "max_profit": 74775070,
+      "schedule": {
+        "announcement_date": "2026-02-20",
+        "special_supply_date": null,
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-03-03",
+        "contract_start": "2026-03-11",
+        "contract_end": "2026-03-13",
+        "move_in_date": "202603",
+        "receipt_start": "",
+        "receipt_end": ""
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "무순위",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910044&pblancNo=2026910044"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": [
+        {
+          "housing_type": "099.6288A",
+          "supply_area": 0,
+          "exclusive_area": 99.6288,
+          "supply_price": 643400000,
+          "price_per_pyeong": 643400000,
+          "market_price": 718175070,
+          "profit": 74775070,
+          "household_count": 1,
+          "price_source": "KB 경기 평균",
+          "funding": {
+            "down_payment": 64340000,
+            "interim_payment": 386040000,
+            "balance": 193020000,
+            "estimated_jeonse": 478760280,
+            "actual_investment": 64340000,
+            "interim_interest": 30883200,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        }
+      ]
+    },
+    {
       "id": "2025000645",
       "name": "이천시 장호원읍 5년 공공건설임대주택(카사펠리스이천) 임차인모집",
       "region": "경기",
@@ -1177,6 +1490,7 @@
       "homepage": "https://fortunaicheon-rentapart.co.kr",
       "total_households": 930,
       "status": "접수예정",
+      "subscription_type": "APT",
       "max_profit": 18000000,
       "schedule": {
         "announcement_date": "2026-02-20",
@@ -1470,6 +1784,7 @@
       "homepage": "https://www.harrington495.kr",
       "total_households": 61,
       "status": "접수예정",
+      "subscription_type": "APT",
       "max_profit": 0,
       "schedule": {
         "announcement_date": "2026-02-20",
@@ -1583,6 +1898,7 @@
       "homepage": "http://www.osan-hillstate.co.kr",
       "total_households": 9,
       "status": "접수예정",
+      "subscription_type": "APT",
       "max_profit": 0,
       "schedule": {
         "announcement_date": "2026-02-19",
@@ -1696,6 +2012,7 @@
       "homepage": "http://양주더플래티넘.kr",
       "total_households": 112,
       "status": "접수예정",
+      "subscription_type": "APT",
       "max_profit": 0,
       "schedule": {
         "announcement_date": "2026-02-13",
@@ -1869,6 +2186,7 @@
       "homepage": "https://더플래티넘온수역.com",
       "total_households": 230,
       "status": "접수예정",
+      "subscription_type": "APT",
       "max_profit": 0,
       "schedule": {
         "announcement_date": "2026-02-13",
@@ -1982,6 +2300,7 @@
       "homepage": "https://www.elife.co.kr/guri",
       "total_households": 1530,
       "status": "접수예정",
+      "subscription_type": "APT",
       "max_profit": 0,
       "schedule": {
         "announcement_date": "2026-02-11",
@@ -2199,6 +2518,661 @@
             "estimated_jeonse": 599971051,
             "actual_investment": 183650000,
             "interim_interest": 88152000,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026950012",
+      "name": "힐스테이트 용인포레(기업형민간임대)",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 용인시 처인구 삼가동 447-15번지 일원",
+      "constructor": "(주)동남현대카이트제십호기업형임대위탁관리부동산투자회사",
+      "homepage": "https://www.hillstate-hec.co.kr/s/yongin",
+      "total_households": 47,
+      "status": "접수마감",
+      "subscription_type": "오피스텔/도시형",
+      "max_profit": 0,
+      "schedule": {
+        "announcement_date": "2026-02-13",
+        "special_supply_date": "",
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-02-24",
+        "contract_start": "2026-02-25",
+        "contract_end": "2026-02-27",
+        "move_in_date": "202602",
+        "receipt_start": "",
+        "receipt_end": ""
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "도시형/오피스텔/생활숙박시설/민간임대",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950012&pblancNo=2026950012&houseSecd=02"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": []
+    },
+    {
+      "id": "2026950011",
+      "name": "수원성 중흥S-클래스",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 수원시 팔달구 지동 349-1번지 일원 (제115-10구역 주택재개발 정비사업)",
+      "constructor": "제115다시10구역주택재개발정비사업조합",
+      "homepage": "https://www.s-class.co.kr/",
+      "total_households": 59,
+      "status": "접수마감",
+      "subscription_type": "오피스텔/도시형",
+      "max_profit": 0,
+      "schedule": {
+        "announcement_date": "2026-02-12",
+        "special_supply_date": "",
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-02-25",
+        "contract_start": "2026-02-26",
+        "contract_end": "2026-02-28",
+        "move_in_date": "202603",
+        "receipt_start": "",
+        "receipt_end": ""
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "도시형/오피스텔/생활숙박시설/민간임대",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950011&pblancNo=2026950011&houseSecd=02"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": []
+    },
+    {
+      "id": "2026950008",
+      "name": "광명 퍼스트 스위첸",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 광명시 광명동 344번지",
+      "constructor": "파빌리온광명피에프브이 주식회사",
+      "homepage": "http://kccswitzen.com/",
+      "total_households": 5,
+      "status": "접수마감",
+      "subscription_type": "오피스텔/도시형",
+      "max_profit": 0,
+      "schedule": {
+        "announcement_date": "2026-02-06",
+        "special_supply_date": "",
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-02-25",
+        "contract_start": "2026-02-28",
+        "contract_end": "2026-02-28",
+        "move_in_date": "202604",
+        "receipt_start": "",
+        "receipt_end": ""
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "도시형/오피스텔/생활숙박시설/민간임대",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950008&pblancNo=2026950008&houseSecd=02"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": []
+    },
+    {
+      "id": "2026910047",
+      "name": "고덕 자연앤 하우스디(A4BL)(민영)(4차)",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 평택시 고덕동 1858-2번지(고덕국제화계획지구 A4BL)",
+      "constructor": "경기주택도시공사",
+      "homepage": "http://gd-hausd.com/",
+      "total_households": 47,
+      "status": "접수마감",
+      "subscription_type": "무순위/잔여",
+      "max_profit": 0,
+      "schedule": {
+        "announcement_date": "2026-02-20",
+        "special_supply_date": null,
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-03-03",
+        "contract_start": "2026-03-12",
+        "contract_end": "2026-03-13",
+        "move_in_date": "202802",
+        "receipt_start": "",
+        "receipt_end": ""
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "무순위",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910047&pblancNo=2026910047"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": [
+        {
+          "housing_type": "098.7952 ",
+          "supply_area": 0,
+          "exclusive_area": 98.7952,
+          "supply_price": 629000000,
+          "price_per_pyeong": 629000000,
+          "market_price": 490000000,
+          "profit": -139000000,
+          "household_count": 47,
+          "price_source": "실거래 중위가 (69건)",
+          "funding": {
+            "down_payment": 62900000,
+            "interim_payment": 377400000,
+            "balance": 188700000,
+            "estimated_jeonse": 326650906,
+            "actual_investment": 62900000,
+            "interim_interest": 30192000,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026910042",
+      "name": "북오산자이 리버블시티",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 오산시 내삼미동 905 일원",
+      "constructor": "한국투자부동산신탁 주식회사",
+      "homepage": "https://www.xi.co.kr/osan",
+      "total_households": 90,
+      "status": "접수마감",
+      "subscription_type": "무순위/잔여",
+      "max_profit": 0,
+      "schedule": {
+        "announcement_date": "2026-02-20",
+        "special_supply_date": null,
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-03-03",
+        "contract_start": "2026-03-10",
+        "contract_end": "2026-03-10",
+        "move_in_date": "202903",
+        "receipt_start": "",
+        "receipt_end": ""
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "무순위",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910042&pblancNo=2026910042"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": [
+        {
+          "housing_type": "059.9984B",
+          "supply_area": 0,
+          "exclusive_area": 59.9984,
+          "supply_price": 481700000,
+          "price_per_pyeong": 481700000,
+          "market_price": 267000000,
+          "profit": -214700000,
+          "household_count": 89,
+          "price_source": "실거래 중위가 (395건)",
+          "funding": {
+            "down_payment": 48170000,
+            "interim_payment": 289020000,
+            "balance": 144510000,
+            "estimated_jeonse": 177991412,
+            "actual_investment": 48170000,
+            "interim_interest": 23121600,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        },
+        {
+          "housing_type": "126.2497P",
+          "supply_area": 0,
+          "exclusive_area": 126.2497,
+          "supply_price": 1421400000,
+          "price_per_pyeong": 1421400000,
+          "market_price": 429500000,
+          "profit": -991900000,
+          "household_count": 1,
+          "price_source": "실거래 중위가 (46건)",
+          "funding": {
+            "down_payment": 142140000,
+            "interim_payment": 852840000,
+            "balance": 426420000,
+            "estimated_jeonse": 286319518,
+            "actual_investment": 282240482,
+            "interim_interest": 68227200,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026910045",
+      "name": "더샵 분당센트로",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 성남시 분당구 미금로 66",
+      "constructor": "무지개마을4단지리모델링주택조합",
+      "homepage": "https://더샵분당센트로.kr",
+      "total_households": 50,
+      "status": "접수마감",
+      "subscription_type": "무순위/잔여",
+      "max_profit": 0,
+      "schedule": {
+        "announcement_date": "2026-02-19",
+        "special_supply_date": null,
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-02-27",
+        "contract_start": "2026-03-03",
+        "contract_end": "2026-03-03",
+        "move_in_date": "202704",
+        "receipt_start": "",
+        "receipt_end": ""
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "무순위",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910045&pblancNo=2026910045"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": [
+        {
+          "housing_type": "060.9400C",
+          "supply_area": 0,
+          "exclusive_area": 60.94,
+          "supply_price": 1492000000,
+          "price_per_pyeong": 1492000000,
+          "market_price": 1215000000,
+          "profit": -277000000,
+          "household_count": 1,
+          "price_source": "실거래 중위가 (551건)",
+          "funding": {
+            "down_payment": 149200000,
+            "interim_payment": 895200000,
+            "balance": 447600000,
+            "estimated_jeonse": 809960920,
+            "actual_investment": 149200000,
+            "interim_interest": 71616000,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        },
+        {
+          "housing_type": "071.5900D",
+          "supply_area": 0,
+          "exclusive_area": 71.59,
+          "supply_price": 1822000000,
+          "price_per_pyeong": 1822000000,
+          "market_price": 1431500000,
+          "profit": -390500000,
+          "household_count": 1,
+          "price_source": "실거래 중위가 (194건)",
+          "funding": {
+            "down_payment": 182200000,
+            "interim_payment": 1093200000,
+            "balance": 546600000,
+            "estimated_jeonse": 954287289,
+            "actual_investment": 182200000,
+            "interim_interest": 87456000,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        },
+        {
+          "housing_type": "073.5900B",
+          "supply_area": 0,
+          "exclusive_area": 73.59,
+          "supply_price": 1833000000,
+          "price_per_pyeong": 1833000000,
+          "market_price": 1442500000,
+          "profit": -390500000,
+          "household_count": 2,
+          "price_source": "실거래 중위가 (212건)",
+          "funding": {
+            "down_payment": 183300000,
+            "interim_payment": 1099800000,
+            "balance": 549900000,
+            "estimated_jeonse": 961620269,
+            "actual_investment": 183300000,
+            "interim_interest": 87984000,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        },
+        {
+          "housing_type": "078.4400N",
+          "supply_area": 0,
+          "exclusive_area": 78.44,
+          "supply_price": 1997000000,
+          "price_per_pyeong": 1997000000,
+          "market_price": 1540000000,
+          "profit": -457000000,
+          "household_count": 20,
+          "price_source": "실거래 중위가 (667건)",
+          "funding": {
+            "down_payment": 199700000,
+            "interim_payment": 1198200000,
+            "balance": 599100000,
+            "estimated_jeonse": 1026617133,
+            "actual_investment": 199700000,
+            "interim_interest": 95856000,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        },
+        {
+          "housing_type": "084.0800N",
+          "supply_area": 0,
+          "exclusive_area": 84.08,
+          "supply_price": 2180000000,
+          "price_per_pyeong": 2180000000,
+          "market_price": 1580000000,
+          "profit": -600000000,
+          "household_count": 26,
+          "price_source": "실거래 중위가 (593건)",
+          "funding": {
+            "down_payment": 218000000,
+            "interim_payment": 1308000000,
+            "balance": 654000000,
+            "estimated_jeonse": 1053282513,
+            "actual_investment": 218000000,
+            "interim_interest": 104640000,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026910037",
+      "name": "수지자이 에디시온(2차)",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 용인시 수지구 풍덕천동 71-1번지 일원",
+      "constructor": "한국자산신탁(주)",
+      "homepage": "https://www.xi.co.kr/SJX",
+      "total_households": 214,
+      "status": "접수마감",
+      "subscription_type": "무순위/잔여",
+      "max_profit": 0,
+      "schedule": {
+        "announcement_date": "2026-02-13",
+        "special_supply_date": null,
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-02-26",
+        "contract_start": "2026-03-04",
+        "contract_end": "2026-03-04",
+        "move_in_date": "202902",
+        "receipt_start": "",
+        "receipt_end": ""
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "무순위",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910037&pblancNo=2026910037"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": [
+        {
+          "housing_type": "084.9772A",
+          "supply_area": 0,
+          "exclusive_area": 84.9772,
+          "supply_price": 1565000000,
+          "price_per_pyeong": 1565000000,
+          "market_price": 600000000,
+          "profit": -965000000,
+          "household_count": 55,
+          "price_source": "실거래 중위가 (2099건)",
+          "funding": {
+            "down_payment": 156500000,
+            "interim_payment": 939000000,
+            "balance": 469500000,
+            "estimated_jeonse": 399980701,
+            "actual_investment": 226019299,
+            "interim_interest": 75120000,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        },
+        {
+          "housing_type": "084.9892B",
+          "supply_area": 0,
+          "exclusive_area": 84.9892,
+          "supply_price": 1492000000,
+          "price_per_pyeong": 1492000000,
+          "market_price": 600000000,
+          "profit": -892000000,
+          "household_count": 28,
+          "price_source": "실거래 중위가 (2098건)",
+          "funding": {
+            "down_payment": 149200000,
+            "interim_payment": 895200000,
+            "balance": 447600000,
+            "estimated_jeonse": 399980701,
+            "actual_investment": 196819299,
+            "interim_interest": 71616000,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        },
+        {
+          "housing_type": "084.9875C",
+          "supply_area": 0,
+          "exclusive_area": 84.9875,
+          "supply_price": 1549000000,
+          "price_per_pyeong": 1549000000,
+          "market_price": 600000000,
+          "profit": -949000000,
+          "household_count": 102,
+          "price_source": "실거래 중위가 (2098건)",
+          "funding": {
+            "down_payment": 154900000,
+            "interim_payment": 929400000,
+            "balance": 464700000,
+            "estimated_jeonse": 399980701,
+            "actual_investment": 219619299,
+            "interim_interest": 74352000,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        },
+        {
+          "housing_type": "084.9671D",
+          "supply_area": 0,
+          "exclusive_area": 84.9671,
+          "supply_price": 1513000000,
+          "price_per_pyeong": 1513000000,
+          "market_price": 600000000,
+          "profit": -913000000,
+          "household_count": 27,
+          "price_source": "실거래 중위가 (2107건)",
+          "funding": {
+            "down_payment": 151300000,
+            "interim_payment": 907800000,
+            "balance": 453900000,
+            "estimated_jeonse": 399980701,
+            "actual_investment": 205219299,
+            "interim_interest": 72624000,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        },
+        {
+          "housing_type": "144.8653P",
+          "supply_area": 0,
+          "exclusive_area": 144.8653,
+          "supply_price": 5000000000,
+          "price_per_pyeong": 5000000000,
+          "market_price": 625000000,
+          "profit": -4375000000,
+          "household_count": 1,
+          "price_source": "실거래 중위가 (140건)",
+          "funding": {
+            "down_payment": 500000000,
+            "interim_payment": 3000000000,
+            "balance": 1500000000,
+            "estimated_jeonse": 416646563,
+            "actual_investment": 1583353437,
+            "interim_interest": 240000000,
+            "jeonse_ratio": 0.6666345022119999
+          }
+        },
+        {
+          "housing_type": "155.7575P",
+          "supply_area": 0,
+          "exclusive_area": 155.7575,
+          "supply_price": 5200000000,
+          "price_per_pyeong": 5200000000,
+          "market_price": 602500000,
+          "profit": -4597500000,
+          "household_count": 1,
+          "price_source": "실거래 중위가 (104건)",
+          "funding": {
+            "down_payment": 520000000,
+            "interim_payment": 3120000000,
+            "balance": 1560000000,
+            "estimated_jeonse": 401647287,
+            "actual_investment": 1678352713,
+            "interim_interest": 249600000,
             "jeonse_ratio": 0.6666345022119999
           }
         }
