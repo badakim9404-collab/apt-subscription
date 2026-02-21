@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>부동산 청약 대시보드</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <h1>부동산 청약 <span>대시보드</span></h1>
+      <div class="updated-at" id="updatedAt">업데이트 확인 중...</div>
+    </div>
+  </header>
+
+  <!-- Summary -->
+  <div class="summary-bar" id="summaryBar">
+    <div class="summary-stat">
+      <div class="label">전체 건수</div>
+      <div class="value blue" id="totalCount">-</div>
+    </div>
+    <div class="summary-stat">
+      <div class="label">접수예정</div>
+      <div class="value green" id="upcomingCount">-</div>
+    </div>
+    <div class="summary-stat">
+      <div class="label">접수중</div>
+      <div class="value orange" id="openCount">-</div>
+    </div>
+    <div class="summary-stat">
+      <div class="label">최대 예상차익</div>
+      <div class="value green" id="maxProfit">-</div>
+    </div>
+  </div>
+
+  <!-- Filters -->
+  <div class="filters" id="filters">
+    <div class="filter-group">
+      <span class="label">상태</span>
+      <button class="filter-btn active" data-filter="status" data-value="all">전체</button>
+      <button class="filter-btn" data-filter="status" data-value="접수예정">접수예정</button>
+      <button class="filter-btn" data-filter="status" data-value="접수중">접수중</button>
+      <button class="filter-btn" data-filter="status" data-value="접수마감">접수마감</button>
+    </div>
+    <div class="filter-group">
+      <span class="label">지역</span>
+      <button class="filter-btn active" data-filter="region" data-value="all">전체</button>
+      <button class="filter-btn" data-filter="region" data-value="서울">서울</button>
+      <button class="filter-btn" data-filter="region" data-value="경기">경기</button>
+      <button class="filter-btn" data-filter="region" data-value="인천">인천</button>
+    </div>
+    <select class="sort-select" id="sortSelect">
+      <option value="profit-desc">차익 높은순</option>
+      <option value="profit-asc">차익 낮은순</option>
+      <option value="date-asc">접수일 빠른순</option>
+      <option value="date-desc">접수일 늦은순</option>
+    </select>
+  </div>
+
+  <!-- Card List -->
+  <div class="card-list" id="cardList">
+    <div class="loading">
+      <div class="loading-spinner"></div>
+      <div>데이터를 불러오는 중...</div>
+    </div>
+  </div>
+
+  <!-- Detail Overlay -->
+  <div class="detail-overlay" id="detailOverlay">
+    <div class="detail-panel" id="detailPanel"></div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+requests>=2.31.0
+PublicDataReader>=0.9.0
+pandas>=2.0.0
+xmltodict>=0.13.0
