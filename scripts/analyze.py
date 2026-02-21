@@ -105,9 +105,9 @@ def _parse_exclusive_area(model: dict) -> float:
 
 def _analyze_model(model: dict, sido: str, address: str = "", regulations: dict | None = None) -> dict | None:
     """개별 주택형 분석."""
-    # 분양가 (최고가, 만원 단위)
+    # 분양가 (만원 단위) — APT: LTTOT_TOP_AMOUNT, 오피스텔: SUPLY_AMOUNT
     try:
-        supply_price_raw = model.get("LTTOT_TOP_AMOUNT", "0")
+        supply_price_raw = model.get("LTTOT_TOP_AMOUNT") or model.get("SUPLY_AMOUNT") or "0"
         supply_price_str = str(supply_price_raw).replace(",", "").strip()
         supply_price = int(float(supply_price_str)) * 10000  # 만원 → 원
     except (ValueError, TypeError):
@@ -122,6 +122,7 @@ def _analyze_model(model: dict, sido: str, address: str = "", regulations: dict 
     except (ValueError, TypeError):
         supply_area = 0
 
+    # 전용면적 — APT: EXCLUSE_AR/HOUSE_TY 파싱, 오피스텔: EXCLUSE_AR
     exclusive_area = _parse_exclusive_area(model)
     if exclusive_area <= 0:
         return None
@@ -150,7 +151,7 @@ def _analyze_model(model: dict, sido: str, address: str = "", regulations: dict 
         supply_count = 0
 
     return {
-        "housing_type": model.get("HOUSE_TY", ""),
+        "housing_type": model.get("HOUSE_TY") or model.get("TP") or "",
         "supply_area": supply_area,
         "exclusive_area": exclusive_area,
         "supply_price": supply_price,
