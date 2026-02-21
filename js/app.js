@@ -5,8 +5,8 @@
   'use strict';
 
   let allItems = [];
-  let activeFilters = { status: 'all', region: 'all' };
-  let activeSort = 'profit-desc';
+  let activeFilters = { status: 'upcoming', region: 'all' };
+  let activeSort = 'date-asc';
 
   // ===== 초기화 =====
   document.addEventListener('DOMContentLoaded', init);
@@ -144,9 +144,9 @@
               <div class="value">${formatMoney(bestModel.market_price)}</div>
             </div>
           ` : ''}
-          <div class="profit-metric">
-            <div class="label">예상 최대 차익</div>
-            <div class="value">${formatMoney(item.max_profit)}</div>
+          <div class="profit-metric" ${item.max_profit <= 0 ? 'style="background:var(--bg-secondary);border-color:var(--border)"' : ''}>
+            <div class="label" ${item.max_profit <= 0 ? 'style="color:var(--text-muted)"' : ''}>예상 최대 차익</div>
+            <div class="value" ${item.max_profit <= 0 ? 'style="color:var(--text-secondary);text-shadow:none"' : ''}>${item.max_profit > 0 ? formatMoney(item.max_profit) : '시세 분석중'}</div>
           </div>
         </div>
         <div class="card-dates">
@@ -401,7 +401,11 @@
   // ===== 필터/정렬 =====
   function applyFilters(items) {
     return items.filter(item => {
-      if (activeFilters.status !== 'all' && item.status !== activeFilters.status) return false;
+      if (activeFilters.status === 'upcoming') {
+        if (item.status !== '접수예정' && item.status !== '접수중') return false;
+      } else if (activeFilters.status !== 'all' && item.status !== activeFilters.status) {
+        return false;
+      }
       if (activeFilters.region !== 'all' && item.region !== activeFilters.region) return false;
       return true;
     });

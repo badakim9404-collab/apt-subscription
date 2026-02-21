@@ -10,7 +10,11 @@ logger = logging.getLogger(__name__)
 
 
 def analyze_subscriptions(subscriptions: list[dict]) -> list[dict]:
-    """청약 목록을 분석하여 차익 >= 1억 건만 반환."""
+    """청약 목록 분석.
+
+    - 접수예정/접수중: 차익 무관하게 전부 포함
+    - 접수마감/마감: 차익 1억 이상만 포함
+    """
     results = []
 
     for idx, item in enumerate(subscriptions):
@@ -29,6 +33,10 @@ def analyze_subscriptions(subscriptions: list[dict]) -> list[dict]:
             or ""
         )
 
+        # 상태 미리 판단
+        status = _determine_status(item)
+        is_upcoming = status in ("접수예정", "접수중")
+
         # 규제 정보
         regulations = evaluate_regulations(item)
 
@@ -46,16 +54,19 @@ def analyze_subscriptions(subscriptions: list[dict]) -> list[dict]:
                 if result["profit"] > max_profit:
                     max_profit = result["profit"]
 
-        if max_profit < MIN_PROFIT_THRESHOLD:
-            logger.info(f"  → 최대차익 {max_profit/10000:,.0f}만원 < 1억, 제외")
+        # 접수예정/접수중 → 무조건 포함, 마감 → 1억+ 필터
+        if not is_upcoming and max_profit < MIN_PROFIT_THRESHOLD:
+            logger.info(f"  → 마감 + 최대차익 {max_profit/10000:,.0f}만원 < 1억, 제외")
             continue
 
-        # 결과 구성
+        # 분석 모델이 없어도 접수예정이면 포함 (분양가 정보만 표시)
         entry = _build_entry(item, analyzed_models, regulations, max_profit)
         results.append(entry)
-        logger.info(f"  → 최대차익 {max_profit/10000:,.0f}만원 ✓")
+        label = "예정" if is_upcoming else "차익"
+        logger.info(f"  → {label} | 최대차익 {max_profit/10000:,.0f}만원 ✓")
 
-    logger.info(f"[분석완료] {len(results)}건 통과 (차익 1억 이상)")
+    upcoming = sum(1 for r in results if r["status"] in ("접수예정", "접수중"))
+    logger.info(f"[분석완료] {len(results)}건 (접수예정/중 {upcoming}건, 마감+차익1억 {len(results)-upcoming}건)")
     return results
 
 
