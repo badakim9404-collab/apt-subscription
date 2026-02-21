@@ -55,6 +55,15 @@ def analyze_subscriptions(subscriptions: list[dict]) -> list[dict]:
                 if result["profit"] > max_profit:
                     max_profit = result["profit"]
 
+        # 동일 단지 내 교차 추정 (실거래 → KB 폴백 모델에 적용)
+        analyzed_models = _apply_cross_model_estimation(analyzed_models)
+
+        # 교차 추정 후 max_profit 재계산
+        max_profit = 0
+        for m in analyzed_models:
+            if m["profit"] > max_profit:
+                max_profit = m["profit"]
+
         # 접수예정/접수중 → 무조건 포함, 마감 → 1억+ 필터
         if not is_upcoming and max_profit < MIN_PROFIT_THRESHOLD:
             logger.info(f"  → 마감 + 최대차익 {max_profit/10000:,.0f}만원 < 1억, 제외")
@@ -151,6 +160,41 @@ def _analyze_model(model: dict, sido: str, address: str = "") -> dict | None:
         "price_source": market.get("source", ""),
         "funding": funding,
     }
+
+
+def _apply_cross_model_estimation(analyzed_models: list[dict]) -> list[dict]:
+    """동일 단지 내 실거래 기반 ₩/m² 교차 추정.
+
+    실거래 데이터가 충분한 주택형의 ₩/m²를 사용하여
+    데이터 부족(KB 폴백) 주택형의 시세를 재추정.
+    """
+    if not analyzed_models:
+        return analyzed_models
+
+    # 실거래 기반 모델에서 ₩/m² 수집
+    trade_prices_per_m2 = []
+    for m in analyzed_models:
+        if "실거래" in m.get("price_source", ""):
+            ppm2 = m["market_price"] / m["exclusive_area"]
+            trade_prices_per_m2.append(ppm2)
+
+    if not trade_prices_per_m2:
+        return analyzed_models
+
+    avg_ppm2 = sum(trade_prices_per_m2) / len(trade_prices_per_m2)
+
+    # 실거래 아닌 모델에 교차 추정 적용
+    for m in analyzed_models:
+        if "실거래" not in m.get("price_source", ""):
+            new_market = int(avg_ppm2 * m["exclusive_area"])
+            jeonse_ratio = m["funding"]["jeonse_ratio"]
+            m["market_price"] = new_market
+            m["profit"] = new_market - m["supply_price"]
+            m["price_source"] = f"단지내 m²단가 추정 ({avg_ppm2/10000:.0f}만/m²)"
+            m["funding"] = _calculate_funding(m["supply_price"], new_market, jeonse_ratio)
+            logger.info(f"    → {m['housing_type']} 교차추정: {new_market/100000000:.2f}억 ({avg_ppm2/10000:.0f}만/m²)")
+
+    return analyzed_models
 
 
 def _calculate_funding(supply_price: int, market_price: int, jeonse_ratio: float) -> dict:
