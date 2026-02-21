@@ -59,18 +59,25 @@ def fetch_all_subscriptions() -> list[dict]:
 
 
 def _is_closed(item: dict, now: datetime) -> bool:
-    """이미 마감된 건인지 판단."""
-    receipt_end = item.get("RCEPT_ENDDE", "") or item.get("SUBSCRPT_RCEPT_ENDDE", "") or ""
+    """이미 마감된 건인지 판단. 당첨발표일 전이면 아직 진행 중."""
     winner_date = item.get("PRZWNER_PRESNATN_DE", "")
 
+    try:
+        # 당첨발표일이 아직 안 지났으면 진행 중
+        if winner_date:
+            winner_dt = datetime.strptime(winner_date, "%Y-%m-%d")
+            if now <= winner_dt:
+                return False
+            return True
+    except ValueError:
+        pass
+
+    # 당첨발표일 없으면 접수종료일 기준
+    receipt_end = item.get("RCEPT_ENDDE", "") or item.get("SUBSCRPT_RCEPT_ENDDE", "") or ""
     try:
         if receipt_end:
             end_dt = datetime.strptime(receipt_end, "%Y-%m-%d")
             if now > end_dt:
-                return True
-        if winner_date:
-            winner_dt = datetime.strptime(winner_date, "%Y-%m-%d")
-            if now > winner_dt:
                 return True
     except ValueError:
         pass

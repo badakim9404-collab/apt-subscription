@@ -157,7 +157,7 @@
           </div>
         </div>
         <div class="card-dates">
-          <span>접수: ${item.schedule?.receipt_start || '-'}</span>
+          <span>${item.schedule?.receipt_start ? '접수: ' + item.schedule.receipt_start : (item.schedule?.announcement_date ? '공고: ' + item.schedule.announcement_date : '접수: -')}</span>
           <span>당첨발표: ${item.schedule?.winner_announce_date || '-'}</span>
         </div>
       </div>`;
@@ -428,10 +428,10 @@
         sorted.sort((a, b) => (a.max_profit || 0) - (b.max_profit || 0));
         break;
       case 'date-asc':
-        sorted.sort((a, b) => dateVal(a.schedule?.receipt_start) - dateVal(b.schedule?.receipt_start));
+        sorted.sort((a, b) => bestDate(a) - bestDate(b));
         break;
       case 'date-desc':
-        sorted.sort((a, b) => dateVal(b.schedule?.receipt_start) - dateVal(a.schedule?.receipt_start));
+        sorted.sort((a, b) => bestDate(b) - bestDate(a));
         break;
     }
     return sorted;
@@ -468,6 +468,11 @@
   function dateVal(dateStr) {
     if (!dateStr) return 0;
     return new Date(dateStr).getTime() || 0;
+  }
+
+  function bestDate(item) {
+    const s = item.schedule || {};
+    return dateVal(s.receipt_start) || dateVal(s.announcement_date) || 0;
   }
 
   function getStatusClass(status) {

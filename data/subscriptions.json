@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-21 15:43:02",
-  "total_collected": 56,
-  "total_filtered": 23,
+  "updated_at": "2026-02-21 15:54:03",
+  "total_collected": 60,
+  "total_filtered": 27,
   "items": [
     {
       "id": "2025820020",
@@ -1173,6 +1173,160 @@
             "actual_investment": 45840000,
             "interim_interest": 22003200,
             "jeonse_ratio": 0.6666345022119999
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026910039",
+      "name": "루원시티 대성베르힐 더 센트로",
+      "region": "인천",
+      "sido": "인천",
+      "sigungu": "",
+      "address": "인천광역시 서구 서곶로 50 (루원시티 대성베르힐 더 센트로)",
+      "constructor": "디에스종합건설 주식회사",
+      "homepage": "https://www.verthill.com",
+      "total_households": 9,
+      "status": "접수마감",
+      "subscription_type": "무순위/잔여",
+      "max_profit": 113000000,
+      "schedule": {
+        "announcement_date": "2026-02-13",
+        "special_supply_date": null,
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-02-24",
+        "contract_start": "2026-04-03",
+        "contract_end": "2026-04-03",
+        "move_in_date": "202606",
+        "receipt_start": "2026-02-19",
+        "receipt_end": "2026-02-19"
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "무순위",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910039&pblancNo=2026910039"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": [
+        {
+          "housing_type": "084.8036A",
+          "supply_area": 0,
+          "exclusive_area": 84.8036,
+          "supply_price": 455000000,
+          "price_per_pyeong": 455000000,
+          "market_price": 550000000,
+          "profit": 95000000,
+          "household_count": 1,
+          "price_source": "실거래 중위가 (1571건)",
+          "funding": {
+            "down_payment": 45500000,
+            "interim_payment": 273000000,
+            "balance": 136500000,
+            "estimated_jeonse": 375739388,
+            "actual_investment": 45500000,
+            "interim_interest": 21840000,
+            "jeonse_ratio": 0.683162524493
+          }
+        },
+        {
+          "housing_type": "084.6059B",
+          "supply_area": 0,
+          "exclusive_area": 84.6059,
+          "supply_price": 435000000,
+          "price_per_pyeong": 435000000,
+          "market_price": 548000000,
+          "profit": 113000000,
+          "household_count": 4,
+          "price_source": "실거래 중위가 (1579건)",
+          "funding": {
+            "down_payment": 43500000,
+            "interim_payment": 261000000,
+            "balance": 130500000,
+            "estimated_jeonse": 374373063,
+            "actual_investment": 43500000,
+            "interim_interest": 20880000,
+            "jeonse_ratio": 0.683162524493
+          }
+        },
+        {
+          "housing_type": "159.0584A",
+          "supply_area": 0,
+          "exclusive_area": 159.0584,
+          "supply_price": 834000000,
+          "price_per_pyeong": 834000000,
+          "market_price": 410000000,
+          "profit": -424000000,
+          "household_count": 2,
+          "price_source": "실거래 중위가 (18건)",
+          "funding": {
+            "down_payment": 83400000,
+            "interim_payment": 500400000,
+            "balance": 250200000,
+            "estimated_jeonse": 280096635,
+            "actual_investment": 83400000,
+            "interim_interest": 40032000,
+            "jeonse_ratio": 0.683162524493
+          }
+        },
+        {
+          "housing_type": "159.2562B",
+          "supply_area": 0,
+          "exclusive_area": 159.2562,
+          "supply_price": 828000000,
+          "price_per_pyeong": 828000000,
+          "market_price": 410000000,
+          "profit": -418000000,
+          "household_count": 1,
+          "price_source": "실거래 중위가 (18건)",
+          "funding": {
+            "down_payment": 82800000,
+            "interim_payment": 496800000,
+            "balance": 248400000,
+            "estimated_jeonse": 280096635,
+            "actual_investment": 82800000,
+            "interim_interest": 39744000,
+            "jeonse_ratio": 0.683162524493
+          }
+        },
+        {
+          "housing_type": "159.1851C",
+          "supply_area": 0,
+          "exclusive_area": 159.1851,
+          "supply_price": 833000000,
+          "price_per_pyeong": 833000000,
+          "market_price": 410000000,
+          "profit": -423000000,
+          "household_count": 1,
+          "price_source": "실거래 중위가 (18건)",
+          "funding": {
+            "down_payment": 83300000,
+            "interim_payment": 499800000,
+            "balance": 249900000,
+            "estimated_jeonse": 280096635,
+            "actual_investment": 83300000,
+            "interim_interest": 39984000,
+            "jeonse_ratio": 0.683162524493
           }
         }
       ]
@@ -2368,6 +2522,165 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026950012",
+      "name": "힐스테이트 용인포레(기업형민간임대)",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 용인시 처인구 삼가동 447-15번지 일원",
+      "constructor": "(주)동남현대카이트제십호기업형임대위탁관리부동산투자회사",
+      "homepage": "https://www.hillstate-hec.co.kr/s/yongin",
+      "total_households": 47,
+      "status": "접수마감",
+      "subscription_type": "오피스텔/도시형",
+      "max_profit": 0,
+      "schedule": {
+        "announcement_date": "2026-02-13",
+        "special_supply_date": "",
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-02-24",
+        "contract_start": "2026-02-25",
+        "contract_end": "2026-02-27",
+        "move_in_date": "202602",
+        "receipt_start": "2026-02-19",
+        "receipt_end": "2026-02-19"
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "도시형/오피스텔/생활숙박시설/민간임대",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950012&pblancNo=2026950012&houseSecd=02"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": []
+    },
+    {
+      "id": "2026950011",
+      "name": "수원성 중흥S-클래스",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 수원시 팔달구 지동 349-1번지 일원 (제115-10구역 주택재개발 정비사업)",
+      "constructor": "제115다시10구역주택재개발정비사업조합",
+      "homepage": "https://www.s-class.co.kr/",
+      "total_households": 59,
+      "status": "접수마감",
+      "subscription_type": "오피스텔/도시형",
+      "max_profit": 0,
+      "schedule": {
+        "announcement_date": "2026-02-12",
+        "special_supply_date": "",
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-02-25",
+        "contract_start": "2026-02-26",
+        "contract_end": "2026-02-28",
+        "move_in_date": "202603",
+        "receipt_start": "2026-02-19",
+        "receipt_end": "2026-02-20"
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "도시형/오피스텔/생활숙박시설/민간임대",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950011&pblancNo=2026950011&houseSecd=02"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": []
+    },
+    {
+      "id": "2026950008",
+      "name": "광명 퍼스트 스위첸",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 광명시 광명동 344번지",
+      "constructor": "파빌리온광명피에프브이 주식회사",
+      "homepage": "http://kccswitzen.com/",
+      "total_households": 5,
+      "status": "접수마감",
+      "subscription_type": "오피스텔/도시형",
+      "max_profit": 0,
+      "schedule": {
+        "announcement_date": "2026-02-06",
+        "special_supply_date": "",
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-02-25",
+        "contract_start": "2026-02-28",
+        "contract_end": "2026-02-28",
+        "move_in_date": "202604",
+        "receipt_start": "2026-02-11",
+        "receipt_end": "2026-02-20"
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "도시형/오피스텔/생활숙박시설/민간임대",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950008&pblancNo=2026950008&houseSecd=02"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": []
     },
     {
       "id": "2026910047",
