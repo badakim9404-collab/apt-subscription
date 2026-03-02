@@ -8,14 +8,65 @@
   let activeFilters = { status: 'upcoming', region: 'all', type: [] };
   let activeSort = 'date-asc';
 
+  const PASSWORD_HASH = '37f6d9c7335d7a61a44de3aef5d6c209d043713bcdcf8ec362fa31764e510bc6';
+
   // ===== 초기화 =====
   document.addEventListener('DOMContentLoaded', init);
 
   async function init() {
+    if (!sessionStorage.getItem('tour-auth')) {
+      showLogin();
+      return;
+    }
+    unlockApp();
     await loadData();
     bindEvents();
     handleHashChange();
     window.addEventListener('hashchange', handleHashChange);
+  }
+
+  function showLogin() {
+    const overlay = document.getElementById('loginOverlay');
+    const pwInput = document.getElementById('loginPassword');
+    const loginBtn = document.getElementById('loginBtn');
+    const errorEl = document.getElementById('loginError');
+
+    overlay.classList.remove('hidden');
+
+    async function attemptLogin() {
+      const pw = pwInput.value;
+      const hash = await sha256(pw);
+      if (hash === PASSWORD_HASH) {
+        sessionStorage.setItem('tour-auth', '1');
+        overlay.classList.add('hidden');
+        unlockApp();
+        await loadData();
+        bindEvents();
+        handleHashChange();
+        window.addEventListener('hashchange', handleHashChange);
+      } else {
+        errorEl.textContent = '비밀번호가 올바르지 않습니다';
+        pwInput.value = '';
+        pwInput.focus();
+      }
+    }
+
+    loginBtn.addEventListener('click', attemptLogin);
+    pwInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') attemptLogin();
+    });
+    pwInput.focus();
+  }
+
+  function unlockApp() {
+    document.body.classList.remove('locked');
+  }
+
+  async function sha256(message) {
+    const msgBuffer = new TextEncoder().encode(message);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
   }
 
   async function loadData() {
