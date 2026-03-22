@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-21 04:58:54",
-  "total_collected": 49,
+  "updated_at": "2026-03-22 05:18:56",
+  "total_collected": 48,
   "total_filtered": 22,
   "items": [
     {
@@ -2691,31 +2691,6 @@
       },
       "models": [
         {
-          "housing_type": "37B",
-          "supply_area": 0.0,
-          "exclusive_area": 37.8,
-          "supply_price": 519060000,
-          "price_per_pyeong": 519060000,
-          "market_price": 439838553,
-          "profit": -79221447,
-          "household_count": 1,
-          "price_source": "실거래 중위가 (16건, x78%)",
-          "funding": {
-            "down_payment": 51906000,
-            "interim_payment": 311436000,
-            "balance": 155718000,
-            "estimated_jeonse": 209143166,
-            "jeonse_investment": 309916834,
-            "loan_amount": 415248000,
-            "loan_investment": 103812000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 415248000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 24914880,
-            "jeonse_ratio": 0.47549985141100004
-          }
-        },
-        {
           "housing_type": "37A",
           "supply_area": 0.0,
           "exclusive_area": 37.04,
@@ -2737,6 +2712,31 @@
             "ltv_limit": 403264000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 24195840,
+            "jeonse_ratio": 0.47549985141100004
+          }
+        },
+        {
+          "housing_type": "37B",
+          "supply_area": 0.0,
+          "exclusive_area": 37.8,
+          "supply_price": 519060000,
+          "price_per_pyeong": 519060000,
+          "market_price": 439838553,
+          "profit": -79221447,
+          "household_count": 1,
+          "price_source": "실거래 중위가 (16건, x78%)",
+          "funding": {
+            "down_payment": 51906000,
+            "interim_payment": 311436000,
+            "balance": 155718000,
+            "estimated_jeonse": 209143166,
+            "jeonse_investment": 309916834,
+            "loan_amount": 415248000,
+            "loan_investment": 103812000,
+            "ltv_rate": 0.8,
+            "ltv_limit": 415248000,
+            "dsr_limit_amount": 957078683,
+            "interim_interest": 24914880,
             "jeonse_ratio": 0.47549985141100004
           }
         }
