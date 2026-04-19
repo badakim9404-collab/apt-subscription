@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-18 02:09:37",
-  "total_collected": 53,
+  "updated_at": "2026-04-19 02:32:59",
+  "total_collected": 50,
   "total_filtered": 27,
   "items": [
     {
@@ -61,16 +61,16 @@
           "exclusive_area": 44.0,
           "supply_price": 1426400000,
           "price_per_pyeong": 77800213,
-          "market_price": 486899007,
-          "profit": -939500993,
+          "market_price": 486516568,
+          "profit": -939883432,
           "household_count": 5,
-          "price_source": "실거래 중위가 (33건)",
+          "price_source": "실거래 중위가 (32건)",
           "funding": {
             "down_payment": 142640000,
             "interim_payment": 855840000,
             "balance": 427920000,
-            "estimated_jeonse": 202663277,
-            "jeonse_investment": 1223736723,
+            "estimated_jeonse": 202504094,
+            "jeonse_investment": 1223895906,
             "loan_amount": 713200000,
             "loan_investment": 713200000,
             "ltv_rate": 0.5,
@@ -89,7 +89,7 @@
           "market_price": 505443752,
           "profit": -936156248,
           "household_count": 2,
-          "price_source": "실거래 중위가 (31건)",
+          "price_source": "실거래 중위가 (30건)",
           "funding": {
             "down_payment": 144160000,
             "interim_payment": 864960000,
@@ -114,7 +114,7 @@
           "market_price": 506610576,
           "profit": -955589424,
           "household_count": 2,
-          "price_source": "실거래 중위가 (41건)",
+          "price_source": "실거래 중위가 (40건)",
           "funding": {
             "down_payment": 146220000,
             "interim_payment": 877320000,
@@ -139,7 +139,7 @@
           "market_price": 517209995,
           "profit": -971390005,
           "household_count": 3,
-          "price_source": "실거래 중위가 (41건)",
+          "price_source": "실거래 중위가 (40건)",
           "funding": {
             "down_payment": 148860000,
             "interim_payment": 893160000,
