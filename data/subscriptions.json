@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05 02:37:00",
+  "updated_at": "2026-05-06 02:42:16",
   "total_collected": 58,
   "total_filtered": 31,
   "items": [
@@ -2819,7 +2819,7 @@
       "constructor": "주식회사 펜테리움건설",
       "homepage": "https://blog.naver.com/kkvista",
       "total_households": 1,
-      "status": "접수예정",
+      "status": "접수마감",
       "subscription_type": "무순위/잔여",
       "max_profit": 114795143,
       "schedule": {
@@ -3252,7 +3252,7 @@
       "constructor": "파빌리온광명피에프브이 주식회사",
       "homepage": "http://kccswitzen.com/",
       "total_households": 5,
-      "status": "접수중",
+      "status": "접수마감",
       "subscription_type": "오피스텔/도시형",
       "max_profit": 108366935,
       "schedule": {
@@ -3689,7 +3689,7 @@
       "constructor": "주식회사 엘앤피개발",
       "homepage": "https://www.harrington495.kr",
       "total_households": 58,
-      "status": "접수중",
+      "status": "접수마감",
       "subscription_type": "무순위/잔여",
       "max_profit": 20525362,
       "schedule": {
@@ -4026,7 +4026,7 @@
       "constructor": "황학동청계지역주택조합",
       "homepage": "https://청계노르웨이숲.com",
       "total_households": 23,
-      "status": "접수예정",
+      "status": "접수마감",
       "subscription_type": "무순위/잔여",
       "max_profit": -44353154,
       "schedule": {
@@ -4077,7 +4077,7 @@
           "market_price": 703906846,
           "profit": -44353154,
           "household_count": 23,
-          "price_source": "실거래 중위가 (14건)",
+          "price_source": "실거래 중위가 (15건)",
           "funding": {
             "down_payment": 74826000,
             "interim_payment": 448956000,
@@ -4234,7 +4234,7 @@
       "constructor": "코리아신탁(주)",
       "homepage": null,
       "total_households": 11,
-      "status": "접수예정",
+      "status": "접수마감",
       "subscription_type": "오피스텔/도시형",
       "max_profit": -45685283,
       "schedule": {
@@ -4825,7 +4825,7 @@
       "constructor": "양지지구 2블럭 지역주택조합",
       "homepage": "https://www.starhills-yg.co.kr/",
       "total_households": 547,
-      "status": "접수예정",
+      "status": "접수중",
       "subscription_type": "APT",
       "max_profit": -96116140,
       "schedule": {
