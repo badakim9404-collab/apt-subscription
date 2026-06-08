@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-07 03:40:55",
-  "total_collected": 77,
-  "total_filtered": 32,
+  "updated_at": "2026-06-08 03:47:04",
+  "total_collected": 74,
+  "total_filtered": 29,
   "items": [
     {
       "id": "2026000058",
@@ -3218,160 +3218,6 @@
       ]
     },
     {
-      "id": "2026910132",
-      "name": "인천 영종하늘도시 A25블록 대성베르힐(3차)",
-      "region": "인천",
-      "sido": "인천",
-      "sigungu": "",
-      "address": "인천광역시 중구 운남동 1709-1번지(영종 A25블록)",
-      "constructor": "주식회사 인천영종피에프브이",
-      "homepage": "http://www.yjd-verthill.com",
-      "total_households": 5,
-      "status": "접수마감",
-      "subscription_type": "무순위/잔여",
-      "max_profit": 33284278,
-      "schedule": {
-        "announcement_date": "2026-05-28",
-        "special_supply_date": null,
-        "first_priority_date": "",
-        "second_priority_date": "",
-        "winner_announce_date": "2026-06-08",
-        "contract_start": "2026-06-17",
-        "contract_end": "2026-06-17",
-        "move_in_date": "202608",
-        "receipt_start": "2026-06-02",
-        "receipt_end": "2026-06-02"
-      },
-      "qualification": {
-        "region_limit": "",
-        "house_type": "무순위",
-        "rent_secd": "",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910132&pblancNo=2026910132"
-      },
-      "regulations": {
-        "is_speculative_zone": false,
-        "is_adjusted_zone": false,
-        "is_price_cap": false,
-        "is_public_zone": false,
-        "resale_restriction": {
-          "period": "6개월~1년",
-          "detail": "비규제지역. 최소 전매제한 적용.",
-          "severity": "약함"
-        },
-        "rewin_restriction": {
-          "period": "없음",
-          "detail": "비규제지역은 재당첨 제한 없음."
-        },
-        "residency_obligation": {
-          "period": "없음",
-          "detail": "거주의무 없음.",
-          "required": false
-        }
-      },
-      "models": [
-        {
-          "housing_type": "084.6853A",
-          "supply_area": 0,
-          "exclusive_area": 84.6853,
-          "supply_price": 417500000,
-          "price_per_pyeong": 417500000,
-          "market_price": 436402087,
-          "profit": 18902087,
-          "household_count": 1,
-          "price_source": "실거래 중위가 (46건, 운남동)",
-          "funding": {
-            "down_payment": 41750000,
-            "interim_payment": 250500000,
-            "balance": 125250000,
-            "estimated_jeonse": 304146678,
-            "jeonse_investment": 113353322,
-            "loan_amount": 334000000,
-            "loan_investment": 83500000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 334000000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 20040000,
-            "jeonse_ratio": 0.696941393348
-          }
-        },
-        {
-          "housing_type": "084.3391C",
-          "supply_area": 0,
-          "exclusive_area": 84.3391,
-          "supply_price": 426900000,
-          "price_per_pyeong": 426900000,
-          "market_price": 434618042,
-          "profit": 7718042,
-          "household_count": 1,
-          "price_source": "실거래 중위가 (46건, 운남동)",
-          "funding": {
-            "down_payment": 42690000,
-            "interim_payment": 256140000,
-            "balance": 128070000,
-            "estimated_jeonse": 302903303,
-            "jeonse_investment": 123996697,
-            "loan_amount": 341520000,
-            "loan_investment": 85380000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 341520000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 20491200,
-            "jeonse_ratio": 0.696941393348
-          }
-        },
-        {
-          "housing_type": "084.1579D",
-          "supply_area": 0,
-          "exclusive_area": 84.1579,
-          "supply_price": 400400000,
-          "price_per_pyeong": 400400000,
-          "market_price": 433684278,
-          "profit": 33284278,
-          "household_count": 2,
-          "price_source": "실거래 중위가 (46건, 운남동)",
-          "funding": {
-            "down_payment": 40040000,
-            "interim_payment": 240240000,
-            "balance": 120120000,
-            "estimated_jeonse": 302252524,
-            "jeonse_investment": 98147476,
-            "loan_amount": 320320000,
-            "loan_investment": 80080000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 320320000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 19219200,
-            "jeonse_ratio": 0.696941393348
-          }
-        },
-        {
-          "housing_type": "084.6853P",
-          "supply_area": 0,
-          "exclusive_area": 84.6853,
-          "supply_price": 425800000,
-          "price_per_pyeong": 425800000,
-          "market_price": 436402087,
-          "profit": 10602087,
-          "household_count": 1,
-          "price_source": "실거래 중위가 (46건, 운남동)",
-          "funding": {
-            "down_payment": 42580000,
-            "interim_payment": 255480000,
-            "balance": 127740000,
-            "estimated_jeonse": 304146678,
-            "jeonse_investment": 121653322,
-            "loan_amount": 340640000,
-            "loan_investment": 85160000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 340640000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 20438400,
-            "jeonse_ratio": 0.696941393348
-          }
-        }
-      ]
-    },
-    {
       "id": "2026930020",
       "name": "신검단중앙역 금강펜테리움 센트럴파크",
       "region": "인천",
@@ -3693,7 +3539,7 @@
       "constructor": "신한자산신탁 주식회사",
       "homepage": "https://www.lottecastle.co.kr/APT/AT00427/main/index.do",
       "total_households": 83,
-      "status": "접수예정",
+      "status": "접수마감",
       "subscription_type": "무순위/잔여",
       "max_profit": -37532878,
       "schedule": {
@@ -3897,7 +3743,7 @@
       "constructor": "코리아신탁(주)",
       "homepage": "https://www.동탄gwen160.co.kr",
       "total_households": 78,
-      "status": "접수예정",
+      "status": "접수마감",
       "subscription_type": "무순위/잔여",
       "max_profit": -58469084,
       "schedule": {
@@ -4051,7 +3897,7 @@
       "constructor": "코리아신탁(주)",
       "homepage": "https://cytalkhome15.imweb.me/",
       "total_households": 5,
-      "status": "접수예정",
+      "status": "접수중",
       "subscription_type": "오피스텔/도시형",
       "max_profit": -91810466,
       "schedule": {
@@ -5769,239 +5615,6 @@
             "dsr_limit_amount": 957078683,
             "interim_interest": 41448000,
             "jeonse_ratio": 0.65177396325
-          }
-        }
-      ]
-    },
-    {
-      "id": "2026950054",
-      "name": "동탄2신도시 동탄역 디에트르 퍼스티지",
-      "region": "경기",
-      "sido": "경기",
-      "sigungu": "",
-      "address": "경기도 화성시 여울동 979번지",
-      "constructor": "대방건설동탄 주식회사",
-      "homepage": "http://www.detre-dt.co.kr",
-      "total_households": 5,
-      "status": "접수마감",
-      "subscription_type": "오피스텔/도시형",
-      "max_profit": -388076868,
-      "schedule": {
-        "announcement_date": "2026-05-27",
-        "special_supply_date": "",
-        "first_priority_date": "",
-        "second_priority_date": "",
-        "winner_announce_date": "2026-06-08",
-        "contract_start": "2026-06-09",
-        "contract_end": "2026-06-09",
-        "move_in_date": "202702",
-        "receipt_start": "2026-06-01",
-        "receipt_end": "2026-06-02"
-      },
-      "qualification": {
-        "region_limit": "",
-        "house_type": "도시형/오피스텔/생활숙박시설/민간임대",
-        "rent_secd": "",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950054&pblancNo=2026950054&houseSecd=02"
-      },
-      "regulations": {
-        "is_speculative_zone": false,
-        "is_adjusted_zone": false,
-        "is_price_cap": false,
-        "is_public_zone": false,
-        "resale_restriction": {
-          "period": "6개월~1년",
-          "detail": "비규제지역. 최소 전매제한 적용.",
-          "severity": "약함"
-        },
-        "rewin_restriction": {
-          "period": "없음",
-          "detail": "비규제지역은 재당첨 제한 없음."
-        },
-        "residency_obligation": {
-          "period": "없음",
-          "detail": "거주의무 없음.",
-          "required": false
-        }
-      },
-      "models": [
-        {
-          "housing_type": "75OA",
-          "supply_area": 0.0,
-          "exclusive_area": 75.8112,
-          "supply_price": 739700000,
-          "price_per_pyeong": 739700000,
-          "market_price": 351623132,
-          "profit": -388076868,
-          "household_count": 1,
-          "price_source": "KB(APT폴백) 화성시 x65%",
-          "funding": {
-            "down_payment": 73970000,
-            "interim_payment": 443820000,
-            "balance": 221910000,
-            "estimated_jeonse": 230112791,
-            "jeonse_investment": 509587209,
-            "loan_amount": 591760000,
-            "loan_investment": 147940000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 591760000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 35505600,
-            "jeonse_ratio": 0.6544301846439999
-          }
-        },
-        {
-          "housing_type": "84OB",
-          "supply_area": 0.0,
-          "exclusive_area": 84.965,
-          "supply_price": 885100000,
-          "price_per_pyeong": 885100000,
-          "market_price": 394079759,
-          "profit": -491020241,
-          "household_count": 2,
-          "price_source": "KB(APT폴백) 화성시 x65%",
-          "funding": {
-            "down_payment": 88510000,
-            "interim_payment": 531060000,
-            "balance": 265530000,
-            "estimated_jeonse": 257897689,
-            "jeonse_investment": 627202311,
-            "loan_amount": 708080000,
-            "loan_investment": 177020000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 708080000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 42484800,
-            "jeonse_ratio": 0.6544301846439999
-          }
-        },
-        {
-          "housing_type": "84OA",
-          "supply_area": 0.0,
-          "exclusive_area": 84.9887,
-          "supply_price": 896100000,
-          "price_per_pyeong": 896100000,
-          "market_price": 394189683,
-          "profit": -501910317,
-          "household_count": 2,
-          "price_source": "KB(APT폴백) 화성시 x65%",
-          "funding": {
-            "down_payment": 89610000,
-            "interim_payment": 537660000,
-            "balance": 268830000,
-            "estimated_jeonse": 257969627,
-            "jeonse_investment": 638130373,
-            "loan_amount": 716880000,
-            "loan_investment": 179220000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 716880000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 43012800,
-            "jeonse_ratio": 0.6544301846439999
-          }
-        }
-      ]
-    },
-    {
-      "id": "2026950053",
-      "name": "동탄2신도시 대방 엘리움 레이크파크",
-      "region": "경기",
-      "sido": "경기",
-      "sigungu": "",
-      "address": "경기도 화성시 송동 725-9번지",
-      "constructor": "대방산업개발 주식회사",
-      "homepage": "http://www.elium-dt.co.kr",
-      "total_households": 6,
-      "status": "접수마감",
-      "subscription_type": "오피스텔/도시형",
-      "max_profit": -553376922,
-      "schedule": {
-        "announcement_date": "2026-05-27",
-        "special_supply_date": "",
-        "first_priority_date": "",
-        "second_priority_date": "",
-        "winner_announce_date": "2026-06-08",
-        "contract_start": "2026-06-09",
-        "contract_end": "2026-06-09",
-        "move_in_date": "202702",
-        "receipt_start": "2026-06-01",
-        "receipt_end": "2026-06-02"
-      },
-      "qualification": {
-        "region_limit": "",
-        "house_type": "도시형/오피스텔/생활숙박시설/민간임대",
-        "rent_secd": "",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950053&pblancNo=2026950053&houseSecd=02"
-      },
-      "regulations": {
-        "is_speculative_zone": false,
-        "is_adjusted_zone": false,
-        "is_price_cap": false,
-        "is_public_zone": false,
-        "resale_restriction": {
-          "period": "6개월~1년",
-          "detail": "비규제지역. 최소 전매제한 적용.",
-          "severity": "약함"
-        },
-        "rewin_restriction": {
-          "period": "없음",
-          "detail": "비규제지역은 재당첨 제한 없음."
-        },
-        "residency_obligation": {
-          "period": "없음",
-          "detail": "거주의무 없음.",
-          "required": false
-        }
-      },
-      "models": [
-        {
-          "housing_type": "84OB",
-          "supply_area": 0.0,
-          "exclusive_area": 84.7898,
-          "supply_price": 947600000,
-          "price_per_pyeong": 947600000,
-          "market_price": 393267157,
-          "profit": -554332843,
-          "household_count": 2,
-          "price_source": "KB(APT폴백) 화성시 x65%",
-          "funding": {
-            "down_payment": 94760000,
-            "interim_payment": 568560000,
-            "balance": 284280000,
-            "estimated_jeonse": 257365898,
-            "jeonse_investment": 690234102,
-            "loan_amount": 758080000,
-            "loan_investment": 189520000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 758080000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 45484800,
-            "jeonse_ratio": 0.6544301846439999
-          }
-        },
-        {
-          "housing_type": "84OA",
-          "supply_area": 0.0,
-          "exclusive_area": 84.9959,
-          "supply_price": 947600000,
-          "price_per_pyeong": 947600000,
-          "market_price": 394223078,
-          "profit": -553376922,
-          "household_count": 4,
-          "price_source": "KB(APT폴백) 화성시 x65%",
-          "funding": {
-            "down_payment": 94760000,
-            "interim_payment": 568560000,
-            "balance": 284280000,
-            "estimated_jeonse": 257991481,
-            "jeonse_investment": 689608519,
-            "loan_amount": 758080000,
-            "loan_investment": 189520000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 758080000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 45484800,
-            "jeonse_ratio": 0.6544301846439999
           }
         }
       ]
