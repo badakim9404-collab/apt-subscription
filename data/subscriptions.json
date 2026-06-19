@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-18 03:45:25",
-  "total_collected": 72,
-  "total_filtered": 28,
+  "updated_at": "2026-06-19 04:07:39",
+  "total_collected": 69,
+  "total_filtered": 25,
   "items": [
     {
       "id": "2026000058",
@@ -69,15 +69,15 @@
             "down_payment": 142640000,
             "interim_payment": 855840000,
             "balance": 427920000,
-            "estimated_jeonse": 205277282,
-            "jeonse_investment": 1221122718,
+            "estimated_jeonse": 207158026,
+            "jeonse_investment": 1219241974,
             "loan_amount": 713200000,
             "loan_investment": 713200000,
             "ltv_rate": 0.5,
             "ltv_limit": 713200000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 68467200,
-            "jeonse_ratio": 0.416024335593
+            "jeonse_ratio": 0.419835939269
           }
         },
         {
@@ -94,15 +94,15 @@
             "down_payment": 144160000,
             "interim_payment": 864960000,
             "balance": 432480000,
-            "estimated_jeonse": 218227405,
-            "jeonse_investment": 1223372595,
+            "estimated_jeonse": 220226799,
+            "jeonse_investment": 1221373201,
             "loan_amount": 720800000,
             "loan_investment": 720800000,
             "ltv_rate": 0.5,
             "ltv_limit": 720800000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 69196800,
-            "jeonse_ratio": 0.416024335593
+            "jeonse_ratio": 0.419835939269
           }
         },
         {
@@ -119,15 +119,15 @@
             "down_payment": 146220000,
             "interim_payment": 877320000,
             "balance": 438660000,
-            "estimated_jeonse": 210976875,
-            "jeonse_investment": 1251223125,
+            "estimated_jeonse": 212909839,
+            "jeonse_investment": 1249290161,
             "loan_amount": 731100000,
             "loan_investment": 731100000,
             "ltv_rate": 0.5,
             "ltv_limit": 731100000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 70185600,
-            "jeonse_ratio": 0.416024335593
+            "jeonse_ratio": 0.419835939269
           }
         },
         {
@@ -144,15 +144,15 @@
             "down_payment": 148860000,
             "interim_payment": 893160000,
             "balance": 446580000,
-            "estimated_jeonse": 215390980,
-            "jeonse_investment": 1273209020,
+            "estimated_jeonse": 217364386,
+            "jeonse_investment": 1271235614,
             "loan_amount": 744300000,
             "loan_investment": 744300000,
             "ltv_rate": 0.5,
             "ltv_limit": 744300000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 71452800,
-            "jeonse_ratio": 0.416024335593
+            "jeonse_ratio": 0.419835939269
           }
         },
         {
@@ -169,15 +169,15 @@
             "down_payment": 204610000,
             "interim_payment": 1227660000,
             "balance": 613830000,
-            "estimated_jeonse": 1664345237,
-            "jeonse_investment": 381754763,
+            "estimated_jeonse": 1679593923,
+            "jeonse_investment": 366506077,
             "loan_amount": 957078683,
             "loan_investment": 1089021317,
             "ltv_rate": 0.5,
             "ltv_limit": 1023050000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 98212800,
-            "jeonse_ratio": 0.416024335593
+            "jeonse_ratio": 0.419835939269
           }
         },
         {
@@ -194,15 +194,15 @@
             "down_payment": 200550000,
             "interim_payment": 1203300000,
             "balance": 601650000,
-            "estimated_jeonse": 1657607845,
-            "jeonse_investment": 347892155,
+            "estimated_jeonse": 1672794803,
+            "jeonse_investment": 332705197,
             "loan_amount": 957078683,
             "loan_investment": 1048421317,
             "ltv_rate": 0.5,
             "ltv_limit": 1002750000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 96264000,
-            "jeonse_ratio": 0.416024335593
+            "jeonse_ratio": 0.419835939269
           }
         },
         {
@@ -219,15 +219,15 @@
             "down_payment": 275650000,
             "interim_payment": 1653900000,
             "balance": 826950000,
-            "estimated_jeonse": 2092405985,
-            "jeonse_investment": 664094015,
+            "estimated_jeonse": 2111576552,
+            "jeonse_investment": 644923448,
             "loan_amount": 957078683,
             "loan_investment": 1799421317,
             "ltv_rate": 0.5,
             "ltv_limit": 1378250000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 132312000,
-            "jeonse_ratio": 0.416024335593
+            "jeonse_ratio": 0.419835939269
           }
         },
         {
@@ -244,15 +244,15 @@
             "down_payment": 316860000,
             "interim_payment": 1901160000,
             "balance": 950580000,
-            "estimated_jeonse": 2077670659,
-            "jeonse_investment": 1090929341,
+            "estimated_jeonse": 2096706221,
+            "jeonse_investment": 1071893779,
             "loan_amount": 957078683,
             "loan_investment": 2211521317,
             "ltv_rate": 0.5,
             "ltv_limit": 1584300000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 152092800,
-            "jeonse_ratio": 0.416024335593
+            "jeonse_ratio": 0.419835939269
           }
         },
         {
@@ -269,15 +269,15 @@
             "down_payment": 309870000,
             "interim_payment": 1859220000,
             "balance": 929610000,
-            "estimated_jeonse": 2080457045,
-            "jeonse_investment": 1018242955,
+            "estimated_jeonse": 2099518136,
+            "jeonse_investment": 999181864,
             "loan_amount": 957078683,
             "loan_investment": 2141621317,
             "ltv_rate": 0.5,
             "ltv_limit": 1549350000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 148737600,
-            "jeonse_ratio": 0.416024335593
+            "jeonse_ratio": 0.419835939269
           }
         },
         {
@@ -294,15 +294,15 @@
             "down_payment": 347090000,
             "interim_payment": 2082540000,
             "balance": 1041270000,
-            "estimated_jeonse": 1971226309,
-            "jeonse_investment": 1499673691,
+            "estimated_jeonse": 1989286631,
+            "jeonse_investment": 1481613369,
             "loan_amount": 957078683,
             "loan_investment": 2513821317,
             "ltv_rate": 0.5,
             "ltv_limit": 1735450000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 166603200,
-            "jeonse_ratio": 0.416024335593
+            "jeonse_ratio": 0.419835939269
           }
         },
         {
@@ -319,15 +319,15 @@
             "down_payment": 358790000,
             "interim_payment": 2152740000,
             "balance": 1076370000,
-            "estimated_jeonse": 1963657461,
-            "jeonse_investment": 1624242539,
+            "estimated_jeonse": 1981648437,
+            "jeonse_investment": 1606251563,
             "loan_amount": 957078683,
             "loan_investment": 2630821317,
             "ltv_rate": 0.5,
             "ltv_limit": 1793950000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 172219200,
-            "jeonse_ratio": 0.416024335593
+            "jeonse_ratio": 0.419835939269
           }
         },
         {
@@ -344,15 +344,15 @@
             "down_payment": 366890000,
             "interim_payment": 2201340000,
             "balance": 1100670000,
-            "estimated_jeonse": 1980252181,
-            "jeonse_investment": 1688647819,
+            "estimated_jeonse": 1998395197,
+            "jeonse_investment": 1670504803,
             "loan_amount": 957078683,
             "loan_investment": 2711821317,
             "ltv_rate": 0.5,
             "ltv_limit": 1834450000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 176107200,
-            "jeonse_ratio": 0.416024335593
+            "jeonse_ratio": 0.419835939269
           }
         }
       ]
@@ -423,15 +423,15 @@
             "down_payment": 179415000,
             "interim_payment": 1076490000,
             "balance": 538245000,
-            "estimated_jeonse": 1243823273,
-            "jeonse_investment": 550326727,
+            "estimated_jeonse": 1255219148,
+            "jeonse_investment": 538930852,
             "loan_amount": 897075000,
             "loan_investment": 897075000,
             "ltv_rate": 0.5,
             "ltv_limit": 897075000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 86119200,
-            "jeonse_ratio": 0.416024335593
+            "jeonse_ratio": 0.419835939269
           }
         },
         {
@@ -448,15 +448,15 @@
             "down_payment": 186490000,
             "interim_payment": 1118940000,
             "balance": 559470000,
-            "estimated_jeonse": 1243823273,
-            "jeonse_investment": 621076727,
+            "estimated_jeonse": 1255219148,
+            "jeonse_investment": 609680852,
             "loan_amount": 932450000,
             "loan_investment": 932450000,
             "ltv_rate": 0.5,
             "ltv_limit": 932450000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 89515200,
-            "jeonse_ratio": 0.416024335593
+            "jeonse_ratio": 0.419835939269
           }
         },
         {
@@ -473,15 +473,15 @@
             "down_payment": 179340000,
             "interim_payment": 1076040000,
             "balance": 538020000,
-            "estimated_jeonse": 1240471214,
-            "jeonse_investment": 552928786,
+            "estimated_jeonse": 1251836378,
+            "jeonse_investment": 541563622,
             "loan_amount": 896700000,
             "loan_investment": 896700000,
             "ltv_rate": 0.5,
             "ltv_limit": 896700000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 86083200,
-            "jeonse_ratio": 0.416024335593
+            "jeonse_ratio": 0.419835939269
           }
         }
       ]
@@ -552,15 +552,15 @@
             "down_payment": 272900000,
             "interim_payment": 1637400000,
             "balance": 818700000,
-            "estimated_jeonse": 1317134182,
-            "jeonse_investment": 1411865818,
+            "estimated_jeonse": 1320543226,
+            "jeonse_investment": 1408456774,
             "loan_amount": 957078683,
             "loan_investment": 1771921317,
             "ltv_rate": 0.5,
             "ltv_limit": 1364500000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 130992000,
-            "jeonse_ratio": 0.389084876296
+            "jeonse_ratio": 0.39009191667099996
           }
         },
         {
@@ -577,15 +577,15 @@
             "down_payment": 285800000,
             "interim_payment": 1714800000,
             "balance": 857400000,
-            "estimated_jeonse": 1384602563,
-            "jeonse_investment": 1473397437,
+            "estimated_jeonse": 1388186230,
+            "jeonse_investment": 1469813770,
             "loan_amount": 957078683,
             "loan_investment": 1900921317,
             "ltv_rate": 0.5,
             "ltv_limit": 1429000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 137184000,
-            "jeonse_ratio": 0.389084876296
+            "jeonse_ratio": 0.39009191667099996
           }
         },
         {
@@ -602,15 +602,15 @@
             "down_payment": 313900000,
             "interim_payment": 1883400000,
             "balance": 941700000,
-            "estimated_jeonse": 1491803347,
-            "jeonse_investment": 1647196653,
+            "estimated_jeonse": 1495664474,
+            "jeonse_investment": 1643335526,
             "loan_amount": 957078683,
             "loan_investment": 2181921317,
             "ltv_rate": 0.5,
             "ltv_limit": 1569500000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 150672000,
-            "jeonse_ratio": 0.389084876296
+            "jeonse_ratio": 0.39009191667099996
           }
         },
         {
@@ -627,15 +627,15 @@
             "down_payment": 324500000,
             "interim_payment": 1947000000,
             "balance": 973500000,
-            "estimated_jeonse": 1504036466,
-            "jeonse_investment": 1740963534,
+            "estimated_jeonse": 1507929255,
+            "jeonse_investment": 1737070745,
             "loan_amount": 957078683,
             "loan_investment": 2287921317,
             "ltv_rate": 0.5,
             "ltv_limit": 1622500000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 155760000,
-            "jeonse_ratio": 0.389084876296
+            "jeonse_ratio": 0.39009191667099996
           }
         },
         {
@@ -652,15 +652,15 @@
             "down_payment": 330400000,
             "interim_payment": 1982400000,
             "balance": 991200000,
-            "estimated_jeonse": 1584710189,
-            "jeonse_investment": 1719289811,
+            "estimated_jeonse": 1588811780,
+            "jeonse_investment": 1715188220,
             "loan_amount": 957078683,
             "loan_investment": 2346921317,
             "ltv_rate": 0.5,
             "ltv_limit": 1652000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 158592000,
-            "jeonse_ratio": 0.389084876296
+            "jeonse_ratio": 0.39009191667099996
           }
         }
       ]
@@ -731,15 +731,15 @@
             "down_payment": 49963000,
             "interim_payment": 299778000,
             "balance": 149889000,
-            "estimated_jeonse": 864993327,
-            "jeonse_investment": -365363327,
+            "estimated_jeonse": 868441916,
+            "jeonse_investment": -368811916,
             "loan_amount": 399704000,
             "loan_investment": 99926000,
             "ltv_rate": 0.8,
             "ltv_limit": 399704000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 23982240,
-            "jeonse_ratio": 0.6887939104730001
+            "jeonse_ratio": 0.691540021216
           }
         },
         {
@@ -756,15 +756,15 @@
             "down_payment": 49632000,
             "interim_payment": 297792000,
             "balance": 148896000,
-            "estimated_jeonse": 859263869,
-            "jeonse_investment": -362943869,
+            "estimated_jeonse": 862689616,
+            "jeonse_investment": -366369616,
             "loan_amount": 397056000,
             "loan_investment": 99264000,
             "ltv_rate": 0.8,
             "ltv_limit": 397056000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 23823360,
-            "jeonse_ratio": 0.6887939104730001
+            "jeonse_ratio": 0.691540021216
           }
         },
         {
@@ -781,15 +781,15 @@
             "down_payment": 49999000,
             "interim_payment": 299994000,
             "balance": 149997000,
-            "estimated_jeonse": 866355087,
-            "jeonse_investment": -366365087,
+            "estimated_jeonse": 869809106,
+            "jeonse_investment": -369819106,
             "loan_amount": 399992000,
             "loan_investment": 99998000,
             "ltv_rate": 0.8,
             "ltv_limit": 399992000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 23999520,
-            "jeonse_ratio": 0.6887939104730001
+            "jeonse_ratio": 0.691540021216
           }
         }
       ]
@@ -860,15 +860,15 @@
             "down_payment": 127202000,
             "interim_payment": 763212000,
             "balance": 381606000,
-            "estimated_jeonse": 906355018,
-            "jeonse_investment": 365664982,
+            "estimated_jeonse": 900993444,
+            "jeonse_investment": 371026556,
             "loan_amount": 957078683,
             "loan_investment": 314941317,
             "ltv_rate": 0.8,
             "ltv_limit": 1017616000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 61056960,
-            "jeonse_ratio": 0.46002725738800004
+            "jeonse_ratio": 0.457305950621
           }
         }
       ]
@@ -885,7 +885,7 @@
       "total_households": 344,
       "status": "마감",
       "subscription_type": "APT",
-      "max_profit": 651517149,
+      "max_profit": 651508681,
       "schedule": {
         "announcement_date": "2026-04-30",
         "special_supply_date": "2026-05-11",
@@ -931,23 +931,23 @@
           "exclusive_area": 84.9794,
           "supply_price": 801700000,
           "price_per_pyeong": 24146965,
-          "market_price": 1439833955,
-          "profit": 638133955,
+          "market_price": 1439825484,
+          "profit": 638125484,
           "household_count": 17,
-          "price_source": "실거래 중위가 (14건, 관양동)",
+          "price_source": "실거래 중위가 (15건, 관양동)",
           "funding": {
             "down_payment": 80170000,
             "interim_payment": 481020000,
             "balance": 240510000,
-            "estimated_jeonse": 807549857,
-            "jeonse_investment": -5849857,
+            "estimated_jeonse": 807300460,
+            "jeonse_investment": -5600460,
             "loan_amount": 600000000,
             "loan_investment": 201700000,
             "ltv_rate": 0.8,
             "ltv_limit": 600000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 38481600,
-            "jeonse_ratio": 0.560863184959
+            "jeonse_ratio": 0.560693271319
           }
         },
         {
@@ -956,23 +956,23 @@
           "exclusive_area": 84.983,
           "supply_price": 792000000,
           "price_per_pyeong": 23904833,
-          "market_price": 1439894951,
-          "profit": 647894951,
+          "market_price": 1439886480,
+          "profit": 647886480,
           "household_count": 17,
-          "price_source": "실거래 중위가 (14건, 관양동)",
+          "price_source": "실거래 중위가 (15건, 관양동)",
           "funding": {
             "down_payment": 79200000,
             "interim_payment": 475200000,
             "balance": 237600000,
-            "estimated_jeonse": 807584068,
-            "jeonse_investment": -15584068,
+            "estimated_jeonse": 807334660,
+            "jeonse_investment": -15334660,
             "loan_amount": 600000000,
             "loan_investment": 192000000,
             "ltv_rate": 0.8,
             "ltv_limit": 600000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 38016000,
-            "jeonse_ratio": 0.560863184959
+            "jeonse_ratio": 0.560693271319
           }
         },
         {
@@ -981,23 +981,23 @@
           "exclusive_area": 84.9548,
           "supply_price": 787900000,
           "price_per_pyeong": 23422956,
-          "market_price": 1439417149,
-          "profit": 651517149,
+          "market_price": 1439408681,
+          "profit": 651508681,
           "household_count": 15,
-          "price_source": "실거래 중위가 (14건, 관양동)",
+          "price_source": "실거래 중위가 (15건, 관양동)",
           "funding": {
             "down_payment": 78790000,
             "interim_payment": 472740000,
             "balance": 236370000,
-            "estimated_jeonse": 807316086,
-            "jeonse_investment": -19416086,
+            "estimated_jeonse": 807066762,
+            "jeonse_investment": -19166762,
             "loan_amount": 600000000,
             "loan_investment": 187900000,
             "ltv_rate": 0.8,
             "ltv_limit": 600000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 37819200,
-            "jeonse_ratio": 0.560863184959
+            "jeonse_ratio": 0.560693271319
           }
         },
         {
@@ -1006,227 +1006,23 @@
           "exclusive_area": 84.9603,
           "supply_price": 800800000,
           "price_per_pyeong": 24145795,
-          "market_price": 1439510337,
-          "profit": 638710337,
+          "market_price": 1439501869,
+          "profit": 638701869,
           "household_count": 31,
-          "price_source": "실거래 중위가 (14건, 관양동)",
+          "price_source": "실거래 중위가 (15건, 관양동)",
           "funding": {
             "down_payment": 80080000,
             "interim_payment": 480480000,
             "balance": 240240000,
-            "estimated_jeonse": 807368352,
-            "jeonse_investment": -6568352,
+            "estimated_jeonse": 807119011,
+            "jeonse_investment": -6319011,
             "loan_amount": 600000000,
             "loan_investment": 200800000,
             "ltv_rate": 0.8,
             "ltv_limit": 600000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 38438400,
-            "jeonse_ratio": 0.560863184959
-          }
-        }
-      ]
-    },
-    {
-      "id": "2026000114",
-      "name": "공덕역자이르네",
-      "region": "서울",
-      "sido": "서울",
-      "sigungu": "",
-      "address": "서울특별시 마포구 도화동 16-1번지 일원",
-      "constructor": "주식회사 에스시티공덕피에프브이",
-      "homepage": "http://공덕역자이르네.com",
-      "total_households": 177,
-      "status": "마감",
-      "subscription_type": "APT",
-      "max_profit": 387850591,
-      "schedule": {
-        "announcement_date": "2026-04-17",
-        "special_supply_date": "2026-04-27",
-        "first_priority_date": "2026-04-28",
-        "second_priority_date": "2026-04-30",
-        "winner_announce_date": "2026-05-08",
-        "contract_start": "2026-05-19",
-        "contract_end": "2026-05-21",
-        "move_in_date": "202901",
-        "receipt_start": "2026-04-27",
-        "receipt_end": "2026-04-30"
-      },
-      "qualification": {
-        "region_limit": "",
-        "house_type": "APT",
-        "rent_secd": "분양주택",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000114&pblancNo=2026000114"
-      },
-      "regulations": {
-        "is_speculative_zone": true,
-        "is_adjusted_zone": true,
-        "is_price_cap": false,
-        "is_public_zone": false,
-        "resale_restriction": {
-          "period": "소유권이전등기 시까지",
-          "detail": "투기과열지구 내 전매 금지. 소유권이전등기 완료 전까지 전매 불가.",
-          "severity": "강함"
-        },
-        "rewin_restriction": {
-          "period": "10년",
-          "detail": "투기과열지구 당첨 시 10년간 재당첨 제한."
-        },
-        "residency_obligation": {
-          "period": "없음",
-          "detail": "거주의무 없음.",
-          "required": false
-        }
-      },
-      "models": [
-        {
-          "housing_type": "048.6543 ",
-          "supply_area": 65.1142,
-          "exclusive_area": 48.6543,
-          "supply_price": 1272000000,
-          "price_per_pyeong": 64578503,
-          "market_price": 720840767,
-          "profit": -551159233,
-          "household_count": 19,
-          "price_source": "실거래 중위가 (15건)",
-          "funding": {
-            "down_payment": 127200000,
-            "interim_payment": 763200000,
-            "balance": 381600000,
-            "estimated_jeonse": 339383602,
-            "jeonse_investment": 932616398,
-            "loan_amount": 636000000,
-            "loan_investment": 636000000,
-            "ltv_rate": 0.5,
-            "ltv_limit": 636000000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 61056000,
-            "jeonse_ratio": 0.47081632781300004
-          }
-        },
-        {
-          "housing_type": "052.7960A",
-          "supply_area": 72.2805,
-          "exclusive_area": 52.796,
-          "supply_price": 1440000000,
-          "price_per_pyeong": 65859422,
-          "market_price": 782405636,
-          "profit": -657594364,
-          "household_count": 13,
-          "price_source": "실거래 중위가 (14건)",
-          "funding": {
-            "down_payment": 144000000,
-            "interim_payment": 864000000,
-            "balance": 432000000,
-            "estimated_jeonse": 368369348,
-            "jeonse_investment": 1071630652,
-            "loan_amount": 720000000,
-            "loan_investment": 720000000,
-            "ltv_rate": 0.5,
-            "ltv_limit": 720000000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 69120000,
-            "jeonse_ratio": 0.47081632781300004
-          }
-        },
-        {
-          "housing_type": "052.7960B",
-          "supply_area": 72.2805,
-          "exclusive_area": 52.796,
-          "supply_price": 1419400000,
-          "price_per_pyeong": 64917267,
-          "market_price": 782405636,
-          "profit": -636994364,
-          "household_count": 2,
-          "price_source": "실거래 중위가 (14건)",
-          "funding": {
-            "down_payment": 141940000,
-            "interim_payment": 851640000,
-            "balance": 425820000,
-            "estimated_jeonse": 368369348,
-            "jeonse_investment": 1051030652,
-            "loan_amount": 709700000,
-            "loan_investment": 709700000,
-            "ltv_rate": 0.5,
-            "ltv_limit": 709700000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 68131200,
-            "jeonse_ratio": 0.47081632781300004
-          }
-        },
-        {
-          "housing_type": "052.7960C",
-          "supply_area": 72.2805,
-          "exclusive_area": 52.796,
-          "supply_price": 1430200000,
-          "price_per_pyeong": 65411212,
-          "market_price": 782405636,
-          "profit": -647794364,
-          "household_count": 2,
-          "price_source": "실거래 중위가 (14건)",
-          "funding": {
-            "down_payment": 143020000,
-            "interim_payment": 858120000,
-            "balance": 429060000,
-            "estimated_jeonse": 368369348,
-            "jeonse_investment": 1061830652,
-            "loan_amount": 715100000,
-            "loan_investment": 715100000,
-            "ltv_rate": 0.5,
-            "ltv_limit": 715100000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 68649600,
-            "jeonse_ratio": 0.47081632781300004
-          }
-        },
-        {
-          "housing_type": "059.9880A",
-          "supply_area": 81.3574,
-          "exclusive_area": 59.988,
-          "supply_price": 1769000000,
-          "price_per_pyeong": 71879880,
-          "market_price": 2105631815,
-          "profit": 336631815,
-          "household_count": 17,
-          "price_source": "실거래 중위가 (46건)",
-          "funding": {
-            "down_payment": 176900000,
-            "interim_payment": 1061400000,
-            "balance": 530700000,
-            "estimated_jeonse": 991365838,
-            "jeonse_investment": 777634162,
-            "loan_amount": 884500000,
-            "loan_investment": 884500000,
-            "ltv_rate": 0.5,
-            "ltv_limit": 884500000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 84912000,
-            "jeonse_ratio": 0.47081632781300004
-          }
-        },
-        {
-          "housing_type": "059.2820B",
-          "supply_area": 79.2927,
-          "exclusive_area": 59.282,
-          "supply_price": 1693000000,
-          "price_per_pyeong": 70583034,
-          "market_price": 2080850591,
-          "profit": 387850591,
-          "household_count": 30,
-          "price_source": "실거래 중위가 (46건)",
-          "funding": {
-            "down_payment": 169300000,
-            "interim_payment": 1015800000,
-            "balance": 507900000,
-            "estimated_jeonse": 979698433,
-            "jeonse_investment": 713301567,
-            "loan_amount": 846500000,
-            "loan_investment": 846500000,
-            "ltv_rate": 0.5,
-            "ltv_limit": 846500000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 81264000,
-            "jeonse_ratio": 0.47081632781300004
+            "jeonse_ratio": 0.560693271319
           }
         }
       ]
@@ -1297,15 +1093,15 @@
             "down_payment": 106040000,
             "interim_payment": 636240000,
             "balance": 318120000,
-            "estimated_jeonse": 810764752,
-            "jeonse_investment": 249635248,
+            "estimated_jeonse": 810519131,
+            "jeonse_investment": 249880869,
             "loan_amount": 530200000,
             "loan_investment": 530200000,
             "ltv_rate": 0.5,
             "ltv_limit": 530200000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 50899200,
-            "jeonse_ratio": 0.560863184959
+            "jeonse_ratio": 0.560693271319
           }
         },
         {
@@ -1322,15 +1118,15 @@
             "down_payment": 105970000,
             "interim_payment": 635820000,
             "balance": 317910000,
-            "estimated_jeonse": 810577746,
-            "jeonse_investment": 249122254,
+            "estimated_jeonse": 810332181,
+            "jeonse_investment": 249367819,
             "loan_amount": 529850000,
             "loan_investment": 529850000,
             "ltv_rate": 0.5,
             "ltv_limit": 529850000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 50865600,
-            "jeonse_ratio": 0.560863184959
+            "jeonse_ratio": 0.560693271319
           }
         },
         {
@@ -1347,15 +1143,15 @@
             "down_payment": 107560000,
             "interim_payment": 645360000,
             "balance": 322680000,
-            "estimated_jeonse": 795778977,
-            "jeonse_investment": 279821023,
+            "estimated_jeonse": 795537896,
+            "jeonse_investment": 280062104,
             "loan_amount": 537800000,
             "loan_investment": 537800000,
             "ltv_rate": 0.5,
             "ltv_limit": 537800000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 51628800,
-            "jeonse_ratio": 0.560863184959
+            "jeonse_ratio": 0.560693271319
           }
         },
         {
@@ -1372,15 +1168,219 @@
             "down_payment": 107560000,
             "interim_payment": 645360000,
             "balance": 322680000,
-            "estimated_jeonse": 795779806,
-            "jeonse_investment": 279820194,
+            "estimated_jeonse": 795538725,
+            "jeonse_investment": 280061275,
             "loan_amount": 537800000,
             "loan_investment": 537800000,
             "ltv_rate": 0.5,
             "ltv_limit": 537800000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 51628800,
-            "jeonse_ratio": 0.560863184959
+            "jeonse_ratio": 0.560693271319
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026000114",
+      "name": "공덕역자이르네",
+      "region": "서울",
+      "sido": "서울",
+      "sigungu": "",
+      "address": "서울특별시 마포구 도화동 16-1번지 일원",
+      "constructor": "주식회사 에스시티공덕피에프브이",
+      "homepage": "http://공덕역자이르네.com",
+      "total_households": 177,
+      "status": "마감",
+      "subscription_type": "APT",
+      "max_profit": 382907953,
+      "schedule": {
+        "announcement_date": "2026-04-17",
+        "special_supply_date": "2026-04-27",
+        "first_priority_date": "2026-04-28",
+        "second_priority_date": "2026-04-30",
+        "winner_announce_date": "2026-05-08",
+        "contract_start": "2026-05-19",
+        "contract_end": "2026-05-21",
+        "move_in_date": "202901",
+        "receipt_start": "2026-04-27",
+        "receipt_end": "2026-04-30"
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "APT",
+        "rent_secd": "분양주택",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000114&pblancNo=2026000114"
+      },
+      "regulations": {
+        "is_speculative_zone": true,
+        "is_adjusted_zone": true,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "소유권이전등기 시까지",
+          "detail": "투기과열지구 내 전매 금지. 소유권이전등기 완료 전까지 전매 불가.",
+          "severity": "강함"
+        },
+        "rewin_restriction": {
+          "period": "10년",
+          "detail": "투기과열지구 당첨 시 10년간 재당첨 제한."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": [
+        {
+          "housing_type": "048.6543 ",
+          "supply_area": 65.1142,
+          "exclusive_area": 48.6543,
+          "supply_price": 1272000000,
+          "price_per_pyeong": 64578503,
+          "market_price": 720840767,
+          "profit": -551159233,
+          "household_count": 19,
+          "price_source": "실거래 중위가 (15건)",
+          "funding": {
+            "down_payment": 127200000,
+            "interim_payment": 763200000,
+            "balance": 381600000,
+            "estimated_jeonse": 339790531,
+            "jeonse_investment": 932209469,
+            "loan_amount": 636000000,
+            "loan_investment": 636000000,
+            "ltv_rate": 0.5,
+            "ltv_limit": 636000000,
+            "dsr_limit_amount": 957078683,
+            "interim_interest": 61056000,
+            "jeonse_ratio": 0.471380846646
+          }
+        },
+        {
+          "housing_type": "052.7960A",
+          "supply_area": 72.2805,
+          "exclusive_area": 52.796,
+          "supply_price": 1440000000,
+          "price_per_pyeong": 65859422,
+          "market_price": 782405636,
+          "profit": -657594364,
+          "household_count": 13,
+          "price_source": "실거래 중위가 (14건)",
+          "funding": {
+            "down_payment": 144000000,
+            "interim_payment": 864000000,
+            "balance": 432000000,
+            "estimated_jeonse": 368811031,
+            "jeonse_investment": 1071188969,
+            "loan_amount": 720000000,
+            "loan_investment": 720000000,
+            "ltv_rate": 0.5,
+            "ltv_limit": 720000000,
+            "dsr_limit_amount": 957078683,
+            "interim_interest": 69120000,
+            "jeonse_ratio": 0.471380846646
+          }
+        },
+        {
+          "housing_type": "052.7960B",
+          "supply_area": 72.2805,
+          "exclusive_area": 52.796,
+          "supply_price": 1419400000,
+          "price_per_pyeong": 64917267,
+          "market_price": 782405636,
+          "profit": -636994364,
+          "household_count": 2,
+          "price_source": "실거래 중위가 (14건)",
+          "funding": {
+            "down_payment": 141940000,
+            "interim_payment": 851640000,
+            "balance": 425820000,
+            "estimated_jeonse": 368811031,
+            "jeonse_investment": 1050588969,
+            "loan_amount": 709700000,
+            "loan_investment": 709700000,
+            "ltv_rate": 0.5,
+            "ltv_limit": 709700000,
+            "dsr_limit_amount": 957078683,
+            "interim_interest": 68131200,
+            "jeonse_ratio": 0.471380846646
+          }
+        },
+        {
+          "housing_type": "052.7960C",
+          "supply_area": 72.2805,
+          "exclusive_area": 52.796,
+          "supply_price": 1430200000,
+          "price_per_pyeong": 65411212,
+          "market_price": 782405636,
+          "profit": -647794364,
+          "household_count": 2,
+          "price_source": "실거래 중위가 (14건)",
+          "funding": {
+            "down_payment": 143020000,
+            "interim_payment": 858120000,
+            "balance": 429060000,
+            "estimated_jeonse": 368811031,
+            "jeonse_investment": 1061388969,
+            "loan_amount": 715100000,
+            "loan_investment": 715100000,
+            "ltv_rate": 0.5,
+            "ltv_limit": 715100000,
+            "dsr_limit_amount": 957078683,
+            "interim_interest": 68649600,
+            "jeonse_ratio": 0.471380846646
+          }
+        },
+        {
+          "housing_type": "059.9880A",
+          "supply_area": 81.3574,
+          "exclusive_area": 59.988,
+          "supply_price": 1769000000,
+          "price_per_pyeong": 71879880,
+          "market_price": 2100630315,
+          "profit": 331630315,
+          "household_count": 17,
+          "price_source": "실거래 중위가 (49건)",
+          "funding": {
+            "down_payment": 176900000,
+            "interim_payment": 1061400000,
+            "balance": 530700000,
+            "estimated_jeonse": 990196896,
+            "jeonse_investment": 778803104,
+            "loan_amount": 884500000,
+            "loan_investment": 884500000,
+            "ltv_rate": 0.5,
+            "ltv_limit": 884500000,
+            "dsr_limit_amount": 957078683,
+            "interim_interest": 84912000,
+            "jeonse_ratio": 0.471380846646
+          }
+        },
+        {
+          "housing_type": "059.2820B",
+          "supply_area": 79.2927,
+          "exclusive_area": 59.282,
+          "supply_price": 1693000000,
+          "price_per_pyeong": 70583034,
+          "market_price": 2075907953,
+          "profit": 382907953,
+          "household_count": 30,
+          "price_source": "실거래 중위가 (49건)",
+          "funding": {
+            "down_payment": 169300000,
+            "interim_payment": 1015800000,
+            "balance": 507900000,
+            "estimated_jeonse": 978543248,
+            "jeonse_investment": 714456752,
+            "loan_amount": 846500000,
+            "loan_investment": 846500000,
+            "ltv_rate": 0.5,
+            "ltv_limit": 846500000,
+            "dsr_limit_amount": 957078683,
+            "interim_interest": 81264000,
+            "jeonse_ratio": 0.471380846646
           }
         }
       ]
@@ -1451,15 +1451,15 @@
             "down_payment": 57018000,
             "interim_payment": 342108000,
             "balance": 171054000,
-            "estimated_jeonse": 344671069,
-            "jeonse_investment": 225508931,
+            "estimated_jeonse": 346367119,
+            "jeonse_investment": 223812881,
             "loan_amount": 456144000,
             "loan_investment": 114036000,
             "ltv_rate": 0.8,
             "ltv_limit": 456144000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 27368640,
-            "jeonse_ratio": 0.41375477799899996
+            "jeonse_ratio": 0.415790772697
           }
         },
         {
@@ -1476,15 +1476,15 @@
             "down_payment": 58686000,
             "interim_payment": 352116000,
             "balance": 176058000,
-            "estimated_jeonse": 367633424,
-            "jeonse_investment": 219226576,
+            "estimated_jeonse": 369442466,
+            "jeonse_investment": 217417534,
             "loan_amount": 469488000,
             "loan_investment": 117372000,
             "ltv_rate": 0.8,
             "ltv_limit": 469488000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 28169280,
-            "jeonse_ratio": 0.41375477799899996
+            "jeonse_ratio": 0.415790772697
           }
         },
         {
@@ -1501,15 +1501,15 @@
             "down_payment": 58999000,
             "interim_payment": 353994000,
             "balance": 176997000,
-            "estimated_jeonse": 390309111,
-            "jeonse_investment": 199680889,
+            "estimated_jeonse": 392229735,
+            "jeonse_investment": 197760265,
             "loan_amount": 471992000,
             "loan_investment": 117998000,
             "ltv_rate": 0.8,
             "ltv_limit": 471992000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 28319520,
-            "jeonse_ratio": 0.41375477799899996
+            "jeonse_ratio": 0.415790772697
           }
         },
         {
@@ -1526,15 +1526,15 @@
             "down_payment": 58999000,
             "interim_payment": 353994000,
             "balance": 176997000,
-            "estimated_jeonse": 380151224,
-            "jeonse_investment": 209838776,
+            "estimated_jeonse": 382021863,
+            "jeonse_investment": 207968137,
             "loan_amount": 471992000,
             "loan_investment": 117998000,
             "ltv_rate": 0.8,
             "ltv_limit": 471992000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 28319520,
-            "jeonse_ratio": 0.41375477799899996
+            "jeonse_ratio": 0.415790772697
           }
         },
         {
@@ -1551,15 +1551,15 @@
             "down_payment": 58478000,
             "interim_payment": 350868000,
             "balance": 175434000,
-            "estimated_jeonse": 382305928,
-            "jeonse_investment": 202474072,
+            "estimated_jeonse": 384187170,
+            "jeonse_investment": 200592830,
             "loan_amount": 467824000,
             "loan_investment": 116956000,
             "ltv_rate": 0.8,
             "ltv_limit": 467824000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 28069440,
-            "jeonse_ratio": 0.41375477799899996
+            "jeonse_ratio": 0.415790772697
           }
         },
         {
@@ -1576,15 +1576,15 @@
             "down_payment": 59312000,
             "interim_payment": 355872000,
             "balance": 177936000,
-            "estimated_jeonse": 371942831,
-            "jeonse_investment": 221177169,
+            "estimated_jeonse": 373773078,
+            "jeonse_investment": 219346922,
             "loan_amount": 474496000,
             "loan_investment": 118624000,
             "ltv_rate": 0.8,
             "ltv_limit": 474496000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 28469760,
-            "jeonse_ratio": 0.41375477799899996
+            "jeonse_ratio": 0.415790772697
           }
         }
       ]
@@ -1655,15 +1655,15 @@
             "down_payment": 88500000,
             "interim_payment": 531000000,
             "balance": 265500000,
-            "estimated_jeonse": 284493565,
-            "jeonse_investment": 600506435,
+            "estimated_jeonse": 285093071,
+            "jeonse_investment": 599906929,
             "loan_amount": 600000000,
             "loan_investment": 285000000,
             "ltv_rate": 0.8,
             "ltv_limit": 600000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 42480000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -1675,20 +1675,20 @@
           "market_price": 1540000000,
           "profit": 239610000,
           "household_count": 1,
-          "price_source": "실거래 중위가 (94건)",
+          "price_source": "실거래 중위가 (98건)",
           "funding": {
             "down_payment": 130039000,
             "interim_payment": 780234000,
             "balance": 390117000,
-            "estimated_jeonse": 724621597,
-            "jeonse_investment": 575768403,
+            "estimated_jeonse": 726148575,
+            "jeonse_investment": 574241425,
             "loan_amount": 650195000,
             "loan_investment": 650195000,
             "ltv_rate": 0.5,
             "ltv_limit": 650195000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 62418720,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -1700,20 +1700,20 @@
           "market_price": 1540513590,
           "profit": 290693590,
           "household_count": 5,
-          "price_source": "실거래 중위가 (94건)",
+          "price_source": "실거래 중위가 (98건)",
           "funding": {
             "down_payment": 124982000,
             "interim_payment": 749892000,
             "balance": 374946000,
-            "estimated_jeonse": 724863259,
-            "jeonse_investment": 524956741,
+            "estimated_jeonse": 726390745,
+            "jeonse_investment": 523429255,
             "loan_amount": 624910000,
             "loan_investment": 624910000,
             "ltv_rate": 0.5,
             "ltv_limit": 624910000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 59991360,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -1725,20 +1725,20 @@
           "market_price": 1540513590,
           "profit": 275603590,
           "household_count": 8,
-          "price_source": "실거래 중위가 (94건)",
+          "price_source": "실거래 중위가 (98건)",
           "funding": {
             "down_payment": 126491000,
             "interim_payment": 758946000,
             "balance": 379473000,
-            "estimated_jeonse": 724863259,
-            "jeonse_investment": 540046741,
+            "estimated_jeonse": 726390745,
+            "jeonse_investment": 538519255,
             "loan_amount": 632455000,
             "loan_investment": 632455000,
             "ltv_rate": 0.5,
             "ltv_limit": 632455000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 60715680,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -1750,20 +1750,20 @@
           "market_price": 1605857159,
           "profit": 98257159,
           "household_count": 15,
-          "price_source": "실거래 중위가 (110건)",
+          "price_source": "실거래 중위가 (111건)",
           "funding": {
             "down_payment": 150760000,
             "interim_payment": 904560000,
             "balance": 452280000,
-            "estimated_jeonse": 755609597,
-            "jeonse_investment": 751990403,
+            "estimated_jeonse": 757201875,
+            "jeonse_investment": 750398125,
             "loan_amount": 753800000,
             "loan_investment": 753800000,
             "ltv_rate": 0.5,
             "ltv_limit": 753800000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 72364800,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -1775,20 +1775,20 @@
           "market_price": 1605857159,
           "profit": 133207159,
           "household_count": 8,
-          "price_source": "실거래 중위가 (110건)",
+          "price_source": "실거래 중위가 (111건)",
           "funding": {
             "down_payment": 147265000,
             "interim_payment": 883590000,
             "balance": 441795000,
-            "estimated_jeonse": 755609597,
-            "jeonse_investment": 717040403,
+            "estimated_jeonse": 757201875,
+            "jeonse_investment": 715448125,
             "loan_amount": 736325000,
             "loan_investment": 736325000,
             "ltv_rate": 0.5,
             "ltv_limit": 736325000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 70687200,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -1800,20 +1800,20 @@
           "market_price": 1780209461,
           "profit": -18670539,
           "household_count": 15,
-          "price_source": "실거래 중위가 (112건)",
+          "price_source": "실거래 중위가 (113건)",
           "funding": {
             "down_payment": 179888000,
             "interim_payment": 1079328000,
             "balance": 539664000,
-            "estimated_jeonse": 837648197,
-            "jeonse_investment": 961231803,
+            "estimated_jeonse": 839413353,
+            "jeonse_investment": 959466647,
             "loan_amount": 899440000,
             "loan_investment": 899440000,
             "ltv_rate": 0.5,
             "ltv_limit": 899440000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 86346240,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -1825,20 +1825,20 @@
           "market_price": 1780000000,
           "profit": 13610000,
           "household_count": 3,
-          "price_source": "실거래 중위가 (112건)",
+          "price_source": "실거래 중위가 (113건)",
           "funding": {
             "down_payment": 176639000,
             "interim_payment": 1059834000,
             "balance": 529917000,
-            "estimated_jeonse": 837549638,
-            "jeonse_investment": 928840362,
+            "estimated_jeonse": 839314586,
+            "jeonse_investment": 927075414,
             "loan_amount": 883195000,
             "loan_investment": 883195000,
             "ltv_rate": 0.5,
             "ltv_limit": 883195000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 84786720,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         }
       ]
@@ -1909,15 +1909,15 @@
             "down_payment": 30820000,
             "interim_payment": 184920000,
             "balance": 92460000,
-            "estimated_jeonse": 107254552,
-            "jeonse_investment": 200945448,
+            "estimated_jeonse": 107996475,
+            "jeonse_investment": 200203525,
             "loan_amount": 246560000,
             "loan_investment": 61640000,
             "ltv_rate": 0.8,
             "ltv_limit": 246560000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 14793600,
-            "jeonse_ratio": 0.573214424694
+            "jeonse_ratio": 0.577179581754
           }
         },
         {
@@ -1934,15 +1934,15 @@
             "down_payment": 80950000,
             "interim_payment": 485700000,
             "balance": 242850000,
-            "estimated_jeonse": 612611342,
-            "jeonse_investment": 196888658,
+            "estimated_jeonse": 616849023,
+            "jeonse_investment": 192650977,
             "loan_amount": 647600000,
             "loan_investment": 161900000,
             "ltv_rate": 0.8,
             "ltv_limit": 647600000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 38856000,
-            "jeonse_ratio": 0.573214424694
+            "jeonse_ratio": 0.577179581754
           }
         },
         {
@@ -1959,15 +1959,15 @@
             "down_payment": 61120000,
             "interim_payment": 366720000,
             "balance": 183360000,
-            "estimated_jeonse": 216230549,
-            "jeonse_investment": 394969451,
+            "estimated_jeonse": 217726304,
+            "jeonse_investment": 393473696,
             "loan_amount": 488960000,
             "loan_investment": 122240000,
             "ltv_rate": 0.8,
             "ltv_limit": 488960000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 29337600,
-            "jeonse_ratio": 0.573214424694
+            "jeonse_ratio": 0.577179581754
           }
         },
         {
@@ -1984,15 +1984,15 @@
             "down_payment": 48930000,
             "interim_payment": 293580000,
             "balance": 146790000,
-            "estimated_jeonse": 186061827,
-            "jeonse_investment": 303238173,
+            "estimated_jeonse": 187348892,
+            "jeonse_investment": 301951108,
             "loan_amount": 391440000,
             "loan_investment": 97860000,
             "ltv_rate": 0.8,
             "ltv_limit": 391440000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 23486400,
-            "jeonse_ratio": 0.573214424694
+            "jeonse_ratio": 0.577179581754
           }
         }
       ]
@@ -2009,7 +2009,7 @@
       "total_households": 812,
       "status": "마감",
       "subscription_type": "APT",
-      "max_profit": 198262543,
+      "max_profit": 198760807,
       "schedule": {
         "announcement_date": "2026-04-30",
         "special_supply_date": null,
@@ -2055,23 +2055,23 @@
           "exclusive_area": 59.95,
           "supply_price": 493040000,
           "price_per_pyeong": 19768314,
-          "market_price": 494655927,
-          "profit": 1615927,
+          "market_price": 494639025,
+          "profit": 1599025,
           "household_count": 20,
-          "price_source": "실거래 중위가 (368건)",
+          "price_source": "실거래 중위가 (372건)",
           "funding": {
             "down_payment": 49304000,
             "interim_payment": 295824000,
             "balance": 147912000,
-            "estimated_jeonse": 366572554,
-            "jeonse_investment": 126467446,
+            "estimated_jeonse": 367596909,
+            "jeonse_investment": 125443091,
             "loan_amount": 394432000,
             "loan_investment": 98608000,
             "ltv_rate": 0.8,
             "ltv_limit": 394432000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 23665920,
-            "jeonse_ratio": 0.741065726808
+            "jeonse_ratio": 0.74316196387
           }
         },
         {
@@ -2080,23 +2080,23 @@
           "exclusive_area": 59.95,
           "supply_price": 493040000,
           "price_per_pyeong": 19768314,
-          "market_price": 494655927,
-          "profit": 1615927,
+          "market_price": 494639025,
+          "profit": 1599025,
           "household_count": 9,
-          "price_source": "실거래 중위가 (368건)",
+          "price_source": "실거래 중위가 (372건)",
           "funding": {
             "down_payment": 49304000,
             "interim_payment": 295824000,
             "balance": 147912000,
-            "estimated_jeonse": 366572554,
-            "jeonse_investment": 126467446,
+            "estimated_jeonse": 367596909,
+            "jeonse_investment": 125443091,
             "loan_amount": 394432000,
             "loan_investment": 98608000,
             "ltv_rate": 0.8,
             "ltv_limit": 394432000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 23665920,
-            "jeonse_ratio": 0.741065726808
+            "jeonse_ratio": 0.74316196387
           }
         },
         {
@@ -2105,23 +2105,23 @@
           "exclusive_area": 74.91,
           "supply_price": 613680000,
           "price_per_pyeong": 19691503,
-          "market_price": 795956295,
-          "profit": 182276295,
+          "market_price": 797638203,
+          "profit": 183958203,
           "household_count": 6,
-          "price_source": "실거래 중위가 (231건)",
+          "price_source": "실거래 중위가 (232건)",
           "funding": {
             "down_payment": 61368000,
             "interim_payment": 368208000,
             "balance": 184104000,
-            "estimated_jeonse": 589855930,
-            "jeonse_investment": 23824070,
+            "estimated_jeonse": 592774373,
+            "jeonse_investment": 20905627,
             "loan_amount": 490944000,
             "loan_investment": 122736000,
             "ltv_rate": 0.8,
             "ltv_limit": 490944000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 29456640,
-            "jeonse_ratio": 0.741065726808
+            "jeonse_ratio": 0.74316196387
           }
         },
         {
@@ -2130,23 +2130,23 @@
           "exclusive_area": 84.67,
           "supply_price": 693630000,
           "price_per_pyeong": 19691328,
-          "market_price": 891892543,
-          "profit": 198262543,
+          "market_price": 892390807,
+          "profit": 198760807,
           "household_count": 8,
-          "price_source": "실거래 중위가 (911건)",
+          "price_source": "실거래 중위가 (916건)",
           "funding": {
             "down_payment": 69363000,
             "interim_payment": 416178000,
             "balance": 208089000,
-            "estimated_jeonse": 660950995,
-            "jeonse_investment": 32679005,
+            "estimated_jeonse": 663190904,
+            "jeonse_investment": 30439096,
             "loan_amount": 554904000,
             "loan_investment": 138726000,
             "ltv_rate": 0.8,
             "ltv_limit": 554904000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 33294240,
-            "jeonse_ratio": 0.741065726808
+            "jeonse_ratio": 0.74316196387
           }
         }
       ]
@@ -2163,7 +2163,7 @@
       "total_households": 117,
       "status": "마감",
       "subscription_type": "APT",
-      "max_profit": 186943054,
+      "max_profit": 187425604,
       "schedule": {
         "announcement_date": "2026-05-13",
         "special_supply_date": "2026-05-26",
@@ -2209,23 +2209,23 @@
           "exclusive_area": 59.7153,
           "supply_price": 534000000,
           "price_per_pyeong": 20977284,
-          "market_price": 492719384,
-          "profit": -41280616,
+          "market_price": 492702548,
+          "profit": -41297452,
           "household_count": 14,
-          "price_source": "실거래 중위가 (368건)",
+          "price_source": "실거래 중위가 (372건)",
           "funding": {
             "down_payment": 53400000,
             "interim_payment": 320400000,
             "balance": 160200000,
-            "estimated_jeonse": 365137448,
-            "jeonse_investment": 168862552,
+            "estimated_jeonse": 366157793,
+            "jeonse_investment": 167842207,
             "loan_amount": 427200000,
             "loan_investment": 106800000,
             "ltv_rate": 0.8,
             "ltv_limit": 427200000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 25632000,
-            "jeonse_ratio": 0.741065726808
+            "jeonse_ratio": 0.74316196387
           }
         },
         {
@@ -2234,23 +2234,23 @@
           "exclusive_area": 59.9642,
           "supply_price": 528000000,
           "price_per_pyeong": 20489293,
-          "market_price": 494773093,
-          "profit": -33226907,
+          "market_price": 494756187,
+          "profit": -33243813,
           "household_count": 30,
-          "price_source": "실거래 중위가 (368건)",
+          "price_source": "실거래 중위가 (372건)",
           "funding": {
             "down_payment": 52800000,
             "interim_payment": 316800000,
             "balance": 158400000,
-            "estimated_jeonse": 366659381,
-            "jeonse_investment": 161340619,
+            "estimated_jeonse": 367683979,
+            "jeonse_investment": 160316021,
             "loan_amount": 422400000,
             "loan_investment": 105600000,
             "ltv_rate": 0.8,
             "ltv_limit": 422400000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 25344000,
-            "jeonse_ratio": 0.741065726808
+            "jeonse_ratio": 0.74316196387
           }
         },
         {
@@ -2259,23 +2259,23 @@
           "exclusive_area": 75.4603,
           "supply_price": 649000000,
           "price_per_pyeong": 20417591,
-          "market_price": 801803508,
-          "profit": 152803508,
+          "market_price": 803497772,
+          "profit": 154497772,
           "household_count": 8,
-          "price_source": "실거래 중위가 (231건)",
+          "price_source": "실거래 중위가 (232건)",
           "funding": {
             "down_payment": 64900000,
             "interim_payment": 389400000,
             "balance": 194700000,
-            "estimated_jeonse": 594189099,
-            "jeonse_investment": 54810901,
+            "estimated_jeonse": 597128982,
+            "jeonse_investment": 51871018,
             "loan_amount": 519200000,
             "loan_investment": 129800000,
             "ltv_rate": 0.8,
             "ltv_limit": 519200000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 31152000,
-            "jeonse_ratio": 0.741065726808
+            "jeonse_ratio": 0.74316196387
           }
         },
         {
@@ -2284,23 +2284,23 @@
           "exclusive_area": 84.9596,
           "supply_price": 709000000,
           "price_per_pyeong": 19827025,
-          "market_price": 895943054,
-          "profit": 186943054,
+          "market_price": 896425604,
+          "profit": 187425604,
           "household_count": 1,
-          "price_source": "실거래 중위가 (899건)",
+          "price_source": "실거래 중위가 (904건)",
           "funding": {
             "down_payment": 70900000,
             "interim_payment": 425400000,
             "balance": 212700000,
-            "estimated_jeonse": 663952690,
-            "jeonse_investment": 45047310,
+            "estimated_jeonse": 666189412,
+            "jeonse_investment": 42810588,
             "loan_amount": 567200000,
             "loan_investment": 141800000,
             "ltv_rate": 0.8,
             "ltv_limit": 567200000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 34032000,
-            "jeonse_ratio": 0.741065726808
+            "jeonse_ratio": 0.74316196387
           }
         }
       ]
@@ -2317,7 +2317,7 @@
       "total_households": 477,
       "status": "마감",
       "subscription_type": "APT",
-      "max_profit": 171863703,
+      "max_profit": 178493193,
       "schedule": {
         "announcement_date": "2026-03-20",
         "special_supply_date": "2026-03-30",
@@ -2371,15 +2371,15 @@
             "down_payment": 124000000,
             "interim_payment": 744000000,
             "balance": 372000000,
-            "estimated_jeonse": 328882277,
-            "jeonse_investment": 911117723,
+            "estimated_jeonse": 329575323,
+            "jeonse_investment": 910424677,
             "loan_amount": 620000000,
             "loan_investment": 620000000,
             "ltv_rate": 0.5,
             "ltv_limit": 620000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 59520000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -2396,15 +2396,15 @@
             "down_payment": 125000000,
             "interim_payment": 750000000,
             "balance": 375000000,
-            "estimated_jeonse": 328850653,
-            "jeonse_investment": 921149347,
+            "estimated_jeonse": 329543632,
+            "jeonse_investment": 920456368,
             "loan_amount": 625000000,
             "loan_investment": 625000000,
             "ltv_rate": 0.5,
             "ltv_limit": 625000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 60000000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -2421,15 +2421,15 @@
             "down_payment": 123000000,
             "interim_payment": 738000000,
             "balance": 369000000,
-            "estimated_jeonse": 328848123,
-            "jeonse_investment": 901151877,
+            "estimated_jeonse": 329541096,
+            "jeonse_investment": 900458904,
             "loan_amount": 615000000,
             "loan_investment": 615000000,
             "ltv_rate": 0.5,
             "ltv_limit": 615000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 59040000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -2446,15 +2446,15 @@
             "down_payment": 125000000,
             "interim_payment": 750000000,
             "balance": 375000000,
-            "estimated_jeonse": 328836738,
-            "jeonse_investment": 921163262,
+            "estimated_jeonse": 329529688,
+            "jeonse_investment": 920470312,
             "loan_amount": 625000000,
             "loan_investment": 625000000,
             "ltv_rate": 0.5,
             "ltv_limit": 625000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 60000000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -2471,15 +2471,15 @@
             "down_payment": 124000000,
             "interim_payment": 744000000,
             "balance": 372000000,
-            "estimated_jeonse": 328864567,
-            "jeonse_investment": 911135433,
+            "estimated_jeonse": 329557576,
+            "jeonse_investment": 910442424,
             "loan_amount": 620000000,
             "loan_investment": 620000000,
             "ltv_rate": 0.5,
             "ltv_limit": 620000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 59520000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -2488,23 +2488,23 @@
           "exclusive_area": 59.9973,
           "supply_price": 1450000000,
           "price_per_pyeong": 56633852,
-          "market_price": 1621825859,
-          "profit": 171825859,
+          "market_price": 1628455194,
+          "profit": 178455194,
           "household_count": 16,
-          "price_source": "실거래 중위가 (58건, 신길동)",
+          "price_source": "실거래 중위가 (61건, 신길동)",
           "funding": {
             "down_payment": 145000000,
             "interim_payment": 870000000,
             "balance": 435000000,
-            "estimated_jeonse": 763123405,
-            "jeonse_investment": 686876595,
+            "estimated_jeonse": 767857414,
+            "jeonse_investment": 682142586,
             "loan_amount": 725000000,
             "loan_investment": 725000000,
             "ltv_rate": 0.5,
             "ltv_limit": 725000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 69600000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -2513,23 +2513,23 @@
           "exclusive_area": 59.9945,
           "supply_price": 1450000000,
           "price_per_pyeong": 56333676,
-          "market_price": 1621750170,
-          "profit": 171750170,
+          "market_price": 1628379196,
+          "profit": 178379196,
           "household_count": 54,
-          "price_source": "실거래 중위가 (58건, 신길동)",
+          "price_source": "실거래 중위가 (61건, 신길동)",
           "funding": {
             "down_payment": 145000000,
             "interim_payment": 870000000,
             "balance": 435000000,
-            "estimated_jeonse": 763087791,
-            "jeonse_investment": 686912209,
+            "estimated_jeonse": 767821579,
+            "jeonse_investment": 682178421,
             "loan_amount": 725000000,
             "loan_investment": 725000000,
             "ltv_rate": 0.5,
             "ltv_limit": 725000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 69600000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -2538,23 +2538,23 @@
           "exclusive_area": 59.9903,
           "supply_price": 1460000000,
           "price_per_pyeong": 56951020,
-          "market_price": 1621636637,
-          "profit": 161636637,
+          "market_price": 1628265199,
+          "profit": 168265199,
           "household_count": 15,
-          "price_source": "실거래 중위가 (58건, 신길동)",
+          "price_source": "실거래 중위가 (61건, 신길동)",
           "funding": {
             "down_payment": 146000000,
             "interim_payment": 876000000,
             "balance": 438000000,
-            "estimated_jeonse": 763034370,
-            "jeonse_investment": 696965630,
+            "estimated_jeonse": 767767827,
+            "jeonse_investment": 692232173,
             "loan_amount": 730000000,
             "loan_investment": 730000000,
             "ltv_rate": 0.5,
             "ltv_limit": 730000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 70080000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -2563,23 +2563,23 @@
           "exclusive_area": 59.9987,
           "supply_price": 1450000000,
           "price_per_pyeong": 56088465,
-          "market_price": 1621863703,
-          "profit": 171863703,
+          "market_price": 1628493193,
+          "profit": 178493193,
           "household_count": 14,
-          "price_source": "실거래 중위가 (58건, 신길동)",
+          "price_source": "실거래 중위가 (61건, 신길동)",
           "funding": {
             "down_payment": 145000000,
             "interim_payment": 870000000,
             "balance": 435000000,
-            "estimated_jeonse": 763141212,
-            "jeonse_investment": 686858788,
+            "estimated_jeonse": 767875332,
+            "jeonse_investment": 682124668,
             "loan_amount": 725000000,
             "loan_investment": 725000000,
             "ltv_rate": 0.5,
             "ltv_limit": 725000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 69600000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -2591,20 +2591,20 @@
           "market_price": 1605940675,
           "profit": -74059325,
           "household_count": 7,
-          "price_source": "실거래 중위가 (111건, 신길동)",
+          "price_source": "실거래 중위가 (112건, 신길동)",
           "funding": {
             "down_payment": 168000000,
             "interim_payment": 1008000000,
             "balance": 504000000,
-            "estimated_jeonse": 755648894,
-            "jeonse_investment": 924351106,
+            "estimated_jeonse": 757241255,
+            "jeonse_investment": 922758745,
             "loan_amount": 840000000,
             "loan_investment": 840000000,
             "ltv_rate": 0.5,
             "ltv_limit": 840000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 80640000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -2616,20 +2616,20 @@
           "market_price": 1605951382,
           "profit": -74048618,
           "household_count": 12,
-          "price_source": "실거래 중위가 (111건, 신길동)",
+          "price_source": "실거래 중위가 (112건, 신길동)",
           "funding": {
             "down_payment": 168000000,
             "interim_payment": 1008000000,
             "balance": 504000000,
-            "estimated_jeonse": 755653932,
-            "jeonse_investment": 924346068,
+            "estimated_jeonse": 757246303,
+            "jeonse_investment": 922753697,
             "loan_amount": 840000000,
             "loan_investment": 840000000,
             "ltv_rate": 0.5,
             "ltv_limit": 840000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 80640000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -2641,20 +2641,20 @@
           "market_price": 1605899988,
           "profit": -54100012,
           "household_count": 11,
-          "price_source": "실거래 중위가 (111건, 신길동)",
+          "price_source": "실거래 중위가 (112건, 신길동)",
           "funding": {
             "down_payment": 166000000,
             "interim_payment": 996000000,
             "balance": 498000000,
-            "estimated_jeonse": 755629750,
-            "jeonse_investment": 904370250,
+            "estimated_jeonse": 757222070,
+            "jeonse_investment": 902777930,
             "loan_amount": 830000000,
             "loan_investment": 830000000,
             "ltv_rate": 0.5,
             "ltv_limit": 830000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 79680000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -2663,23 +2663,23 @@
           "exclusive_area": 74.9992,
           "supply_price": 1670000000,
           "price_per_pyeong": 52702289,
-          "market_price": 1581879807,
-          "profit": -88120193,
+          "market_price": 1583992987,
+          "profit": -86007013,
           "household_count": 1,
-          "price_source": "실거래 중위가 (118건, 신길동)",
+          "price_source": "실거래 중위가 (119건, 신길동)",
           "funding": {
             "down_payment": 167000000,
             "interim_payment": 1002000000,
             "balance": 501000000,
-            "estimated_jeonse": 744327450,
-            "jeonse_investment": 925672550,
+            "estimated_jeonse": 746892370,
+            "jeonse_investment": 923107630,
             "loan_amount": 835000000,
             "loan_investment": 835000000,
             "ltv_rate": 0.5,
             "ltv_limit": 835000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 80160000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -2688,23 +2688,23 @@
           "exclusive_area": 74.9992,
           "supply_price": 1670000000,
           "price_per_pyeong": 52556989,
-          "market_price": 1581879807,
-          "profit": -88120193,
+          "market_price": 1583992987,
+          "profit": -86007013,
           "household_count": 1,
-          "price_source": "실거래 중위가 (118건, 신길동)",
+          "price_source": "실거래 중위가 (119건, 신길동)",
           "funding": {
             "down_payment": 167000000,
             "interim_payment": 1002000000,
             "balance": 501000000,
-            "estimated_jeonse": 744327450,
-            "jeonse_investment": 925672550,
+            "estimated_jeonse": 746892370,
+            "jeonse_investment": 923107630,
             "loan_amount": 835000000,
             "loan_investment": 835000000,
             "ltv_rate": 0.5,
             "ltv_limit": 835000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 80160000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -2713,23 +2713,23 @@
           "exclusive_area": 84.9993,
           "supply_price": 1860000000,
           "price_per_pyeong": 51679172,
-          "market_price": 1875536487,
-          "profit": 15536487,
+          "market_price": 1870424699,
+          "profit": 10424699,
           "household_count": 9,
-          "price_source": "실거래 중위가 (52건, 신길동)",
+          "price_source": "실거래 중위가 (53건, 신길동)",
           "funding": {
             "down_payment": 186000000,
             "interim_payment": 1116000000,
             "balance": 558000000,
-            "estimated_jeonse": 882502757,
-            "jeonse_investment": 977497243,
+            "estimated_jeonse": 881952097,
+            "jeonse_investment": 978047903,
             "loan_amount": 930000000,
             "loan_investment": 930000000,
             "ltv_rate": 0.5,
             "ltv_limit": 930000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 89280000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         },
         {
@@ -2738,23 +2738,23 @@
           "exclusive_area": 84.9977,
           "supply_price": 1880000000,
           "price_per_pyeong": 52000167,
-          "market_price": 1875501183,
-          "profit": -4498817,
+          "market_price": 1870389491,
+          "profit": -9610509,
           "household_count": 1,
-          "price_source": "실거래 중위가 (52건, 신길동)",
+          "price_source": "실거래 중위가 (53건, 신길동)",
           "funding": {
             "down_payment": 188000000,
             "interim_payment": 1128000000,
             "balance": 564000000,
-            "estimated_jeonse": 882486145,
-            "jeonse_investment": 997513855,
+            "estimated_jeonse": 881935496,
+            "jeonse_investment": 998064504,
             "loan_amount": 940000000,
             "loan_investment": 940000000,
             "ltv_rate": 0.5,
             "ltv_limit": 940000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 90240000,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         }
       ]
@@ -2771,7 +2771,7 @@
       "total_households": 686,
       "status": "마감",
       "subscription_type": "APT",
-      "max_profit": 152384932,
+      "max_profit": 152879253,
       "schedule": {
         "announcement_date": "2026-04-30",
         "special_supply_date": null,
@@ -2817,23 +2817,23 @@
           "exclusive_area": 59.0,
           "supply_price": 526780000,
           "price_per_pyeong": 21120291,
-          "market_price": 486817343,
-          "profit": -39962657,
+          "market_price": 486800708,
+          "profit": -39979292,
           "household_count": 8,
-          "price_source": "실거래 중위가 (368건)",
+          "price_source": "실거래 중위가 (372건)",
           "funding": {
             "down_payment": 52678000,
             "interim_payment": 316068000,
             "balance": 158034000,
-            "estimated_jeonse": 360763648,
-            "jeonse_investment": 166016352,
+            "estimated_jeonse": 361771770,
+            "jeonse_investment": 165008230,
             "loan_amount": 421424000,
             "loan_investment": 105356000,
             "ltv_rate": 0.8,
             "ltv_limit": 421424000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 25285440,
-            "jeonse_ratio": 0.741065726808
+            "jeonse_ratio": 0.74316196387
           }
         },
         {
@@ -2842,23 +2842,23 @@
           "exclusive_area": 59.0,
           "supply_price": 527930000,
           "price_per_pyeong": 21120471,
-          "market_price": 486817343,
-          "profit": -41112657,
+          "market_price": 486800708,
+          "profit": -41129292,
           "household_count": 7,
-          "price_source": "실거래 중위가 (368건)",
+          "price_source": "실거래 중위가 (372건)",
           "funding": {
             "down_payment": 52793000,
             "interim_payment": 316758000,
             "balance": 158379000,
-            "estimated_jeonse": 360763648,
-            "jeonse_investment": 167166352,
+            "estimated_jeonse": 361771770,
+            "jeonse_investment": 166158230,
             "loan_amount": 422344000,
             "loan_investment": 105586000,
             "ltv_rate": 0.8,
             "ltv_limit": 422344000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 25340640,
-            "jeonse_ratio": 0.741065726808
+            "jeonse_ratio": 0.74316196387
           }
         },
         {
@@ -2867,23 +2867,23 @@
           "exclusive_area": 74.0,
           "supply_price": 646110000,
           "price_per_pyeong": 20710513,
-          "market_price": 789610042,
-          "profit": 143500042,
+          "market_price": 790421166,
+          "profit": 144311166,
           "household_count": 4,
-          "price_source": "실거래 중위가 (219건)",
+          "price_source": "실거래 중위가 (220건)",
           "funding": {
             "down_payment": 64611000,
             "interim_payment": 387666000,
             "balance": 193833000,
-            "estimated_jeonse": 585152939,
-            "jeonse_investment": 60957061,
+            "estimated_jeonse": 587410946,
+            "jeonse_investment": 58699054,
             "loan_amount": 516888000,
             "loan_investment": 129222000,
             "ltv_rate": 0.8,
             "ltv_limit": 516888000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 31013280,
-            "jeonse_ratio": 0.741065726808
+            "jeonse_ratio": 0.74316196387
           }
         },
         {
@@ -2892,23 +2892,23 @@
           "exclusive_area": 84.0,
           "supply_price": 732450000,
           "price_per_pyeong": 20710573,
-          "market_price": 884834932,
-          "profit": 152384932,
+          "market_price": 885329253,
+          "profit": 152879253,
           "household_count": 1,
-          "price_source": "실거래 중위가 (911건)",
+          "price_source": "실거래 중위가 (916건)",
           "funding": {
             "down_payment": 73245000,
             "interim_payment": 439470000,
             "balance": 219735000,
-            "estimated_jeonse": 655720841,
-            "jeonse_investment": 76729159,
+            "estimated_jeonse": 657943026,
+            "jeonse_investment": 74506974,
             "loan_amount": 585960000,
             "loan_investment": 146490000,
             "ltv_rate": 0.8,
             "ltv_limit": 585960000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 35157600,
-            "jeonse_ratio": 0.741065726808
+            "jeonse_ratio": 0.74316196387
           }
         }
       ]
@@ -2979,15 +2979,15 @@
             "down_payment": 18170000,
             "interim_payment": 109020000,
             "balance": 54510000,
-            "estimated_jeonse": 70483437,
-            "jeonse_investment": 111216563,
+            "estimated_jeonse": 70667532,
+            "jeonse_investment": 111032468,
             "loan_amount": 145360000,
             "loan_investment": 36340000,
             "ltv_rate": 0.8,
             "ltv_limit": 145360000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 8721600,
-            "jeonse_ratio": 0.732884509441
+            "jeonse_ratio": 0.7347987262869999
           }
         },
         {
@@ -2996,23 +2996,23 @@
           "exclusive_area": 46.7967,
           "supply_price": 311300000,
           "price_per_pyeong": 311300000,
-          "market_price": 311810809,
-          "profit": 510809,
+          "market_price": 312646763,
+          "profit": 1346763,
           "household_count": 4,
-          "price_source": "실거래 중위가 (27건)",
+          "price_source": "실거래 중위가 (28건)",
           "funding": {
             "down_payment": 31130000,
             "interim_payment": 186780000,
             "balance": 93390000,
-            "estimated_jeonse": 228521311,
-            "jeonse_investment": 82778689,
+            "estimated_jeonse": 229732443,
+            "jeonse_investment": 81567557,
             "loan_amount": 249040000,
             "loan_investment": 62260000,
             "ltv_rate": 0.8,
             "ltv_limit": 249040000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 14942400,
-            "jeonse_ratio": 0.732884509441
+            "jeonse_ratio": 0.7347987262869999
           }
         },
         {
@@ -3024,228 +3024,20 @@
           "market_price": 437532974,
           "profit": 38632974,
           "household_count": 1,
-          "price_source": "실거래 중위가 (297건)",
+          "price_source": "실거래 중위가 (300건)",
           "funding": {
             "down_payment": 39890000,
             "interim_payment": 239340000,
             "balance": 119670000,
-            "estimated_jeonse": 320661139,
-            "jeonse_investment": 78238861,
+            "estimated_jeonse": 321498672,
+            "jeonse_investment": 77401328,
             "loan_amount": 319120000,
             "loan_investment": 79780000,
             "ltv_rate": 0.8,
             "ltv_limit": 319120000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 19147200,
-            "jeonse_ratio": 0.732884509441
-          }
-        }
-      ]
-    },
-    {
-      "id": "2026910147",
-      "name": "해링턴플레이스 노원 센트럴(2차)",
-      "region": "서울",
-      "sido": "서울",
-      "sigungu": "",
-      "address": "서울특별시 노원구 노원로 495 (상계동 690)",
-      "constructor": "주식회사 엘앤피개발",
-      "homepage": "https://www.harrington495.kr",
-      "total_households": 58,
-      "status": "접수마감",
-      "subscription_type": "무순위/잔여",
-      "max_profit": 29295071,
-      "schedule": {
-        "announcement_date": "2026-06-08",
-        "special_supply_date": null,
-        "first_priority_date": "",
-        "second_priority_date": "",
-        "winner_announce_date": "2026-06-19",
-        "contract_start": "2026-06-23",
-        "contract_end": "2026-06-27",
-        "move_in_date": "202609",
-        "receipt_start": "2026-06-15",
-        "receipt_end": "2026-06-16"
-      },
-      "qualification": {
-        "region_limit": "",
-        "house_type": "무순위",
-        "rent_secd": "",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910147&pblancNo=2026910147"
-      },
-      "regulations": {
-        "is_speculative_zone": false,
-        "is_adjusted_zone": false,
-        "is_price_cap": false,
-        "is_public_zone": false,
-        "resale_restriction": {
-          "period": "6개월~1년",
-          "detail": "비규제지역. 최소 전매제한 적용.",
-          "severity": "약함"
-        },
-        "rewin_restriction": {
-          "period": "없음",
-          "detail": "비규제지역은 재당첨 제한 없음."
-        },
-        "residency_obligation": {
-          "period": "없음",
-          "detail": "거주의무 없음.",
-          "required": false
-        }
-      },
-      "models": [
-        {
-          "housing_type": "059.7419B",
-          "supply_area": 0,
-          "exclusive_area": 59.7419,
-          "supply_price": 870000000,
-          "price_per_pyeong": 870000000,
-          "market_price": 899295071,
-          "profit": 29295071,
-          "household_count": 25,
-          "price_source": "실거래 중위가 (96건)",
-          "funding": {
-            "down_payment": 87000000,
-            "interim_payment": 522000000,
-            "balance": 261000000,
-            "estimated_jeonse": 499765163,
-            "jeonse_investment": 370234837,
-            "loan_amount": 696000000,
-            "loan_investment": 174000000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 696000000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 41760000,
-            "jeonse_ratio": 0.555729904054
-          }
-        },
-        {
-          "housing_type": "059.6793C",
-          "supply_area": 0,
-          "exclusive_area": 59.6793,
-          "supply_price": 870000000,
-          "price_per_pyeong": 870000000,
-          "market_price": 898352753,
-          "profit": 28352753,
-          "household_count": 16,
-          "price_source": "실거래 중위가 (96건)",
-          "funding": {
-            "down_payment": 87000000,
-            "interim_payment": 522000000,
-            "balance": 261000000,
-            "estimated_jeonse": 499241489,
-            "jeonse_investment": 370758511,
-            "loan_amount": 696000000,
-            "loan_investment": 174000000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 696000000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 41760000,
-            "jeonse_ratio": 0.555729904054
-          }
-        },
-        {
-          "housing_type": "059.6793D",
-          "supply_area": 0,
-          "exclusive_area": 59.6793,
-          "supply_price": 870000000,
-          "price_per_pyeong": 870000000,
-          "market_price": 898352753,
-          "profit": 28352753,
-          "household_count": 17,
-          "price_source": "실거래 중위가 (96건)",
-          "funding": {
-            "down_payment": 87000000,
-            "interim_payment": 522000000,
-            "balance": 261000000,
-            "estimated_jeonse": 499241489,
-            "jeonse_investment": 370758511,
-            "loan_amount": 696000000,
-            "loan_investment": 174000000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 696000000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 41760000,
-            "jeonse_ratio": 0.555729904054
-          }
-        }
-      ]
-    },
-    {
-      "id": "2026910124",
-      "name": "의왕고천지구 대방 디에트르 센트럴(B1BL)(2차)",
-      "region": "경기",
-      "sido": "경기",
-      "sigungu": "",
-      "address": "경기도 의왕시 고천동 공공주택지구 B1블록(경기도 의왕시 고천동 190-1일원)",
-      "constructor": "대방이엔씨 주식회사",
-      "homepage": "http://detre-eg.co.kr",
-      "total_households": 1,
-      "status": "접수마감",
-      "subscription_type": "무순위/잔여",
-      "max_profit": -13323431,
-      "schedule": {
-        "announcement_date": "2026-06-08",
-        "special_supply_date": null,
-        "first_priority_date": "",
-        "second_priority_date": "",
-        "winner_announce_date": "2026-06-19",
-        "contract_start": "2026-06-26",
-        "contract_end": "2026-06-26",
-        "move_in_date": "202609",
-        "receipt_start": "2026-06-15",
-        "receipt_end": "2026-06-16"
-      },
-      "qualification": {
-        "region_limit": "",
-        "house_type": "무순위",
-        "rent_secd": "",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910124&pblancNo=2026910124"
-      },
-      "regulations": {
-        "is_speculative_zone": false,
-        "is_adjusted_zone": false,
-        "is_price_cap": false,
-        "is_public_zone": false,
-        "resale_restriction": {
-          "period": "6개월~1년",
-          "detail": "비규제지역. 최소 전매제한 적용.",
-          "severity": "약함"
-        },
-        "rewin_restriction": {
-          "period": "없음",
-          "detail": "비규제지역은 재당첨 제한 없음."
-        },
-        "residency_obligation": {
-          "period": "없음",
-          "detail": "거주의무 없음.",
-          "required": false
-        }
-      },
-      "models": [
-        {
-          "housing_type": "084.9705A",
-          "supply_area": 0,
-          "exclusive_area": 84.9705,
-          "supply_price": 793250000,
-          "price_per_pyeong": 793250000,
-          "market_price": 779926569,
-          "profit": -13323431,
-          "household_count": 1,
-          "price_source": "실거래 중위가 (7건, 고천동)",
-          "funding": {
-            "down_payment": 79325000,
-            "interim_payment": 475950000,
-            "balance": 237975000,
-            "estimated_jeonse": 483947390,
-            "jeonse_investment": 309302610,
-            "loan_amount": 634600000,
-            "loan_investment": 158650000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 634600000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 38076000,
-            "jeonse_ratio": 0.620503788667
+            "jeonse_ratio": 0.7347987262869999
           }
         }
       ]
@@ -3311,20 +3103,20 @@
           "market_price": 474918403,
           "profit": -20281597,
           "household_count": 125,
-          "price_source": "실거래 중위가 (277건)",
+          "price_source": "실거래 중위가 (281건)",
           "funding": {
             "down_payment": 49520000,
             "interim_payment": 297120000,
             "balance": 148560000,
-            "estimated_jeonse": 315733251,
-            "jeonse_investment": 179466749,
+            "estimated_jeonse": 316416137,
+            "jeonse_investment": 178783863,
             "loan_amount": 396160000,
             "loan_investment": 99040000,
             "ltv_rate": 0.8,
             "ltv_limit": 396160000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 23769600,
-            "jeonse_ratio": 0.6648157869269999
+            "jeonse_ratio": 0.6662536885289999
           }
         },
         {
@@ -3336,20 +3128,20 @@
           "market_price": 473970938,
           "profit": -13429062,
           "household_count": 109,
-          "price_source": "실거래 중위가 (277건)",
+          "price_source": "실거래 중위가 (281건)",
           "funding": {
             "down_payment": 48740000,
             "interim_payment": 292440000,
             "balance": 146220000,
-            "estimated_jeonse": 315103362,
-            "jeonse_investment": 172296638,
+            "estimated_jeonse": 315784885,
+            "jeonse_investment": 171615115,
             "loan_amount": 389920000,
             "loan_investment": 97480000,
             "ltv_rate": 0.8,
             "ltv_limit": 389920000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 23395200,
-            "jeonse_ratio": 0.6648157869269999
+            "jeonse_ratio": 0.6662536885289999
           }
         },
         {
@@ -3358,23 +3150,23 @@
           "exclusive_area": 84.5181,
           "supply_price": 662700000,
           "price_per_pyeong": 19617436,
-          "market_price": 626531464,
-          "profit": -36168536,
+          "market_price": 626530726,
+          "profit": -36169274,
           "household_count": 153,
-          "price_source": "실거래 중위가 (933건)",
+          "price_source": "실거래 중위가 (939건)",
           "funding": {
             "down_payment": 66270000,
             "interim_payment": 397620000,
             "balance": 198810000,
-            "estimated_jeonse": 416528008,
-            "jeonse_investment": 246171992,
+            "estimated_jeonse": 417428407,
+            "jeonse_investment": 245271593,
             "loan_amount": 530160000,
             "loan_investment": 132540000,
             "ltv_rate": 0.8,
             "ltv_limit": 530160000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 31809600,
-            "jeonse_ratio": 0.6648157869269999
+            "jeonse_ratio": 0.6662536885289999
           }
         },
         {
@@ -3383,23 +3175,23 @@
           "exclusive_area": 84.0342,
           "supply_price": 655800000,
           "price_per_pyeong": 19320706,
-          "market_price": 622929294,
-          "profit": -32870706,
+          "market_price": 622908772,
+          "profit": -32891228,
           "household_count": 59,
-          "price_source": "실거래 중위가 (936건)",
+          "price_source": "실거래 중위가 (942건)",
           "funding": {
             "down_payment": 65580000,
             "interim_payment": 393480000,
             "balance": 196740000,
-            "estimated_jeonse": 414133228,
-            "jeonse_investment": 241666772,
+            "estimated_jeonse": 415015266,
+            "jeonse_investment": 240784734,
             "loan_amount": 524640000,
             "loan_investment": 131160000,
             "ltv_rate": 0.8,
             "ltv_limit": 524640000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 31478400,
-            "jeonse_ratio": 0.6648157869269999
+            "jeonse_ratio": 0.6662536885289999
           }
         },
         {
@@ -3408,23 +3200,23 @@
           "exclusive_area": 84.1796,
           "supply_price": 645900000,
           "price_per_pyeong": 19224370,
-          "market_price": 624007116,
-          "profit": -21892884,
+          "market_price": 623986558,
+          "profit": -21913442,
           "household_count": 59,
-          "price_source": "실거래 중위가 (936건)",
+          "price_source": "실거래 중위가 (942건)",
           "funding": {
             "down_payment": 64590000,
             "interim_payment": 387540000,
             "balance": 193770000,
-            "estimated_jeonse": 414849781,
-            "jeonse_investment": 231050219,
+            "estimated_jeonse": 415733345,
+            "jeonse_investment": 230166655,
             "loan_amount": 516720000,
             "loan_investment": 129180000,
             "ltv_rate": 0.8,
             "ltv_limit": 516720000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 31003200,
-            "jeonse_ratio": 0.6648157869269999
+            "jeonse_ratio": 0.6662536885289999
           }
         }
       ]
@@ -3487,23 +3279,23 @@
           "exclusive_area": 84.839,
           "supply_price": 569800000,
           "price_per_pyeong": 17406632,
-          "market_price": 427380410,
-          "profit": -142419590,
+          "market_price": 426418395,
+          "profit": -143381605,
           "household_count": 40,
-          "price_source": "실거래 중위가 (932건)",
+          "price_source": "실거래 중위가 (944건)",
           "funding": {
             "down_payment": 56980000,
             "interim_payment": 341880000,
             "balance": 170940000,
-            "estimated_jeonse": 309497021,
-            "jeonse_investment": 260302979,
+            "estimated_jeonse": 311154619,
+            "jeonse_investment": 258645381,
             "loan_amount": 455840000,
             "loan_investment": 113960000,
             "ltv_rate": 0.8,
             "ltv_limit": 455840000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 27350400,
-            "jeonse_ratio": 0.724172223505
+            "jeonse_ratio": 0.729693237427
           }
         },
         {
@@ -3512,23 +3304,23 @@
           "exclusive_area": 84.9914,
           "supply_price": 567900000,
           "price_per_pyeong": 17216903,
-          "market_price": 428148132,
-          "profit": -139751868,
+          "market_price": 427184389,
+          "profit": -140715611,
           "household_count": 33,
-          "price_source": "실거래 중위가 (932건)",
+          "price_source": "실거래 중위가 (944건)",
           "funding": {
             "down_payment": 56790000,
             "interim_payment": 340740000,
             "balance": 170370000,
-            "estimated_jeonse": 310052984,
-            "jeonse_investment": 257847016,
+            "estimated_jeonse": 311713559,
+            "jeonse_investment": 256186441,
             "loan_amount": 454320000,
             "loan_investment": 113580000,
             "ltv_rate": 0.8,
             "ltv_limit": 454320000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 27259200,
-            "jeonse_ratio": 0.724172223505
+            "jeonse_ratio": 0.729693237427
           }
         },
         {
@@ -3537,23 +3329,23 @@
           "exclusive_area": 84.9865,
           "supply_price": 558700000,
           "price_per_pyeong": 16981453,
-          "market_price": 428123448,
-          "profit": -130576552,
+          "market_price": 427159761,
+          "profit": -131540239,
           "household_count": 24,
-          "price_source": "실거래 중위가 (932건)",
+          "price_source": "실거래 중위가 (944건)",
           "funding": {
             "down_payment": 55870000,
             "interim_payment": 335220000,
             "balance": 167610000,
-            "estimated_jeonse": 310035109,
-            "jeonse_investment": 248664891,
+            "estimated_jeonse": 311695588,
+            "jeonse_investment": 247004412,
             "loan_amount": 446960000,
             "loan_investment": 111740000,
             "ltv_rate": 0.8,
             "ltv_limit": 446960000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 26817600,
-            "jeonse_ratio": 0.724172223505
+            "jeonse_ratio": 0.729693237427
           }
         },
         {
@@ -3570,15 +3362,15 @@
             "down_payment": 66500000,
             "interim_payment": 399000000,
             "balance": 199500000,
-            "estimated_jeonse": 458792129,
-            "jeonse_investment": 206207871,
+            "estimated_jeonse": 462289912,
+            "jeonse_investment": 202710088,
             "loan_amount": 532000000,
             "loan_investment": 133000000,
             "ltv_rate": 0.8,
             "ltv_limit": 532000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 31920000,
-            "jeonse_ratio": 0.724172223505
+            "jeonse_ratio": 0.729693237427
           }
         }
       ]
@@ -3649,15 +3441,15 @@
             "down_payment": 92500000,
             "interim_payment": 555000000,
             "balance": 277500000,
-            "estimated_jeonse": 554898218,
-            "jeonse_investment": 370101782,
+            "estimated_jeonse": 554192851,
+            "jeonse_investment": 370807149,
             "loan_amount": 462500000,
             "loan_investment": 462500000,
             "ltv_rate": 0.5,
             "ltv_limit": 462500000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 44400000,
-            "jeonse_ratio": 0.6348313213410001
+            "jeonse_ratio": 0.634024346214
           }
         },
         {
@@ -3674,15 +3466,15 @@
             "down_payment": 115400000,
             "interim_payment": 692400000,
             "balance": 346200000,
-            "estimated_jeonse": 622174283,
-            "jeonse_investment": 531825717,
+            "estimated_jeonse": 621383397,
+            "jeonse_investment": 532616603,
             "loan_amount": 577000000,
             "loan_investment": 577000000,
             "ltv_rate": 0.5,
             "ltv_limit": 577000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 55392000,
-            "jeonse_ratio": 0.6348313213410001
+            "jeonse_ratio": 0.634024346214
           }
         },
         {
@@ -3691,23 +3483,23 @@
           "exclusive_area": 112.9104,
           "supply_price": 1370000000,
           "price_per_pyeong": 30532844,
-          "market_price": 801026949,
-          "profit": -568973051,
+          "market_price": 801236186,
+          "profit": -568763814,
           "household_count": 2,
-          "price_source": "실거래 중위가 (101건, 미아동)",
+          "price_source": "실거래 중위가 (103건, 미아동)",
           "funding": {
             "down_payment": 137000000,
             "interim_payment": 822000000,
             "balance": 411000000,
-            "estimated_jeonse": 508516996,
-            "jeonse_investment": 861483004,
+            "estimated_jeonse": 508003248,
+            "jeonse_investment": 861996752,
             "loan_amount": 685000000,
             "loan_investment": 685000000,
             "ltv_rate": 0.5,
             "ltv_limit": 685000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 65760000,
-            "jeonse_ratio": 0.6348313213410001
+            "jeonse_ratio": 0.634024346214
           }
         }
       ]
@@ -3722,7 +3514,7 @@
       "constructor": "노블레르",
       "homepage": "https://www.선유노블레르.com",
       "total_households": 18,
-      "status": "접수중",
+      "status": "접수마감",
       "subscription_type": "오피스텔/도시형",
       "max_profit": -82387272,
       "schedule": {
@@ -3778,15 +3570,15 @@
             "down_payment": 59670000,
             "interim_payment": 358020000,
             "balance": 179010000,
-            "estimated_jeonse": 242001370,
-            "jeonse_investment": 354698630,
+            "estimated_jeonse": 242511334,
+            "jeonse_investment": 354188666,
             "loan_amount": 477360000,
             "loan_investment": 119340000,
             "ltv_rate": 0.8,
             "ltv_limit": 477360000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 28641600,
-            "jeonse_ratio": 0.470533505039
+            "jeonse_ratio": 0.47152504883
           }
         }
       ]
@@ -3852,20 +3644,20 @@
           "market_price": 369630017,
           "profit": -134069983,
           "household_count": 70,
-          "price_source": "실거래 중위가 (169건)",
+          "price_source": "실거래 중위가 (171건)",
           "funding": {
             "down_payment": 50370000,
             "interim_payment": 302220000,
             "balance": 151110000,
-            "estimated_jeonse": 269848192,
-            "jeonse_investment": 233851808,
+            "estimated_jeonse": 271217477,
+            "jeonse_investment": 232482523,
             "loan_amount": 402960000,
             "loan_investment": 100740000,
             "ltv_rate": 0.8,
             "ltv_limit": 402960000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 24177600,
-            "jeonse_ratio": 0.730049455199
+            "jeonse_ratio": 0.733753929546
           }
         },
         {
@@ -3877,20 +3669,20 @@
           "market_price": 369143969,
           "profit": -148356031,
           "household_count": 40,
-          "price_source": "실거래 중위가 (171건)",
+          "price_source": "실거래 중위가 (173건)",
           "funding": {
             "down_payment": 51750000,
             "interim_payment": 310500000,
             "balance": 155250000,
-            "estimated_jeonse": 269493353,
-            "jeonse_investment": 248006647,
+            "estimated_jeonse": 270860837,
+            "jeonse_investment": 246639163,
             "loan_amount": 414000000,
             "loan_investment": 103500000,
             "ltv_rate": 0.8,
             "ltv_limit": 414000000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 24840000,
-            "jeonse_ratio": 0.730049455199
+            "jeonse_ratio": 0.733753929546
           }
         },
         {
@@ -3907,15 +3699,15 @@
             "down_payment": 60460000,
             "interim_payment": 362760000,
             "balance": 181380000,
-            "estimated_jeonse": 357378101,
-            "jeonse_investment": 247221899,
+            "estimated_jeonse": 359191537,
+            "jeonse_investment": 245408463,
             "loan_amount": 483680000,
             "loan_investment": 120920000,
             "ltv_rate": 0.8,
             "ltv_limit": 483680000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 29020800,
-            "jeonse_ratio": 0.730049455199
+            "jeonse_ratio": 0.733753929546
           }
         },
         {
@@ -3932,15 +3724,15 @@
             "down_payment": 61510000,
             "interim_payment": 369060000,
             "balance": 184530000,
-            "estimated_jeonse": 357482989,
-            "jeonse_investment": 257617011,
+            "estimated_jeonse": 359296957,
+            "jeonse_investment": 255803043,
             "loan_amount": 492080000,
             "loan_investment": 123020000,
             "ltv_rate": 0.8,
             "ltv_limit": 492080000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 29524800,
-            "jeonse_ratio": 0.730049455199
+            "jeonse_ratio": 0.733753929546
           }
         },
         {
@@ -3957,15 +3749,15 @@
             "down_payment": 61120000,
             "interim_payment": 366720000,
             "balance": 183360000,
-            "estimated_jeonse": 357384776,
-            "jeonse_investment": 253815224,
+            "estimated_jeonse": 359198246,
+            "jeonse_investment": 252001754,
             "loan_amount": 488960000,
             "loan_investment": 122240000,
             "ltv_rate": 0.8,
             "ltv_limit": 488960000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 29337600,
-            "jeonse_ratio": 0.730049455199
+            "jeonse_ratio": 0.733753929546
           }
         },
         {
@@ -3974,23 +3766,23 @@
           "exclusive_area": 84.9121,
           "supply_price": 672000000,
           "price_per_pyeong": 20270248,
-          "market_price": 519516044,
-          "profit": -152483956,
+          "market_price": 519525213,
+          "profit": -152474787,
           "household_count": 254,
-          "price_source": "실거래 중위가 (51건, 내삼미동)",
+          "price_source": "실거래 중위가 (52건, 내삼미동)",
           "funding": {
             "down_payment": 67200000,
             "interim_payment": 403200000,
             "balance": 201600000,
-            "estimated_jeonse": 379272404,
-            "jeonse_investment": 292727596,
+            "estimated_jeonse": 381203666,
+            "jeonse_investment": 290796334,
             "loan_amount": 537600000,
             "loan_investment": 134400000,
             "ltv_rate": 0.8,
             "ltv_limit": 537600000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 32256000,
-            "jeonse_ratio": 0.730049455199
+            "jeonse_ratio": 0.733753929546
           }
         },
         {
@@ -3999,23 +3791,23 @@
           "exclusive_area": 84.9102,
           "supply_price": 683100000,
           "price_per_pyeong": 20624377,
-          "market_price": 519504419,
-          "profit": -163595581,
+          "market_price": 519513588,
+          "profit": -163586412,
           "household_count": 52,
-          "price_source": "실거래 중위가 (51건, 내삼미동)",
+          "price_source": "실거래 중위가 (52건, 내삼미동)",
           "funding": {
             "down_payment": 68310000,
             "interim_payment": 409860000,
             "balance": 204930000,
-            "estimated_jeonse": 379263918,
-            "jeonse_investment": 303836082,
+            "estimated_jeonse": 381195136,
+            "jeonse_investment": 301904864,
             "loan_amount": 546480000,
             "loan_investment": 136620000,
             "ltv_rate": 0.8,
             "ltv_limit": 546480000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 32788800,
-            "jeonse_ratio": 0.730049455199
+            "jeonse_ratio": 0.733753929546
           }
         },
         {
@@ -4024,23 +3816,23 @@
           "exclusive_area": 84.9695,
           "supply_price": 670500000,
           "price_per_pyeong": 20087042,
-          "market_price": 519867233,
-          "profit": -150632767,
+          "market_price": 519876408,
+          "profit": -150623592,
           "household_count": 40,
-          "price_source": "실거래 중위가 (51건, 내삼미동)",
+          "price_source": "실거래 중위가 (52건, 내삼미동)",
           "funding": {
             "down_payment": 67050000,
             "interim_payment": 402300000,
             "balance": 201150000,
-            "estimated_jeonse": 379528790,
-            "jeonse_investment": 290971210,
+            "estimated_jeonse": 381461357,
+            "jeonse_investment": 289038643,
             "loan_amount": 536400000,
             "loan_investment": 134100000,
             "ltv_rate": 0.8,
             "ltv_limit": 536400000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 32184000,
-            "jeonse_ratio": 0.730049455199
+            "jeonse_ratio": 0.733753929546
           }
         },
         {
@@ -4049,23 +3841,23 @@
           "exclusive_area": 99.3455,
           "supply_price": 758600000,
           "price_per_pyeong": 19623658,
-          "market_price": 566791577,
-          "profit": -191808423,
+          "market_price": 573329691,
+          "profit": -185270309,
           "household_count": 143,
-          "price_source": "실거래 중위가 (18건, 내삼미동)",
+          "price_source": "실거래 중위가 (19건)",
           "funding": {
             "down_payment": 75860000,
             "interim_payment": 455160000,
             "balance": 227580000,
-            "estimated_jeonse": 413785882,
-            "jeonse_investment": 344814118,
+            "estimated_jeonse": 420682913,
+            "jeonse_investment": 337917087,
             "loan_amount": 606880000,
             "loan_investment": 151720000,
             "ltv_rate": 0.8,
             "ltv_limit": 606880000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 36412800,
-            "jeonse_ratio": 0.730049455199
+            "jeonse_ratio": 0.733753929546
           }
         },
         {
@@ -4074,23 +3866,23 @@
           "exclusive_area": 99.3436,
           "supply_price": 770500000,
           "price_per_pyeong": 19948473,
-          "market_price": 566780737,
-          "profit": -203719263,
+          "market_price": 573318726,
+          "profit": -197181274,
           "household_count": 49,
-          "price_source": "실거래 중위가 (18건, 내삼미동)",
+          "price_source": "실거래 중위가 (19건)",
           "funding": {
             "down_payment": 77050000,
             "interim_payment": 462300000,
             "balance": 231150000,
-            "estimated_jeonse": 413777968,
-            "jeonse_investment": 356722032,
+            "estimated_jeonse": 420674868,
+            "jeonse_investment": 349825132,
             "loan_amount": 616400000,
             "loan_investment": 154100000,
             "ltv_rate": 0.8,
             "ltv_limit": 616400000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 36984000,
-            "jeonse_ratio": 0.730049455199
+            "jeonse_ratio": 0.733753929546
           }
         },
         {
@@ -4107,15 +3899,15 @@
             "down_payment": 148640000,
             "interim_payment": 891840000,
             "balance": 445920000,
-            "estimated_jeonse": 322930722,
-            "jeonse_investment": 1163469278,
+            "estimated_jeonse": 324569363,
+            "jeonse_investment": 1161830637,
             "loan_amount": 957078683,
             "loan_investment": 529321317,
             "ltv_rate": 0.8,
             "ltv_limit": 1189120000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 71347200,
-            "jeonse_ratio": 0.730049455199
+            "jeonse_ratio": 0.733753929546
           }
         },
         {
@@ -4132,15 +3924,15 @@
             "down_payment": 149430000,
             "interim_payment": 896580000,
             "balance": 448290000,
-            "estimated_jeonse": 324685785,
-            "jeonse_investment": 1169614215,
+            "estimated_jeonse": 326333331,
+            "jeonse_investment": 1167966669,
             "loan_amount": 957078683,
             "loan_investment": 537221317,
             "ltv_rate": 0.8,
             "ltv_limit": 1195440000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 71726400,
-            "jeonse_ratio": 0.730049455199
+            "jeonse_ratio": 0.733753929546
           }
         }
       ]
@@ -4211,15 +4003,15 @@
             "down_payment": 49010000,
             "interim_payment": 294060000,
             "balance": 147030000,
-            "estimated_jeonse": 238426525,
-            "jeonse_investment": 251673475,
+            "estimated_jeonse": 238942208,
+            "jeonse_investment": 251157792,
             "loan_amount": 392080000,
             "loan_investment": 98020000,
             "ltv_rate": 0.8,
             "ltv_limit": 392080000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 23524800,
-            "jeonse_ratio": 0.6648157869269999
+            "jeonse_ratio": 0.6662536885289999
           }
         },
         {
@@ -4236,15 +4028,15 @@
             "down_payment": 48240000,
             "interim_payment": 289440000,
             "balance": 144720000,
-            "estimated_jeonse": 237950863,
-            "jeonse_investment": 244449137,
+            "estimated_jeonse": 238465516,
+            "jeonse_investment": 243934484,
             "loan_amount": 385920000,
             "loan_investment": 96480000,
             "ltv_rate": 0.8,
             "ltv_limit": 385920000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 23155200,
-            "jeonse_ratio": 0.6648157869269999
+            "jeonse_ratio": 0.6662536885289999
           }
         },
         {
@@ -4261,15 +4053,15 @@
             "down_payment": 65330000,
             "interim_payment": 391980000,
             "balance": 195990000,
-            "estimated_jeonse": 331218504,
-            "jeonse_investment": 322081496,
+            "estimated_jeonse": 331934883,
+            "jeonse_investment": 321365117,
             "loan_amount": 522640000,
             "loan_investment": 130660000,
             "ltv_rate": 0.8,
             "ltv_limit": 522640000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 31358400,
-            "jeonse_ratio": 0.6648157869269999
+            "jeonse_ratio": 0.6662536885289999
           }
         },
         {
@@ -4286,15 +4078,15 @@
             "down_payment": 64660000,
             "interim_payment": 387960000,
             "balance": 193980000,
-            "estimated_jeonse": 329322146,
-            "jeonse_investment": 317277854,
+            "estimated_jeonse": 330034423,
+            "jeonse_investment": 316565577,
             "loan_amount": 517280000,
             "loan_investment": 129320000,
             "ltv_rate": 0.8,
             "ltv_limit": 517280000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 31036800,
-            "jeonse_ratio": 0.6648157869269999
+            "jeonse_ratio": 0.6662536885289999
           }
         },
         {
@@ -4311,15 +4103,15 @@
             "down_payment": 63680000,
             "interim_payment": 382080000,
             "balance": 191040000,
-            "estimated_jeonse": 329891955,
-            "jeonse_investment": 306908045,
+            "estimated_jeonse": 330605464,
+            "jeonse_investment": 306194536,
             "loan_amount": 509440000,
             "loan_investment": 127360000,
             "ltv_rate": 0.8,
             "ltv_limit": 509440000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 30566400,
-            "jeonse_ratio": 0.6648157869269999
+            "jeonse_ratio": 0.6662536885289999
           }
         }
       ]
@@ -4390,15 +4182,15 @@
             "down_payment": 44143000,
             "interim_payment": 264858000,
             "balance": 132429000,
-            "estimated_jeonse": 225006466,
-            "jeonse_investment": 216423534,
+            "estimated_jeonse": 225433029,
+            "jeonse_investment": 215996971,
             "loan_amount": 353144000,
             "loan_investment": 88286000,
             "ltv_rate": 0.8,
             "ltv_limit": 353144000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 21188640,
-            "jeonse_ratio": 0.747291713507
+            "jeonse_ratio": 0.74870841362
           }
         },
         {
@@ -4415,15 +4207,15 @@
             "down_payment": 45007000,
             "interim_payment": 270042000,
             "balance": 135021000,
-            "estimated_jeonse": 225033474,
-            "jeonse_investment": 225036526,
+            "estimated_jeonse": 225460088,
+            "jeonse_investment": 224609912,
             "loan_amount": 360056000,
             "loan_investment": 90014000,
             "ltv_rate": 0.8,
             "ltv_limit": 360056000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 21603360,
-            "jeonse_ratio": 0.747291713507
+            "jeonse_ratio": 0.74870841362
           }
         },
         {
@@ -4440,15 +4232,15 @@
             "down_payment": 54511000,
             "interim_payment": 327066000,
             "balance": 163533000,
-            "estimated_jeonse": 274314613,
-            "jeonse_investment": 270795387,
+            "estimated_jeonse": 274834653,
+            "jeonse_investment": 270275347,
             "loan_amount": 436088000,
             "loan_investment": 109022000,
             "ltv_rate": 0.8,
             "ltv_limit": 436088000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 26165280,
-            "jeonse_ratio": 0.747291713507
+            "jeonse_ratio": 0.74870841362
           }
         }
       ]
@@ -4519,15 +4311,15 @@
             "down_payment": 59076000,
             "interim_payment": 354456000,
             "balance": 177228000,
-            "estimated_jeonse": 255034252,
-            "jeonse_investment": 335725748,
+            "estimated_jeonse": 255625085,
+            "jeonse_investment": 335134915,
             "loan_amount": 472608000,
             "loan_investment": 118152000,
             "ltv_rate": 0.8,
             "ltv_limit": 472608000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 28356480,
-            "jeonse_ratio": 0.669921512926
+            "jeonse_ratio": 0.671473505945
           }
         },
         {
@@ -4544,15 +4336,15 @@
             "down_payment": 63651000,
             "interim_payment": 381906000,
             "balance": 190953000,
-            "estimated_jeonse": 275036939,
-            "jeonse_investment": 361473061,
+            "estimated_jeonse": 275674111,
+            "jeonse_investment": 360835889,
             "loan_amount": 509208000,
             "loan_investment": 127302000,
             "ltv_rate": 0.8,
             "ltv_limit": 509208000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 30552480,
-            "jeonse_ratio": 0.669921512926
+            "jeonse_ratio": 0.671473505945
           }
         },
         {
@@ -4569,15 +4361,15 @@
             "down_payment": 63629000,
             "interim_payment": 381774000,
             "balance": 190887000,
-            "estimated_jeonse": 275036939,
-            "jeonse_investment": 361253061,
+            "estimated_jeonse": 275674111,
+            "jeonse_investment": 360615889,
             "loan_amount": 509032000,
             "loan_investment": 127258000,
             "ltv_rate": 0.8,
             "ltv_limit": 509032000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 30541920,
-            "jeonse_ratio": 0.669921512926
+            "jeonse_ratio": 0.671473505945
           }
         },
         {
@@ -4594,15 +4386,15 @@
             "down_payment": 68238000,
             "interim_payment": 409428000,
             "balance": 204714000,
-            "estimated_jeonse": 295039626,
-            "jeonse_investment": 387340374,
+            "estimated_jeonse": 295723138,
+            "jeonse_investment": 386656862,
             "loan_amount": 545904000,
             "loan_investment": 136476000,
             "ltv_rate": 0.8,
             "ltv_limit": 545904000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 32754240,
-            "jeonse_ratio": 0.669921512926
+            "jeonse_ratio": 0.671473505945
           }
         },
         {
@@ -4619,94 +4411,15 @@
             "down_payment": 68272000,
             "interim_payment": 409632000,
             "balance": 204816000,
-            "estimated_jeonse": 295039626,
-            "jeonse_investment": 387680374,
+            "estimated_jeonse": 295723138,
+            "jeonse_investment": 386996862,
             "loan_amount": 546176000,
             "loan_investment": 136544000,
             "ltv_rate": 0.8,
             "ltv_limit": 546176000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 32770560,
-            "jeonse_ratio": 0.669921512926
-          }
-        }
-      ]
-    },
-    {
-      "id": "2026910151",
-      "name": "에스아이팰리스 올림픽공원 (9차)",
-      "region": "서울",
-      "sido": "서울",
-      "sigungu": "",
-      "address": "서울특별시 강동구 성내동 459-3",
-      "constructor": "주식회사 성우파트너스",
-      "homepage": "http://에스아이팰리스올림픽공원.com",
-      "total_households": 9,
-      "status": "접수마감",
-      "subscription_type": "무순위/잔여",
-      "max_profit": -261325563,
-      "schedule": {
-        "announcement_date": "2026-06-10",
-        "special_supply_date": null,
-        "first_priority_date": "",
-        "second_priority_date": "",
-        "winner_announce_date": "2026-06-19",
-        "contract_start": "2026-06-23",
-        "contract_end": "2026-06-24",
-        "move_in_date": "202607",
-        "receipt_start": "2026-06-15",
-        "receipt_end": "2026-06-16"
-      },
-      "qualification": {
-        "region_limit": "",
-        "house_type": "무순위",
-        "rent_secd": "",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910151&pblancNo=2026910151"
-      },
-      "regulations": {
-        "is_speculative_zone": false,
-        "is_adjusted_zone": false,
-        "is_price_cap": false,
-        "is_public_zone": false,
-        "resale_restriction": {
-          "period": "6개월~1년",
-          "detail": "비규제지역. 최소 전매제한 적용.",
-          "severity": "약함"
-        },
-        "rewin_restriction": {
-          "period": "없음",
-          "detail": "비규제지역은 재당첨 제한 없음."
-        },
-        "residency_obligation": {
-          "period": "없음",
-          "detail": "거주의무 없음.",
-          "required": false
-        }
-      },
-      "models": [
-        {
-          "housing_type": "052.5256A",
-          "supply_area": 0,
-          "exclusive_area": 52.5256,
-          "supply_price": 1200000000,
-          "price_per_pyeong": 1200000000,
-          "market_price": 938674437,
-          "profit": -261325563,
-          "household_count": 9,
-          "price_source": "실거래 중위가 (59건)",
-          "funding": {
-            "down_payment": 120000000,
-            "interim_payment": 720000000,
-            "balance": 360000000,
-            "estimated_jeonse": 432898085,
-            "jeonse_investment": 767101915,
-            "loan_amount": 957078683,
-            "loan_investment": 242921317,
-            "ltv_rate": 0.8,
-            "ltv_limit": 960000000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 57600000,
-            "jeonse_ratio": 0.46118022193900005
+            "jeonse_ratio": 0.671473505945
           }
         }
       ]
@@ -4777,15 +4490,15 @@
             "down_payment": 99200000,
             "interim_payment": 595200000,
             "balance": 297600000,
-            "estimated_jeonse": 302710409,
-            "jeonse_investment": 689289591,
+            "estimated_jeonse": 302060775,
+            "jeonse_investment": 689939225,
             "loan_amount": 793600000,
             "loan_investment": 198400000,
             "ltv_rate": 0.8,
             "ltv_limit": 793600000,
             "dsr_limit_amount": 957078683,
             "interim_interest": 47616000,
-            "jeonse_ratio": 0.536587140532
+            "jeonse_ratio": 0.535435592846
           }
         }
       ]
