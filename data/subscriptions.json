@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21 03:52:44",
+  "updated_at": "2026-06-22 03:59:36",
   "total_collected": 66,
   "total_filtered": 24,
   "items": [
@@ -804,7 +804,7 @@
       "constructor": "(주)한국토지신탁",
       "homepage": "https://www.i-park.com/gangbyeon",
       "total_households": 2,
-      "status": "접수예정",
+      "status": "접수마감",
       "subscription_type": "무순위/잔여",
       "max_profit": 698200250,
       "schedule": {
@@ -1599,7 +1599,7 @@
       "constructor": "코리아신탁(주)",
       "homepage": "https://www.thehive-first.com/",
       "total_households": 10,
-      "status": "접수예정",
+      "status": "접수중",
       "subscription_type": "오피스텔/도시형",
       "max_profit": 259229808,
       "schedule": {
@@ -2669,7 +2669,7 @@
       "constructor": "파주시금촌2동제2지구주택재개발정비사업조합",
       "homepage": "https://pjkhapt.com",
       "total_households": 10,
-      "status": "접수예정",
+      "status": "접수마감",
       "subscription_type": "무순위/잔여",
       "max_profit": 38632974,
       "schedule": {
@@ -2977,7 +2977,7 @@
       "constructor": "평택고덕비에스한양컨소시엄(주)",
       "homepage": "https://고덕국제신도시수자인하우스디.com",
       "total_households": 403,
-      "status": "접수예정",
+      "status": "접수중",
       "subscription_type": "APT",
       "max_profit": -31459919,
       "schedule": {
@@ -3131,7 +3131,7 @@
       "constructor": "미아제3구역주택재개발정비사업조합",
       "homepage": "https://xi.co.kr/mi3",
       "total_households": 6,
-      "status": "접수예정",
+      "status": "접수중",
       "subscription_type": "APT",
       "max_profit": -50912349,
       "schedule": {
@@ -3339,7 +3339,7 @@
       "constructor": "한국투자부동산신탁 주식회사",
       "homepage": "https://www.xi.co.kr/osantf",
       "total_households": 1517,
-      "status": "접수예정",
+      "status": "접수중",
       "subscription_type": "APT",
       "max_profit": -115074121,
       "schedule": {
@@ -3872,7 +3872,7 @@
       "constructor": "간석성락아파트구역주택재개발정비사업조합",
       "homepage": "http://www.hs-thehue.com",
       "total_households": 3,
-      "status": "접수예정",
+      "status": "접수마감",
       "subscription_type": "무순위/잔여",
       "max_profit": -140334106,
       "schedule": {
@@ -4180,7 +4180,7 @@
       "constructor": "우리자산신탁주식회사",
       "homepage": "https://www.hillstate.co.kr/s/Labonita",
       "total_households": 10,
-      "status": "접수예정",
+      "status": "접수마감",
       "subscription_type": "오피스텔/도시형",
       "max_profit": -427859739,
       "schedule": {
