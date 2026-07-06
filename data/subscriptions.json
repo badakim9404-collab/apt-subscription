@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-05 02:54:34",
-  "total_collected": 72,
-  "total_filtered": 28,
+  "updated_at": "2026-07-06 03:04:38",
+  "total_collected": 70,
+  "total_filtered": 26,
   "items": [
     {
       "id": "2026000058",
@@ -1953,7 +1953,7 @@
       "constructor": "양지7지구 3단지 지역주택조합",
       "homepage": "https://www.오남역서희스타힐스여의재.com",
       "total_households": 58,
-      "status": "접수예정",
+      "status": "접수마감",
       "subscription_type": "무순위/잔여",
       "max_profit": 191311653,
       "schedule": {
@@ -2773,7 +2773,7 @@
       "constructor": "(주)시너지밸류제2호",
       "homepage": "https://www.oceanforebenest.com",
       "total_households": 3,
-      "status": "접수예정",
+      "status": "접수마감",
       "subscription_type": "무순위/잔여",
       "max_profit": -66123879,
       "schedule": {
@@ -3151,110 +3151,6 @@
       ]
     },
     {
-      "id": "2026000278",
-      "name": "양주 회천지구 A-8BL 로제비앙 엘가",
-      "region": "경기",
-      "sido": "경기",
-      "sigungu": "",
-      "address": "경기도 양주시 회정동 양주신도시 회천지구 A8블록",
-      "constructor": "(주)디케이월드",
-      "homepage": "https://gtx회천대광로제비앙모아엘가.com",
-      "total_households": 361,
-      "status": "접수중",
-      "subscription_type": "APT",
-      "max_profit": -79239196,
-      "schedule": {
-        "announcement_date": "2026-06-22",
-        "special_supply_date": "2026-07-02",
-        "first_priority_date": "2026-07-03",
-        "second_priority_date": "2026-07-06",
-        "winner_announce_date": "2026-07-10",
-        "contract_start": "2026-07-21",
-        "contract_end": "2026-07-23",
-        "move_in_date": "202906",
-        "receipt_start": "2026-07-02",
-        "receipt_end": "2026-07-06"
-      },
-      "qualification": {
-        "region_limit": "",
-        "house_type": "APT",
-        "rent_secd": "분양주택",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000278&pblancNo=2026000278"
-      },
-      "regulations": {
-        "is_speculative_zone": false,
-        "is_adjusted_zone": false,
-        "is_price_cap": true,
-        "is_public_zone": false,
-        "resale_restriction": {
-          "period": "3~5년",
-          "detail": "분양가상한제 적용 단지. 시세 차이에 따라 3~5년.",
-          "severity": "보통"
-        },
-        "rewin_restriction": {
-          "period": "없음",
-          "detail": "비규제지역은 재당첨 제한 없음."
-        },
-        "residency_obligation": {
-          "period": "2~3년",
-          "detail": "분양가상한제 적용 단지. 시세 차이에 따라 2~3년 실거주 의무.",
-          "required": true
-        }
-      },
-      "models": [
-        {
-          "housing_type": "084.9051A",
-          "supply_area": 112.2281,
-          "exclusive_area": 84.9051,
-          "supply_price": 529000000,
-          "price_per_pyeong": 15582266,
-          "market_price": 439587361,
-          "profit": -89412639,
-          "household_count": 109,
-          "price_source": "실거래 중위가 (327건)",
-          "funding": {
-            "down_payment": 52900000,
-            "interim_payment": 317400000,
-            "balance": 158700000,
-            "estimated_jeonse": 315517470,
-            "jeonse_investment": 213482530,
-            "loan_amount": 423200000,
-            "loan_investment": 105800000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 423200000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 25392000,
-            "jeonse_ratio": 0.7177582860370001
-          }
-        },
-        {
-          "housing_type": "084.9386B",
-          "supply_area": 113.5971,
-          "exclusive_area": 84.9386,
-          "supply_price": 519000000,
-          "price_per_pyeong": 15103468,
-          "market_price": 439760804,
-          "profit": -79239196,
-          "household_count": 12,
-          "price_source": "실거래 중위가 (327건)",
-          "funding": {
-            "down_payment": 51900000,
-            "interim_payment": 311400000,
-            "balance": 155700000,
-            "estimated_jeonse": 315641960,
-            "jeonse_investment": 203358040,
-            "loan_amount": 415200000,
-            "loan_investment": 103800000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 415200000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 24912000,
-            "jeonse_ratio": 0.7177582860370001
-          }
-        }
-      ]
-    },
-    {
       "id": "2026820005",
       "name": "역곡지구 하우스토리(부천역곡지구 A-2BL) 신혼희망타운(공공분양)(본청약)",
       "region": "경기",
@@ -3597,7 +3493,7 @@
       "constructor": "당산동6가 신축판매",
       "homepage": "https://www.더클래스한강.com",
       "total_households": 5,
-      "status": "접수예정",
+      "status": "접수중",
       "subscription_type": "오피스텔/도시형",
       "max_profit": -142088393,
       "schedule": {
@@ -3662,160 +3558,6 @@
             "dsr_limit_amount": 957078683,
             "interim_interest": 27736800,
             "jeonse_ratio": 0.47152504883
-          }
-        }
-      ]
-    },
-    {
-      "id": "2026910162",
-      "name": "엘리프 역곡",
-      "region": "경기",
-      "sido": "경기",
-      "sigungu": "",
-      "address": "경기도 부천시 소사구 괴안동 106-1번지 일원",
-      "constructor": "대현청실 외2 가로주택정비사업조합",
-      "homepage": "https://엘리프역곡.kr",
-      "total_households": 36,
-      "status": "접수마감",
-      "subscription_type": "무순위/잔여",
-      "max_profit": -189388607,
-      "schedule": {
-        "announcement_date": "2026-06-24",
-        "special_supply_date": null,
-        "first_priority_date": "",
-        "second_priority_date": "",
-        "winner_announce_date": "2026-07-06",
-        "contract_start": "2026-07-11",
-        "contract_end": "2026-07-11",
-        "move_in_date": "202708",
-        "receipt_start": "2026-06-29",
-        "receipt_end": "2026-07-01"
-      },
-      "qualification": {
-        "region_limit": "",
-        "house_type": "무순위",
-        "rent_secd": "",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910162&pblancNo=2026910162"
-      },
-      "regulations": {
-        "is_speculative_zone": false,
-        "is_adjusted_zone": false,
-        "is_price_cap": false,
-        "is_public_zone": false,
-        "resale_restriction": {
-          "period": "6개월~1년",
-          "detail": "비규제지역. 최소 전매제한 적용.",
-          "severity": "약함"
-        },
-        "rewin_restriction": {
-          "period": "없음",
-          "detail": "비규제지역은 재당첨 제한 없음."
-        },
-        "residency_obligation": {
-          "period": "없음",
-          "detail": "거주의무 없음.",
-          "required": false
-        }
-      },
-      "models": [
-        {
-          "housing_type": "046.8800 ",
-          "supply_area": 0,
-          "exclusive_area": 46.88,
-          "supply_price": 517000000,
-          "price_per_pyeong": 517000000,
-          "market_price": 327611393,
-          "profit": -189388607,
-          "household_count": 13,
-          "price_source": "KB 부천시",
-          "funding": {
-            "down_payment": 51700000,
-            "interim_payment": 310200000,
-            "balance": 155100000,
-            "estimated_jeonse": 220623862,
-            "jeonse_investment": 296376138,
-            "loan_amount": 413600000,
-            "loan_investment": 103400000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 413600000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 24816000,
-            "jeonse_ratio": 0.67343159308
-          }
-        },
-        {
-          "housing_type": "059.9500 ",
-          "supply_area": 0,
-          "exclusive_area": 59.95,
-          "supply_price": 672600000,
-          "price_per_pyeong": 672600000,
-          "market_price": 418948443,
-          "profit": -253651557,
-          "household_count": 15,
-          "price_source": "KB 부천시",
-          "funding": {
-            "down_payment": 67260000,
-            "interim_payment": 403560000,
-            "balance": 201780000,
-            "estimated_jeonse": 282133117,
-            "jeonse_investment": 390466883,
-            "loan_amount": 538080000,
-            "loan_investment": 134520000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 538080000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 32284800,
-            "jeonse_ratio": 0.67343159308
-          }
-        },
-        {
-          "housing_type": "074.9300A",
-          "supply_area": 0,
-          "exclusive_area": 74.93,
-          "supply_price": 837100000,
-          "price_per_pyeong": 837100000,
-          "market_price": 523633141,
-          "profit": -313466859,
-          "household_count": 2,
-          "price_source": "KB 부천시",
-          "funding": {
-            "down_payment": 83710000,
-            "interim_payment": 502260000,
-            "balance": 251130000,
-            "estimated_jeonse": 352631100,
-            "jeonse_investment": 484468900,
-            "loan_amount": 669680000,
-            "loan_investment": 167420000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 669680000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 40180800,
-            "jeonse_ratio": 0.67343159308
-          }
-        },
-        {
-          "housing_type": "074.9300B",
-          "supply_area": 0,
-          "exclusive_area": 74.93,
-          "supply_price": 863100000,
-          "price_per_pyeong": 863100000,
-          "market_price": 523633141,
-          "profit": -339466859,
-          "household_count": 6,
-          "price_source": "KB 부천시",
-          "funding": {
-            "down_payment": 86310000,
-            "interim_payment": 517860000,
-            "balance": 258930000,
-            "estimated_jeonse": 352631100,
-            "jeonse_investment": 510468900,
-            "loan_amount": 690480000,
-            "loan_investment": 172620000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 690480000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 41428800,
-            "jeonse_ratio": 0.67343159308
           }
         }
       ]
@@ -4367,7 +4109,7 @@
       "constructor": "흑석11재정비촉진구역재개발정비사업조합",
       "homepage": "http://summitthehill.com/",
       "total_households": 3,
-      "status": "접수예정",
+      "status": "접수마감",
       "subscription_type": "무순위/잔여",
       "max_profit": -595710540,
       "schedule": {
