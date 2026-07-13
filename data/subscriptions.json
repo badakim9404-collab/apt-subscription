@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12 02:34:04",
+  "updated_at": "2026-07-13 02:39:21",
   "total_collected": 72,
   "total_filtered": 30,
   "items": [
@@ -654,7 +654,7 @@
       "constructor": "한국토지주택공사 경기남부지역본부",
       "homepage": "https://apply.lh.or.kr/",
       "total_households": 377,
-      "status": "접수예정",
+      "status": "접수중",
       "subscription_type": "APT",
       "max_profit": 340126384,
       "schedule": {
@@ -987,7 +987,7 @@
       "constructor": "장승배기역지역주택조합",
       "homepage": "https://dongjak-dmapt.co.kr",
       "total_households": 72,
-      "status": "접수예정",
+      "status": "접수중",
       "subscription_type": "APT",
       "max_profit": 214897271,
       "schedule": {
@@ -2136,7 +2136,7 @@
       "constructor": "비봉지역주택조합",
       "homepage": "https://www.야목역서희스타힐스그랜드힐.com",
       "total_households": 83,
-      "status": "접수예정",
+      "status": "접수중",
       "subscription_type": "APT",
       "max_profit": 57703110,
       "schedule": {
@@ -2290,7 +2290,7 @@
       "constructor": "신한자산신탁 주식회사",
       "homepage": "https://blog.naver.com/incheonskview",
       "total_households": 9,
-      "status": "접수예정",
+      "status": "접수중",
       "subscription_type": "무순위/잔여",
       "max_profit": 37209645,
       "schedule": {
@@ -2548,7 +2548,7 @@
       "constructor": "황학동청계지역주택조합",
       "homepage": "https://청계노르웨이숲.com",
       "total_households": 19,
-      "status": "접수예정",
+      "status": "접수중",
       "subscription_type": "무순위/잔여",
       "max_profit": -44798665,
       "schedule": {
@@ -3060,7 +3060,7 @@
       "constructor": "(주)무궁화신탁",
       "homepage": "https://www.여의도더로드캐슬.kr",
       "total_households": 5,
-      "status": "접수중",
+      "status": "접수마감",
       "subscription_type": "무순위/잔여",
       "max_profit": -71369023,
       "schedule": {
@@ -3368,7 +3368,7 @@
       "constructor": "오정613가로주택정비사업조합",
       "homepage": "https://www.오정해모로스마트시티.com",
       "total_households": 10,
-      "status": "접수예정",
+      "status": "접수마감",
       "subscription_type": "무순위/잔여",
       "max_profit": -90641570,
       "schedule": {
@@ -3801,7 +3801,7 @@
       "constructor": "한국토지주택공사인천지역본부",
       "homepage": "https://apply.lh.or.kr",
       "total_households": 976,
-      "status": "접수예정",
+      "status": "접수중",
       "subscription_type": "APT",
       "max_profit": -116454397,
       "schedule": {
@@ -4005,7 +4005,7 @@
       "constructor": "에스엠하이플러스 주식회사, 주식회사 아주엠앤씨",
       "homepage": "https://www.수원역아너스빌.com",
       "total_households": 53,
-      "status": "접수예정",
+      "status": "접수마감",
       "subscription_type": "무순위/잔여",
       "max_profit": -129021065,
       "schedule": {
@@ -4109,7 +4109,7 @@
       "constructor": "한국토지주택공사 경기남부지역본부",
       "homepage": "https://apply.lh.or.kr",
       "total_households": 933,
-      "status": "접수예정",
+      "status": "접수중",
       "subscription_type": "APT",
       "max_profit": -205802177,
       "schedule": {
@@ -4517,7 +4517,7 @@
       "constructor": "신한자산신탁 주식회사",
       "homepage": "https://www.hillstate-hec.co.kr",
       "total_households": 51,
-      "status": "접수예정",
+      "status": "접수마감",
       "subscription_type": "무순위/잔여",
       "max_profit": -214792996,
       "schedule": {
