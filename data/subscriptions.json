@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-18 02:34:17",
+  "updated_at": "2026-08-19 02:45:53",
   "total_collected": 56,
-  "total_filtered": 18,
+  "total_filtered": 19,
   "items": [
     {
       "id": "2026930025",
@@ -78,6 +78,160 @@
             "dsr_limit_amount": 957078683,
             "interim_interest": 45160800,
             "jeonse_ratio": 0.399140722414
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026950074",
+      "name": "둔촌 월드메르디앙 올림픽파크",
+      "region": "서울",
+      "sido": "서울",
+      "sigungu": "",
+      "address": "서울특별시 강동구 천호대로 1156 (둔촌동, 월드메르디앙올림픽파크)",
+      "constructor": "신영부동산신탁 주식회사",
+      "homepage": "http://www.월드메르디앙올림픽파크.com",
+      "total_households": 5,
+      "status": "접수예정",
+      "subscription_type": "오피스텔/도시형",
+      "max_profit": 519468107,
+      "schedule": {
+        "announcement_date": "2026-08-18",
+        "special_supply_date": "",
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-08-28",
+        "contract_start": "2026-08-29",
+        "contract_end": "2026-08-29",
+        "move_in_date": "202608",
+        "receipt_start": "2026-08-24",
+        "receipt_end": "2026-08-24"
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "도시형/오피스텔/생활숙박시설/민간임대",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950074&pblancNo=2026950074&houseSecd=02"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": [
+        {
+          "housing_type": "84B",
+          "supply_area": 0.0,
+          "exclusive_area": 84.23,
+          "supply_price": 831000000,
+          "price_per_pyeong": 831000000,
+          "market_price": 1327159269,
+          "profit": 496159269,
+          "household_count": 1,
+          "price_source": "KB(APT폴백) 강동구 x78%",
+          "funding": {
+            "down_payment": 83100000,
+            "interim_payment": 498600000,
+            "balance": 249300000,
+            "estimated_jeonse": 629409278,
+            "jeonse_investment": 201590722,
+            "loan_amount": 664800000,
+            "loan_investment": 166200000,
+            "ltv_rate": 0.8,
+            "ltv_limit": 664800000,
+            "dsr_limit_amount": 957078683,
+            "interim_interest": 39888000,
+            "jeonse_ratio": 0.47425301069
+          }
+        },
+        {
+          "housing_type": "84A",
+          "supply_area": 0.0,
+          "exclusive_area": 84.44,
+          "supply_price": 811000000,
+          "price_per_pyeong": 811000000,
+          "market_price": 1330468107,
+          "profit": 519468107,
+          "household_count": 1,
+          "price_source": "KB(APT폴백) 강동구 x78%",
+          "funding": {
+            "down_payment": 81100000,
+            "interim_payment": 486600000,
+            "balance": 243300000,
+            "estimated_jeonse": 630978505,
+            "jeonse_investment": 180021495,
+            "loan_amount": 648800000,
+            "loan_investment": 162200000,
+            "ltv_rate": 0.8,
+            "ltv_limit": 648800000,
+            "dsr_limit_amount": 957078683,
+            "interim_interest": 38928000,
+            "jeonse_ratio": 0.47425301069
+          }
+        },
+        {
+          "housing_type": "82A",
+          "supply_area": 0.0,
+          "exclusive_area": 82.1,
+          "supply_price": 831000000,
+          "price_per_pyeong": 831000000,
+          "market_price": 1293598195,
+          "profit": 462598195,
+          "household_count": 1,
+          "price_source": "KB(APT폴백) 강동구 x78%",
+          "funding": {
+            "down_payment": 83100000,
+            "interim_payment": 498600000,
+            "balance": 249300000,
+            "estimated_jeonse": 613492838,
+            "jeonse_investment": 217507162,
+            "loan_amount": 664800000,
+            "loan_investment": 166200000,
+            "ltv_rate": 0.8,
+            "ltv_limit": 664800000,
+            "dsr_limit_amount": 957078683,
+            "interim_interest": 39888000,
+            "jeonse_ratio": 0.47425301069
+          }
+        },
+        {
+          "housing_type": "81A",
+          "supply_area": 0.0,
+          "exclusive_area": 81.87,
+          "supply_price": 831000000,
+          "price_per_pyeong": 831000000,
+          "market_price": 1289974229,
+          "profit": 458974229,
+          "household_count": 2,
+          "price_source": "KB(APT폴백) 강동구 x78%",
+          "funding": {
+            "down_payment": 83100000,
+            "interim_payment": 498600000,
+            "balance": 249300000,
+            "estimated_jeonse": 611774161,
+            "jeonse_investment": 219225839,
+            "loan_amount": 664800000,
+            "loan_investment": 166200000,
+            "ltv_rate": 0.8,
+            "ltv_limit": 664800000,
+            "dsr_limit_amount": 957078683,
+            "interim_interest": 39888000,
+            "jeonse_ratio": 0.47425301069
           }
         }
       ]
@@ -400,7 +554,7 @@
       "constructor": "노블레르",
       "homepage": "https://www.선유노블레르.com",
       "total_households": 6,
-      "status": "접수예정",
+      "status": "접수중",
       "subscription_type": "오피스텔/도시형",
       "max_profit": 113321063,
       "schedule": {
@@ -465,85 +619,6 @@
             "dsr_limit_amount": 957078683,
             "interim_interest": 28795200,
             "jeonse_ratio": 0.469973191379
-          }
-        }
-      ]
-    },
-    {
-      "id": "2026910213",
-      "name": "청계 노르웨이숲(11차)",
-      "region": "서울",
-      "sido": "서울",
-      "sigungu": "",
-      "address": "서울특별시 중구 황학동 1756번지 일원",
-      "constructor": "황학동청계지역주택조합",
-      "homepage": "https://청계노르웨이숲.com",
-      "total_households": 13,
-      "status": "접수마감",
-      "subscription_type": "무순위/잔여",
-      "max_profit": -29328774,
-      "schedule": {
-        "announcement_date": "2026-08-07",
-        "special_supply_date": null,
-        "first_priority_date": "",
-        "second_priority_date": "",
-        "winner_announce_date": "2026-08-19",
-        "contract_start": "2026-08-24",
-        "contract_end": "2026-08-26",
-        "move_in_date": "202807",
-        "receipt_start": "2026-08-12",
-        "receipt_end": "2026-08-13"
-      },
-      "qualification": {
-        "region_limit": "",
-        "house_type": "무순위",
-        "rent_secd": "",
-        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910213&pblancNo=2026910213"
-      },
-      "regulations": {
-        "is_speculative_zone": false,
-        "is_adjusted_zone": false,
-        "is_price_cap": false,
-        "is_public_zone": false,
-        "resale_restriction": {
-          "period": "6개월~1년",
-          "detail": "비규제지역. 최소 전매제한 적용.",
-          "severity": "약함"
-        },
-        "rewin_restriction": {
-          "period": "없음",
-          "detail": "비규제지역은 재당첨 제한 없음."
-        },
-        "residency_obligation": {
-          "period": "없음",
-          "detail": "거주의무 없음.",
-          "required": false
-        }
-      },
-      "models": [
-        {
-          "housing_type": "039.6950 ",
-          "supply_area": 0,
-          "exclusive_area": 39.695,
-          "supply_price": 761120000,
-          "price_per_pyeong": 761120000,
-          "market_price": 731791226,
-          "profit": -29328774,
-          "household_count": 13,
-          "price_source": "KB 중구",
-          "funding": {
-            "down_payment": 76112000,
-            "interim_payment": 456672000,
-            "balance": 228336000,
-            "estimated_jeonse": 378111377,
-            "jeonse_investment": 383008623,
-            "loan_amount": 608896000,
-            "loan_investment": 152224000,
-            "ltv_rate": 0.8,
-            "ltv_limit": 608896000,
-            "dsr_limit_amount": 957078683,
-            "interim_interest": 36533760,
-            "jeonse_ratio": 0.516692963721
           }
         }
       ]
@@ -1124,7 +1199,7 @@
       "constructor": "주식회사 이레에이치앤씨",
       "homepage": "https://천왕역모아엘가트레뷰.net",
       "total_households": 3,
-      "status": "접수예정",
+      "status": "접수마감",
       "subscription_type": "무순위/잔여",
       "max_profit": -146502303,
       "schedule": {
@@ -2173,7 +2248,7 @@
       "constructor": "소사본1의1구역 재개발정비사업조합",
       "homepage": "https://두산위브더제니스부천.com",
       "total_households": 1158,
-      "status": "접수예정",
+      "status": "접수중",
       "subscription_type": "APT",
       "max_profit": -442250417,
       "schedule": {
@@ -2592,6 +2667,110 @@
             "dsr_limit_amount": 957078683,
             "interim_interest": 88838400,
             "jeonse_ratio": 0.469973191379
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026950072",
+      "name": "덕은 DMC에일린의뜰 센트럴 1차",
+      "region": "경기",
+      "sido": "경기",
+      "sigungu": "",
+      "address": "경기도 고양시 덕양구 덕은동 691",
+      "constructor": "아이에스동서(주)",
+      "homepage": "https://www.isbiztower-dmc.co.kr/officetel",
+      "total_households": 5,
+      "status": "접수예정",
+      "subscription_type": "오피스텔/도시형",
+      "max_profit": -504326805,
+      "schedule": {
+        "announcement_date": "2026-08-18",
+        "special_supply_date": "",
+        "first_priority_date": "",
+        "second_priority_date": "",
+        "winner_announce_date": "2026-08-27",
+        "contract_start": "2026-08-28",
+        "contract_end": "2026-08-28",
+        "move_in_date": "202812",
+        "receipt_start": "2026-08-24",
+        "receipt_end": "2026-08-24"
+      },
+      "qualification": {
+        "region_limit": "",
+        "house_type": "도시형/오피스텔/생활숙박시설/민간임대",
+        "rent_secd": "",
+        "apply_url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950072&pblancNo=2026950072&houseSecd=02"
+      },
+      "regulations": {
+        "is_speculative_zone": false,
+        "is_adjusted_zone": false,
+        "is_price_cap": false,
+        "is_public_zone": false,
+        "resale_restriction": {
+          "period": "6개월~1년",
+          "detail": "비규제지역. 최소 전매제한 적용.",
+          "severity": "약함"
+        },
+        "rewin_restriction": {
+          "period": "없음",
+          "detail": "비규제지역은 재당첨 제한 없음."
+        },
+        "residency_obligation": {
+          "period": "없음",
+          "detail": "거주의무 없음.",
+          "required": false
+        }
+      },
+      "models": [
+        {
+          "housing_type": "84B",
+          "supply_area": 0.0,
+          "exclusive_area": 84.99,
+          "supply_price": 1076000000,
+          "price_per_pyeong": 1076000000,
+          "market_price": 390465413,
+          "profit": -685534587,
+          "household_count": 1,
+          "price_source": "KB(APT폴백) 고양시 덕양구 x65%",
+          "funding": {
+            "down_payment": 107600000,
+            "interim_payment": 645600000,
+            "balance": 322800000,
+            "estimated_jeonse": 276602836,
+            "jeonse_investment": 799397164,
+            "loan_amount": 860800000,
+            "loan_investment": 215200000,
+            "ltv_rate": 0.8,
+            "ltv_limit": 860800000,
+            "dsr_limit_amount": 957078683,
+            "interim_interest": 51648000,
+            "jeonse_ratio": 0.7083926706120001
+          }
+        },
+        {
+          "housing_type": "78",
+          "supply_area": 0.0,
+          "exclusive_area": 78.07,
+          "supply_price": 863000000,
+          "price_per_pyeong": 863000000,
+          "market_price": 358673195,
+          "profit": -504326805,
+          "household_count": 4,
+          "price_source": "KB(APT폴백) 고양시 덕양구 x65%",
+          "funding": {
+            "down_payment": 86300000,
+            "interim_payment": 517800000,
+            "balance": 258900000,
+            "estimated_jeonse": 254081462,
+            "jeonse_investment": 608918538,
+            "loan_amount": 690400000,
+            "loan_investment": 172600000,
+            "ltv_rate": 0.8,
+            "ltv_limit": 690400000,
+            "dsr_limit_amount": 957078683,
+            "interim_interest": 41424000,
+            "jeonse_ratio": 0.7083926706120001
           }
         }
       ]
